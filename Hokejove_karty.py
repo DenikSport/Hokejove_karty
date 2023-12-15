@@ -227,7 +227,7 @@ for category, stats in stats_data.items():
         draw.rectangle([10 * scale_factor, y_offset, width - (10 * scale_factor), y_offset + bar_height], fill=row_color)
 
         # Zarovnání textu názvu podkategorie
-        stat_text_size = ImageFont.getsize(stat, font=font_statistic)
+        stat_text_size = draw.textsize(stat, font=font_statistic)
         stat_text_x = 20 * scale_factor
         stat_text_y = y_offset
         draw.text((stat_text_x, stat_text_y), stat, fill="white", font=font_statistic)
