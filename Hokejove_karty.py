@@ -1,6 +1,9 @@
 import streamlit as st
-import PIL
 import pandas as pd
+from PIL import Image, ImageDraw, ImageFont
+import requests
+from io import BytesIO
+
 
 @st.cache_data
 def load_data():
