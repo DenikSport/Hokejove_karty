@@ -11,7 +11,7 @@ image = Image.new('RGB', (200, 100), (255, 255, 255))
 draw = ImageDraw.Draw(image)
 
 # Create a font object
-font = ImageFont.truetype("arial.ttf", 15)
+font = ImageFont.truetype("/mount/src/hokejove_karty/Fonts/Poppins-Bold.ttf", 15)
 
 # Use the textsize method
 text = "Hello, World!"
