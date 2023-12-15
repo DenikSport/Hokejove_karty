@@ -141,16 +141,16 @@ def extract_goalie_stats(data, player_name):
 
     # Combining data into the required format
     stats_data = {
-        "OFENZÍVA": off_data,
-        "TRANZICE": tra_data,
-        "DEFENZÍVA": deff_data
+        "VŠECHNY SITUACE": off_data,
+        "5 PROTI 5": tra_data,
+        "OSLABENÍ": deff_data
     }
 
     # Using category values from the dataset for goalies
     category_values = {
-        "OFENZÍVA": player_data.iloc[0]['OFF'],
-        "TRANZICE": player_data.iloc[0]['TRA'],
-        "DEFENZÍVA": player_data.iloc[0]['DEF']
+        "VŠECHNY SITUACE": player_data.iloc[0]['OFF'],
+        "5 PROTI 5": player_data.iloc[0]['TRA'],
+        "OSLABENÍ": player_data.iloc[0]['DEF']
     }
 
     return stats_data, category_values
