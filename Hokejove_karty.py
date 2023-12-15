@@ -30,10 +30,6 @@ print("Text width:", text_width, "Text height:", text_height)
 # Draw the text
 draw.text((10, 10), text, fill="black", font=font)
 
-# Zobrazení obrázku
-from IPython.display import display
-display(image)
-
 fonts_directory = '/mount/src/hokejove_karty/Fonts'
 
 @st.cache_data
