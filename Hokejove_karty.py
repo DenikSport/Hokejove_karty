@@ -8,6 +8,7 @@ import os
 st.write("Ahoj")
 fonts_directory = '/mount/src/hokejove_karty/Fonts'
 
+st.write(pip show pillow)
 # Kontrola, zda podsložka existuje
 if os.path.exists(fonts_directory):
     st.write("Podsložka 'Fonts' existuje.")
