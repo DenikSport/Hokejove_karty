@@ -171,3 +171,12 @@ st.write(f"Vybraný hráč: {selected_player}")
 stats, category_scores = extract_stats(data, selected_player)
 st.write(stats)
 st.write(category_scores)
+
+
+
+font_title = ImageFont.truetype('https://github.com/google/fonts/blob/main/ofl/poppins/Poppins-Bold.ttf?raw=true', 24 * scale_factor)
+font_category = ImageFont.truetype('https://github.com/google/fonts/blob/main/ofl/poppins/Poppins-Bold.ttf?raw=true', 28 * scale_factor)
+font_statistic = ImageFont.truetype('https://github.com/google/fonts/blob/main/ofl/poppins/Poppins-Regular.ttf?raw=true', 20 * scale_factor)
+font_statistic_bold = ImageFont.truetype('https://github.com/google/fonts/blob/main/ofl/poppins/Poppins-Bold.ttf?raw=true', 16 * scale_factor)
+font_pie_value_bold = ImageFont.truetype('https://github.com/google/fonts/blob/main/ofl/poppins/Poppins-Bold.ttf?raw=true', 22 * scale_factor)
+font_value_bold = ImageFont.truetype('https://github.com/google/fonts/blob/main/ofl/poppins/Poppins-Bold.ttf?raw=true', 22 * scale_factor)
