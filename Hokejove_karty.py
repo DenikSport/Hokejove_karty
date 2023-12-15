@@ -200,3 +200,117 @@ font_statistic_bold = ImageFont.truetype('/mount/src/hokejove_karty/Fonts/Poppin
 font_pie_value_bold = ImageFont.truetype('/mount/src/hokejove_karty/Fonts/Poppins-Bold.ttf', 22 * scale_factor)
 font_value_bold = ImageFont.truetype('/mount/src/hokejove_karty/Fonts/Poppins-Bold.ttf', 22 * scale_factor)
 
+
+def get_color(value):
+    if value == "-":
+        return "#AAAAAA"  # Neutrální šedá
+    elif value <= 20:
+        return "#CF1E1C"
+    elif value <= 40:
+        return "#DE726F"
+    elif value <= 60:
+        return "#E6E6E6"
+    elif value <= 80:
+        return "#6AE492"
+    else:
+        return "#09DC51"
+
+def draw_thick_border(rect, thickness, draw_obj, color="black"):
+    for i in range(thickness):
+        draw_obj.rectangle([rect[0]+i, rect[1]+i, rect[2]-i, rect[3]-i], outline=color)
+
+
+
+y_offset = 125 * scale_factor
+category_title_height = 60 * scale_factor
+bar_max_width = 125 * scale_factor
+bar_height = 25 * scale_factor
+bar_x_start = 450 * scale_factor
+value_x_position = 600 * scale_factor  # Nastavení X pozice hodnoty
+pie_outer_radius = 25 * scale_factor
+pie_inner_radius = 20 * scale_factor
+
+
+logo_padding = 160  * scale_factor
+
+draw.rectangle([10 * scale_factor, 90 * scale_factor, 500*scale_factor, 20* scale_factor], fill="#5d5758")
+draw.text((140  * scale_factor, 25 * scale_factor), "Lukáš Sedlák", fill="white", font=font_title)
+draw.text((140 * scale_factor, 55 * scale_factor), "HC Dynamo Pardubice", fill="white", font=font_statistic)
+
+# Přidání "Počet zápasů:" a "Body:"
+draw.text((50 * scale_factor, 90 * scale_factor), "Sezona: 2023/24", fill="white", font=font_statistic)
+draw.text((170 * scale_factor, 90 * scale_factor), " | ", fill="white", font=font_statistic)
+draw.text((190 * scale_factor, 90 * scale_factor), "Pozice: Brankář", fill="white", font=font_statistic)
+draw.text((260 * scale_factor, 90 * scale_factor), " | ", fill="white", font=font_statistic)
+draw.text((280 * scale_factor, 90 * scale_factor), "Věk: 30", fill="white", font=font_statistic)
+draw.text((380 * scale_factor, 90 * scale_factor), " | ", fill="white", font=font_statistic)
+draw.text((400 * scale_factor, 90 * scale_factor), "Zápasy: 15", fill="white", font=font_statistic)
+draw.text((480 * scale_factor, 90 * scale_factor), " | ", fill="white", font=font_statistic)
+draw.text((500 * scale_factor, 90 * scale_factor), "Body: 10", fill="white", font=font_statistic)
+
+
+for category, stats in stats_data.items():
+    start_y_offset = y_offset
+    total_category_height = category_title_height + (len(stats) * (bar_height + 2 * scale_factor))
+
+    category_center_y = start_y_offset + (total_category_height / 2)
+    category_title_bbox = draw.textbbox((0, 0), category, font=font_category)
+
+    # Vykreslení názvu kategorie s pozadím
+    draw.rectangle([10 * scale_factor, y_offset, width - (10 * scale_factor), y_offset + category_title_height], fill="#2a2a2c")
+    text_x = (width / 2) - (category_title_bbox[2] / 2)
+    text_y = y_offset + ((category_title_height - category_title_bbox[3]) / 2)
+    draw.text((text_x, text_y), category, fill="white", font=font_category)
+    y_offset += category_title_height
+
+    for index, (stat, value) in enumerate(stats):
+        row_color = "#3b3839" if index % 2 == 0 else "#404040"
+        draw.rectangle([10 * scale_factor, y_offset, width - (10 * scale_factor), y_offset + bar_height], fill=row_color)
+
+        # Zarovnání textu názvu podkategorie
+        stat_text_size = font_statistic.getsize(stat)
+        stat_text_x = 20 * scale_factor
+        stat_text_y = y_offset #+ (bar_height - stat_text_size[1]) / 2
+        draw.text((stat_text_x, stat_text_y), stat, fill="white", font=font_statistic)
+
+
+        # Výpočet a vykreslení sloupce hodnoty
+        bar_x_end = bar_x_start + (value / 100) * bar_max_width
+        draw.rectangle([bar_x_start, y_offset, bar_x_end, y_offset + bar_height], fill=get_color(value))
+
+        # Zarovnání textu číselné hodnoty
+        value_text = f"{value}"
+        value_text_size = font_value_bold.getsize(value_text)
+        value_text_x = value_x_position - (value_text_size[0] / 2)
+        value_text_y = y_offset + (bar_height - value_text_size[1]) / 2 -25
+        draw.text((value_text_x, value_text_y), value_text, fill="white", font=font_value_bold)
+
+        y_offset += bar_height + (4 * scale_factor)
+
+    pie_offset_right = 175 * scale_factor  # Zvětšení odsazení od pravého okraje
+    pie_center_x = width - pie_offset_right
+    pie_center_y = start_y_offset + (category_title_height / 2)
+    pie_center = (pie_center_x, pie_center_y)
+    values = [category_values[category], 100 - category_values[category]]
+    colors = [get_color(category_values[category]), "#e6e6e6"]
+
+    draw.pieslice([pie_center[0] - pie_outer_radius, pie_center[1] - pie_outer_radius, pie_center[0] + pie_outer_radius, pie_center[1] + pie_outer_radius], start=-90, end=(-90 + (values[0] / 100) * 360), fill=colors[0])
+    draw.pieslice([pie_center[0] - pie_outer_radius, pie_center[1] - pie_outer_radius, pie_center[0] + pie_outer_radius, pie_center[1] + pie_outer_radius], start=(-90 + (values[0] / 100) * 360), end=270, fill=colors[1])
+    draw.pieslice([pie_center[0] - pie_inner_radius, pie_center[1] - pie_inner_radius, pie_center[0] + pie_inner_radius, pie_center[1] + pie_inner_radius], start=-90, end=270, fill="#2a2a2c")
+
+    category_value_text = f"{category_values[category]}"
+    category_value_text_size = font_value_bold.getsize(category_value_text)
+    category_value_text_x = pie_center[0] - (category_value_text_size[0] / 2)
+    category_value_text_y = pie_center[1] - (category_value_text_size[1] / 2)-25
+    draw.text((category_value_text_x, category_value_text_y), category_value_text, fill="white", font=font_value_bold)
+
+
+    # Ohraničení celé tabulky
+    #draw.rectangle([10, start_y_offset, width-10, y_offset], outline="black", width=3)
+
+# Zobrazení obrázku
+
+# Display the image
+from IPython.display import display
+display(image)
+
