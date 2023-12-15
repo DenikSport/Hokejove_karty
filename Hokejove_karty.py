@@ -14,4 +14,5 @@ def load_data():
     df = pd.read_csv("https://raw.githubusercontent.com/DenikSport/Hokejove_karty/main/Database.csv")
     return df
 
+df = load_data() 
 st.write(df)
