@@ -8,33 +8,12 @@ import os
 st.write("Ahoj")
 fonts_directory = '/mount/src/hokejove_karty/Fonts'
 
-st.write(pip show pillow)
-# Kontrola, zda podsložka existuje
-if os.path.exists(fonts_directory):
-    st.write("Podsložka 'Fonts' existuje.")
-
-    # Výpis souborů v podsložce
-    files_in_fonts = os.listdir(fonts_directory)
-    st.write("Soubory v podsložce 'Fonts':", files_in_fonts)
-else:
-    st.write("Podsložka 'Fonts' neexistuje.")
-
 @st.cache_data
 def load_data():
     df = pd.read_csv("https://raw.githubusercontent.com/DenikSport/Hokejove_karty/main/Database.csv",encoding='windows-1250', sep=';')
     return df
 
 def extract_stats(data, player_name):
-    """
-    Extract the statistics for a given player or goalie based on their position.
-
-    Args:
-    data (DataFrame): The dataset containing player statistics.
-    player_name (str): The name of the player or goalie to extract statistics for.
-
-    Returns:
-    dict: A dictionary containing formatted statistics data.
-    """
     # Filter the data for the selected player
     player_data = data[data['Jméno'] == player_name]
 
@@ -54,16 +33,6 @@ def extract_stats(data, player_name):
 
 
 def extract_player_stats(data, player_name):
-    """
-    Extract the statistics for a given player and format it into the required structure.
-    
-    Args:
-    data (DataFrame): The dataset containing player statistics.
-    player_name (str): The name of the player to extract statistics for.
-
-    Returns:
-    dict: A dictionary containing formatted statistics data.
-    """
     # Filter the data for the selected player
     player_data = data[data['Jméno'] == player_name]
 
@@ -115,16 +84,6 @@ def extract_player_stats(data, player_name):
     return stats_data, category_values
 
 def extract_goalie_stats(data, player_name):
-    """
-    Extract the statistics for a given goalie and format it into the required structure.
-
-    Args:
-    data (DataFrame): The dataset containing player statistics.
-    player_name (str): The name of the player (goalie) to extract statistics for.
-
-    Returns:
-    dict: A dictionary containing formatted statistics data for goalies.
-    """
     # Filter the data for the selected player
     player_data = data[data['Jméno'] == player_name]
 
