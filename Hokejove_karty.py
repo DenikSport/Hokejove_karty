@@ -2,22 +2,82 @@ import streamlit as st
 import PIL
 import pandas as pd
 
-st.set_page_config(
-    page_title="Landing",
-    page_icon="⚽",
-)
-
-st.title("Vítejte v této aplikaci! ⚽")
-
 @st.cache_data
 def load_data():
     df = pd.read_csv("https://raw.githubusercontent.com/DenikSport/Hokejove_karty/main/Database.csv",encoding='iso-8859-2', sep=';')
     return df
 
+def extract_player_stats(data, player_name):
+    """
+    Extract the statistics for a given player and format it into the required structure.
+    
+    Args:
+    data (DataFrame): The dataset containing player statistics.
+    player_name (str): The name of the player to extract statistics for.
+
+    Returns:
+    dict: A dictionary containing formatted statistics data.
+    """
+    # Filter the data for the selected player
+    player_data = data[data['Jméno'] == player_name]
+
+    if player_data.empty:
+        return None, None
+
+    # Extracting data for each category
+    off_data = [
+        ["Vliv na spoluhráče do ofenzivy", player_data.iloc[0]['OFF IMPACT']],
+        ["Produktivita", player_data.iloc[0]['POINT PRODUCTION']],
+        ["Střelba", player_data.iloc[0]['SHOOTING']],
+        ["Přihrávky", player_data.iloc[0]['PASSING']],
+        ["Získané přesilovky", player_data.iloc[0]['PEN DRAWN']],
+        ["Přesilovka", player_data.iloc[0]['PP']]
+    ]
+
+    tra_data = [
+        ["Střelecká aktivita", player_data.iloc[0]['SHOT CONTRI']],
+        ["Nebezpečný střelecký pokus ze slotu", player_data.iloc[0]['HD CHANCES']],
+        ["Přihrávka do slotu na střelu", player_data.iloc[0]['HD ASSISTS']],
+        ["Vstup do of. pásma s pukem na holi", player_data.iloc[0]['CARRIES']],
+        ["Vstup do of. pásma přihrávkou", player_data.iloc[0]['ENTRY PASSES']],
+        ["Úspěšný výstup z defenzivního pásma", player_data.iloc[0]['POSS EXITS']]
+    ]
+
+    deff_data = [
+        ["Vliv na spoluhráče do defenzivy", player_data.iloc[0]['DEF IMPACT']],
+        ["Zastavený útok před vlastní modrou čarou", player_data.iloc[0]['DENIALS']],
+        ["Získané puky napadáním (pouze útočníci)", player_data.iloc[0]['RECOVERIES']],
+        ["Obtížnost role", player_data.iloc[0]['ROLE DIFF']],
+        ["Fauly", player_data.iloc[0]['PEN TAKEN']],
+        ["Oslabení", player_data.iloc[0]['PK']]
+    ]
+
+    # Combining data into the required format
+    stats_data = {
+        "OFENZÍVA": off_data,
+        "TRANZICE": tra_data,
+        "DEFENZÍVA": deff_data
+    }
+
+    # Using category values from the dataset
+    category_values = {
+        "OFENZÍVA": player_data.iloc[0]['OFF'],
+        "TRANZICE": player_data.iloc[0]['TRA'],
+        "DEFENZÍVA": player_data.iloc[0]['DEF']
+    }
+
+    return stats_data, category_values
+
 data = load_data() 
 st.write(data)
 
-Player_list = pd.unique(data[['Jméno']].values.ravel())
-Player = st.selectbox("Vyberte tým", Player_list, index=0)
+player_list = pd.unique(data[['Jméno']].values.ravel())
+selected_player = st.selectbox("Vyberte hráče", player_list, index=0)
 
-st.write(Player)
+# Zobrazte vybraného hráče
+st.write(f"Vybraný hráč: {selected_player}")
+
+# Získání a zobrazení statistik vybraného hráče
+stats, category_scores = extract_player_stats(data, selected_player)
+st.write(stats)
+st.write(category_scores)
