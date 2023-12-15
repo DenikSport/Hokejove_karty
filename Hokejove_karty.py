@@ -173,6 +173,13 @@ st.write(stats)
 st.write(category_scores)
 
 
+original_width, original_height = 650, 830
+scale_factor = 10  # Faktor, kterým zvětšíme obrázek
+width, height = original_width * scale_factor, original_height * scale_factor
+
+# Vytvoření obrázku s vyšším rozlišením
+image = Image.new('RGB', (width, height), color='#2a2a2c')
+draw = ImageDraw.Draw(image)
 
 font_title = ImageFont.truetype('https://github.com/google/fonts/blob/main/ofl/poppins/Poppins-Bold.ttf?raw=true', 24 * scale_factor)
 font_category = ImageFont.truetype('https://github.com/google/fonts/blob/main/ofl/poppins/Poppins-Bold.ttf?raw=true', 28 * scale_factor)
