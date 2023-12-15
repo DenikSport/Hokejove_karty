@@ -4,6 +4,8 @@ from PIL import Image, ImageDraw, ImageFont
 import requests
 from io import BytesIO
 import os
+import PIL
+
 
 st.write(PIL.__version__)
 fonts_directory = '/mount/src/hokejove_karty/Fonts'
