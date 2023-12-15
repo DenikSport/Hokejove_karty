@@ -5,6 +5,8 @@ import requests
 from io import BytesIO
 import os
 
+import os
+st.write("Aktuální pracovní adresář:", os.getcwd())
 
 @st.cache_data
 def load_data():
