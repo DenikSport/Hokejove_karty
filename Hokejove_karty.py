@@ -1,6 +1,6 @@
 import streamlit as st
-import Pillow
-import Pandas as pd
+import pillow
+import pandas as pd
 
 st.set_page_config(
     page_title="Landing",
