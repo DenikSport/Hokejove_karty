@@ -3,6 +3,7 @@ import pandas as pd
 from PIL import Image, ImageDraw, ImageFont
 import requests
 from io import BytesIO
+import os
 
 
 @st.cache_data
@@ -180,6 +181,10 @@ width, height = original_width * scale_factor, original_height * scale_factor
 # Vytvoření obrázku s vyšším rozlišením
 image = Image.new('RGB', (width, height), color='#2a2a2c')
 draw = ImageDraw.Draw(image)
+
+
+os.system('wget -O Poppins-Bold.ttf "https://github.com/google/fonts/blob/main/ofl/poppins/Poppins-Bold.ttf?raw=true"')
+os.system('wget -O Poppins-Regular.ttf "https://github.com/google/fonts/blob/main/ofl/poppins/Poppins-Regular.ttf?raw=true"')
 
 font_title = ImageFont.truetype('https://github.com/DenikSport/Hokejove_karty/blob/main/Poppins-Bold.ttf', 24 * scale_factor)
 font_category = ImageFont.truetype('https://github.com/DenikSport/Hokejove_karty/blob/main/Poppins-Bold.ttf', 28 * scale_factor)
