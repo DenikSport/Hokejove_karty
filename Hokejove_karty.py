@@ -183,12 +183,9 @@ image = Image.new('RGB', (width, height), color='#2a2a2c')
 draw = ImageDraw.Draw(image)
 
 
-os.system('wget -O Poppins-Bold.ttf "https://github.com/google/fonts/blob/main/ofl/poppins/Poppins-Bold.ttf?raw=true"')
-os.system('wget -O Poppins-Regular.ttf "https://github.com/google/fonts/blob/main/ofl/poppins/Poppins-Regular.ttf?raw=true"')
-
-font_title = ImageFont.truetype('https://github.com/DenikSport/Hokejove_karty/blob/main/Poppins-Bold.ttf', 24 * scale_factor)
-font_category = ImageFont.truetype('https://github.com/DenikSport/Hokejove_karty/blob/main/Poppins-Bold.ttf', 28 * scale_factor)
-font_statistic = ImageFont.truetype('https://github.com/DenikSport/Hokejove_karty/blob/main/Poppins-Regular.ttf', 20 * scale_factor)
-font_statistic_bold = ImageFont.truetype('https://github.com/DenikSport/Hokejove_karty/blob/main/Poppins-Bold.ttf', 16 * scale_factor)
-font_pie_value_bold = ImageFont.truetype('https://github.com/DenikSport/Hokejove_karty/blob/main/Poppins-Bold.ttf', 22 * scale_factor)
-font_value_bold = ImageFont.truetype('https://github.com/DenikSport/Hokejove_karty/blob/main/Poppins-Bold.ttf', 22 * scale_factor)
+font_title = ImageFont.truetype('https://github.com/DenikSport/Hokejove_karty/blob/main/Fonts/Poppins-Bold.ttf', 24 * scale_factor)
+font_category = ImageFont.truetype('https://github.com/DenikSport/Hokejove_karty/blob/main/Fonts/Poppins-Bold.ttf', 28 * scale_factor)
+font_statistic = ImageFont.truetype('https://github.com/DenikSport/Hokejove_karty/blob/main/Fonts/Poppins-Regular.ttf', 20 * scale_factor)
+font_statistic_bold = ImageFont.truetype('https://github.com/DenikSport/Hokejove_karty/blob/main/Fonts/Poppins-Bold.ttf', 16 * scale_factor)
+font_pie_value_bold = ImageFont.truetype('https://github.com/DenikSport/Hokejove_karty/blob/main/Fonts/Poppins-Bold.ttf', 22 * scale_factor)
+font_value_bold = ImageFont.truetype('https://github.com/DenikSport/Hokejove_karty/blob/main/Fonts/Poppins-Bold.ttf', 22 * scale_factor)
