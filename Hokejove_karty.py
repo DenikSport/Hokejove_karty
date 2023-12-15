@@ -5,9 +5,6 @@ import requests
 from io import BytesIO
 import os
 
-import os
-st.write("Aktuální pracovní adresář:", os.getcwd())
-
 @st.cache_data
 def load_data():
     df = pd.read_csv("https://raw.githubusercontent.com/DenikSport/Hokejove_karty/main/Database.csv",encoding='windows-1250', sep=';')
@@ -185,9 +182,3 @@ image = Image.new('RGB', (width, height), color='#2a2a2c')
 draw = ImageDraw.Draw(image)
 
 
-font_title = ImageFont.truetype('https://github.com/DenikSport/Hokejove_karty/blob/main/Fonts/Poppins-Bold.ttf', 24 * scale_factor)
-font_category = ImageFont.truetype('https://github.com/DenikSport/Hokejove_karty/blob/main/Fonts/Poppins-Bold.ttf', 28 * scale_factor)
-font_statistic = ImageFont.truetype('https://github.com/DenikSport/Hokejove_karty/blob/main/Fonts/Poppins-Regular.ttf', 20 * scale_factor)
-font_statistic_bold = ImageFont.truetype('https://github.com/DenikSport/Hokejove_karty/blob/main/Fonts/Poppins-Bold.ttf', 16 * scale_factor)
-font_pie_value_bold = ImageFont.truetype('https://github.com/DenikSport/Hokejove_karty/blob/main/Fonts/Poppins-Bold.ttf', 22 * scale_factor)
-font_value_bold = ImageFont.truetype('https://github.com/DenikSport/Hokejove_karty/blob/main/Fonts/Poppins-Bold.ttf', 22 * scale_factor)
