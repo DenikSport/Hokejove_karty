@@ -159,7 +159,7 @@ def extract_goalie_stats(data, player_name):
     return stats_data, category_values
 
 data = load_data() 
-st.write(data)
+#st.write(data)
 
 player_list = pd.unique(data[['Jméno']].values.ravel())
 selected_player = st.selectbox("Vyberte hráče", player_list, index=0)
