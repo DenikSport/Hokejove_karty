@@ -5,6 +5,12 @@ import requests
 from io import BytesIO
 import os
 
+
+current_directory = os.getcwd()
+
+# Zobrazení adresáře ve Streamlit
+st.write("Aktuální pracovní adresář je:", current_directory)
+
 @st.cache_data
 def load_data():
     df = pd.read_csv("https://raw.githubusercontent.com/DenikSport/Hokejove_karty/main/Database.csv",encoding='windows-1250', sep=';')
