@@ -6,10 +6,18 @@ from io import BytesIO
 import os
 
 st.write("Ahoj")
-current_directory = os.getcwd()
+# Cesta k adresáři
+directory_path = '/mount/src/hokejove_karty'
 
-# Zobrazení adresáře ve Streamlit
-st.write("Aktuální pracovní adresář je:", current_directory)
+# Kontrola, zda adresář existuje
+if os.path.exists(directory_path):
+    st.write("Adresář existuje.")
+    
+    # Výpis souborů v adresáři
+    files = os.listdir(directory_path)
+    st.write("Soubory v adresáři:", files)
+else:
+    st.write("Adresář neexistuje.")
 
 @st.cache_data
 def load_data():
