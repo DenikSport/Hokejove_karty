@@ -7,6 +7,35 @@ def load_data():
     df = pd.read_csv("https://raw.githubusercontent.com/DenikSport/Hokejove_karty/main/Database.csv",encoding='iso-8859-2', sep=';')
     return df
 
+def extract_stats(data, player_name):
+    """
+    Extract the statistics for a given player or goalie based on their position.
+
+    Args:
+    data (DataFrame): The dataset containing player statistics.
+    player_name (str): The name of the player or goalie to extract statistics for.
+
+    Returns:
+    dict: A dictionary containing formatted statistics data.
+    """
+    # Filter the data for the selected player
+    player_data = data[data['Jméno'] == player_name]
+
+    if player_data.empty:
+        return None, None
+
+    position = player_data.iloc[0]['Pozice']
+
+    if position.lower() == 'brankář':
+        # Extract goalie statistics
+        stats_data, category_values = extract_goalie_stats(data, player_name)
+    else:
+        # Extract player statistics
+        stats_data, category_values = extract_player_stats(data, player_name)
+
+    return stats_data, category_values
+
+
 def extract_player_stats(data, player_name):
     """
     Extract the statistics for a given player and format it into the required structure.
@@ -68,6 +97,64 @@ def extract_player_stats(data, player_name):
 
     return stats_data, category_values
 
+def extract_goalie_stats(data, player_name):
+    """
+    Extract the statistics for a given goalie and format it into the required structure.
+
+    Args:
+    data (DataFrame): The dataset containing player statistics.
+    player_name (str): The name of the player (goalie) to extract statistics for.
+
+    Returns:
+    dict: A dictionary containing formatted statistics data for goalies.
+    """
+    # Filter the data for the selected player
+    player_data = data[data['Jméno'] == player_name]
+
+    if player_data.empty:
+        return None, None
+
+    # Extracting data for each category for a goalie
+    off_data = [
+        ["Chycené góly na očekávání", player_data.iloc[0]['OFF IMPACT']],
+        ["Kontrola dorážek", player_data.iloc[0]['POINT PRODUCTION']],
+        ["Vysoce nebezpečné střely", player_data.iloc[0]['SHOOTING']],
+        ["Středně nebezpečné střely", player_data.iloc[0]['PASSING']],
+        ["Nízko nebezpečné střely", player_data.iloc[0]['PEN DRAWN']]
+    ]
+
+    tra_data = [
+        ["Chycené góly na očekávání", player_data.iloc[0]['SHOT CONTRI']],
+        ["Kontrola dorážek", player_data.iloc[0]['HD CHANCES']],
+        ["Vysoce nebezpečné střely", player_data.iloc[0]['HD ASSISTS']],
+        ["Středně nebezpečné střely", player_data.iloc[0]['CARRIES']],
+        ["Nízko nebezpečné střely", player_data.iloc[0]['ENTRY PASSES']]
+    ]
+
+    deff_data = [
+        ["Chycené góly na očekávání", player_data.iloc[0]['DEF IMPACT']],
+        ["Kontrola dorážek", player_data.iloc[0]['DENIALS']],
+        ["Vysoce nebezpečné střely", player_data.iloc[0]['RECOVERIES']],
+        ["Středně nebezpečné střely", player_data.iloc[0]['ROLE DIFF']],
+        ["Nízko nebezpečné střely", player_data.iloc[0]['PEN TAKEN']]
+    ]
+
+    # Combining data into the required format
+    stats_data = {
+        "OFENZÍVA": off_data,
+        "TRANZICE": tra_data,
+        "DEFENZÍVA": deff_data
+    }
+
+    # Using category values from the dataset for goalies
+    category_values = {
+        "OFENZÍVA": player_data.iloc[0]['OFF'],
+        "TRANZICE": player_data.iloc[0]['TRA'],
+        "DEFENZÍVA": player_data.iloc[0]['DEF']
+    }
+
+    return stats_data, category_values
+
 data = load_data() 
 st.write(data)
 
@@ -78,6 +165,6 @@ selected_player = st.selectbox("Vyberte hráče", player_list, index=0)
 st.write(f"Vybraný hráč: {selected_player}")
 
 # Získání a zobrazení statistik vybraného hráče
-stats, category_scores = extract_player_stats(data, selected_player)
+stats, category_scores = extract_stats(data, selected_player)
 st.write(stats)
 st.write(category_scores)
