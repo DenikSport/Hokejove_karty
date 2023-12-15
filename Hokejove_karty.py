@@ -6,9 +6,13 @@ from io import BytesIO
 import os
 import PIL
 
-# Create a new image with white background
-image = Image.new('RGB', (200, 100), (255, 255, 255))
+from PIL import Image, ImageDraw, ImageFont
+
+image = Image.new('RGB', (100, 100))
 draw = ImageDraw.Draw(image)
+font = ImageFont.truetype("/mount/src/hokejove_karty/Fonts/Poppins-Bold.ttf", 15)
+size = draw.textsize("Test", font=font)
+print(size)
 
 # Create a font object
 font = ImageFont.truetype("/mount/src/hokejove_karty/Fonts/Poppins-Bold.ttf", 15)
