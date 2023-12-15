@@ -6,18 +6,17 @@ from io import BytesIO
 import os
 
 st.write("Ahoj")
-# Cesta k adresáři
-directory_path = '/mount/src/hokejove_karty'
+fonts_directory = '/mount/src/hokejove_karty/Fonts'
 
-# Kontrola, zda adresář existuje
-if os.path.exists(directory_path):
-    st.write("Adresář existuje.")
-    
-    # Výpis souborů v adresáři
-    files = os.listdir(directory_path)
-    st.write("Soubory v adresáři:", files)
+# Kontrola, zda podsložka existuje
+if os.path.exists(fonts_directory):
+    st.write("Podsložka 'Fonts' existuje.")
+
+    # Výpis souborů v podsložce
+    files_in_fonts = os.listdir(fonts_directory)
+    st.write("Soubory v podsložce 'Fonts':", files_in_fonts)
 else:
-    st.write("Adresář neexistuje.")
+    st.write("Podsložka 'Fonts' neexistuje.")
 
 @st.cache_data
 def load_data():
