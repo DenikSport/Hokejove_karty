@@ -185,13 +185,6 @@ stats, category_scores = extract_stats(data, selected_player)
 st.write(stats)
 st.write(category_scores)
 
-font_title = ImageFont.truetype('/mount/src/hokejove_karty/Fonts/Poppins-Bold.ttf', 24 * scale_factor)
-font_category = ImageFont.truetype('/mount/src/hokejove_karty/Fonts/Poppins-Bold.ttf', 28 * scale_factor)
-font_statistic = ImageFont.truetype('/mount/src/hokejove_karty/Fonts/Poppins-Regular.ttf', 20 * scale_factor)
-font_statistic_bold = ImageFont.truetype('/mount/src/hokejove_karty/Fonts/Poppins-Bold.ttf', 16 * scale_factor)
-font_pie_value_bold = ImageFont.truetype('/mount/src/hokejove_karty/Fonts/Poppins-Bold.ttf', 22 * scale_factor)
-font_value_bold = ImageFont.truetype('/mount/src/hokejove_karty/Fonts/Poppins-Bold.ttf', 22 * scale_factor)
-
 original_width, original_height = 650, 830
 scale_factor = 10  # Faktor, kterým zvětšíme obrázek
 width, height = original_width * scale_factor, original_height * scale_factor
@@ -200,4 +193,10 @@ width, height = original_width * scale_factor, original_height * scale_factor
 image = Image.new('RGB', (width, height), color='#2a2a2c')
 draw = ImageDraw.Draw(image)
 
+font_title = ImageFont.truetype('/mount/src/hokejove_karty/Fonts/Poppins-Bold.ttf', 24 * scale_factor)
+font_category = ImageFont.truetype('/mount/src/hokejove_karty/Fonts/Poppins-Bold.ttf', 28 * scale_factor)
+font_statistic = ImageFont.truetype('/mount/src/hokejove_karty/Fonts/Poppins-Regular.ttf', 20 * scale_factor)
+font_statistic_bold = ImageFont.truetype('/mount/src/hokejove_karty/Fonts/Poppins-Bold.ttf', 16 * scale_factor)
+font_pie_value_bold = ImageFont.truetype('/mount/src/hokejove_karty/Fonts/Poppins-Bold.ttf', 22 * scale_factor)
+font_value_bold = ImageFont.truetype('/mount/src/hokejove_karty/Fonts/Poppins-Bold.ttf', 22 * scale_factor)
 
