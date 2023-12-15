@@ -6,8 +6,21 @@ from io import BytesIO
 import os
 import PIL
 
+# Create a new image with white background
+image = Image.new('RGB', (200, 100), (255, 255, 255))
+draw = ImageDraw.Draw(image)
 
-st.write(PIL.__version__)
+# Create a font object
+font = ImageFont.truetype("arial.ttf", 15)
+
+# Use the textsize method
+text = "Hello, World!"
+text_size = draw.textsize(text, font=font)
+
+# Draw the text
+draw.text((10, 10), text, fill="black", font=font)
+image.show()
+
 fonts_directory = '/mount/src/hokejove_karty/Fonts'
 
 @st.cache_data
