@@ -208,7 +208,6 @@ draw.text((400 * scale_factor, 90 * scale_factor), "Zápasy: 15", fill="white", 
 draw.text((480 * scale_factor, 90 * scale_factor), " | ", fill="white", font=font_statistic)
 draw.text((500 * scale_factor, 90 * scale_factor), "Body: 10", fill="white", font=font_statistic)
 
-
 for category, stats in stats_data.items():
     start_y_offset = y_offset
     total_category_height = category_title_height + (len(stats) * (bar_height + 2 * scale_factor))
@@ -228,12 +227,10 @@ for category, stats in stats_data.items():
         draw.rectangle([10 * scale_factor, y_offset, width - (10 * scale_factor), y_offset + bar_height], fill=row_color)
 
         # Zarovnání textu názvu podkategorie
-        stat_text_size = draw.textsize(stat, font=font_statistic)
+        stat_text_size = font_statistic.getsize(stat)
         stat_text_x = 20 * scale_factor
         stat_text_y = y_offset
         draw.text((stat_text_x, stat_text_y), stat, fill="white", font=font_statistic)
-
-
 
         # Výpočet a vykreslení sloupce hodnoty
         bar_x_end = bar_x_start + (value / 100) * bar_max_width
@@ -265,13 +262,7 @@ for category, stats in stats_data.items():
     category_value_text_y = pie_center[1] - (category_value_text_size[1] / 2)-25
     draw.text((category_value_text_x, category_value_text_y), category_value_text, fill="white", font=font_value_bold)
 
-
-    # Ohraničení celé tabulky
-    #draw.rectangle([10, start_y_offset, width-10, y_offset], outline="black", width=3)
-
 # Zobrazení obrázku
-
-# Display the image
 from IPython.display import display
 display(image)
 
