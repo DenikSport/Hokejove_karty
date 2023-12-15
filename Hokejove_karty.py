@@ -5,7 +5,7 @@ import requests
 from io import BytesIO
 import os
 
-st.write("Ahoj")
+st.write(PIL.__version__)
 fonts_directory = '/mount/src/hokejove_karty/Fonts'
 
 @st.cache_data
