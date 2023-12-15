@@ -1,5 +1,5 @@
 import streamlit as st
-import pillow
+import PIL
 import pandas as pd
 
 st.set_page_config(
