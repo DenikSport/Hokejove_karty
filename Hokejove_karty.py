@@ -180,10 +180,10 @@ selected_player = st.selectbox("Vyberte hráče", player_list, index=0)
 # Zobrazte vybraného hráče
 st.write(f"Vybraný hráč: {selected_player}")
 
-# Získání a zobrazení statistik vybraného hráče
-stats, category_scores = extract_stats(data, selected_player)
-st.write(stats)
-st.write(category_scores)
+stats_data, category_scores = extract_stats(data, selected_player)
+if stats_data is not None:
+    st.write(stats_data)
+    st.write(category_scores)
 
 original_width, original_height = 650, 830
 scale_factor = 10  # Faktor, kterým zvětšíme obrázek
