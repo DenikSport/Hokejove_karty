@@ -11,7 +11,7 @@ st.title("Vítejte v této aplikaci! ⚽")
 
 @st.cache_data
 def load_data():
-    df = pd.read_csv("https://raw.githubusercontent.com/DenikSport/Hokejove_karty/main/Database.csv",encoding='windows-1252')
+    df = pd.read_csv("https://raw.githubusercontent.com/DenikSport/Hokejove_karty/main/Database.csv",encoding='iso-8859-2')
     return df
 
 df = load_data() 
