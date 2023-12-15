@@ -1,0 +1,17 @@
+import streamlit as st
+import Pillow
+import Pandas as pd
+
+st.set_page_config(
+    page_title="Landing",
+    page_icon="⚽",
+)
+
+st.title("Vítejte v této aplikaci! ⚽")
+
+@st.cache_data
+def load_data():
+    df = pd.read_csv("https://raw.githubusercontent.com/DenikSport/Hokejove_karty/main/Database.csv")
+    return df
+
+st.write(df)
