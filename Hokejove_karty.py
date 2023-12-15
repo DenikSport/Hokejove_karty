@@ -10,7 +10,7 @@ st.write("Aktuální pracovní adresář:", os.getcwd())
 
 @st.cache_data
 def load_data():
-    df = pd.read_csv("https://raw.githubusercontent.com/DenikSport/Hokejove_karty/main/Database.csv",encoding='iso-8859-2', sep=';')
+    df = pd.read_csv("https://raw.githubusercontent.com/DenikSport/Hokejove_karty/main/Database.csv",encoding='windows-1250', sep=';')
     return df
 
 def extract_stats(data, player_name):
