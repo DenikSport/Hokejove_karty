@@ -10,16 +10,22 @@ from PIL import Image, ImageDraw, ImageFont
 
 image = Image.new('RGB', (100, 100))
 draw = ImageDraw.Draw(image)
-font = ImageFont.truetype("/mount/src/hokejove_karty/Fonts/Poppins-Bold.ttf", 15)
-size = draw.textsize("Test", font=font)
-print(size)
 
 # Create a font object
 font = ImageFont.truetype("/mount/src/hokejove_karty/Fonts/Poppins-Bold.ttf", 15)
 
-# Use the textsize method
+# Text for measuring
 text = "Hello, World!"
-text_size = draw.textsize(text, font=font)
+
+# Get the width of the text
+text_width = draw.textlength(text, font=font)
+
+# Estimate the height of the text (assuming single line of text)
+# Multiply the font size by the number of lines of text
+text_height = font.size
+
+# Print the text dimensions
+print("Text width:", text_width, "Text height:", text_height)
 
 # Draw the text
 draw.text((10, 10), text, fill="black", font=font)
