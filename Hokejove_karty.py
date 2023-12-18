@@ -9,7 +9,7 @@ import numpy as np
 
 fonts_directory = '/mount/src/hokejove_karty/Fonts'
 
-@st.cache_data
+#@st.cache_data
 def load_data():
     df = pd.read_csv("https://raw.githubusercontent.com/DenikSport/Hokejove_karty/main/Database.csv", encoding='windows-1250', sep=';')
     
