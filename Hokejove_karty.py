@@ -220,7 +220,7 @@ draw.text((50 * scale_factor, 90 * scale_factor), str(Sezona), fill="white", fon
 draw.text((170 * scale_factor, 90 * scale_factor), " | ", fill="white", font=font_statistic)
 draw.text((190 * scale_factor, 90 * scale_factor), str(Pozice), fill="white", font=font_statistic)
 draw.text((280 * scale_factor, 90 * scale_factor), " | ", fill="white", font=font_statistic)
-draw.text((300 * scale_factor, 90 * scale_factor),"Věk: "str(Vek), fill="white", font=font_statistic)
+draw.text((300 * scale_factor, 90 * scale_factor),"Věk: "+str(Vek), fill="white", font=font_statistic)
 draw.text((380 * scale_factor, 90 * scale_factor), " | ", fill="white", font=font_statistic)
 draw.text((400 * scale_factor, 90 * scale_factor), str(Zapasy), fill="white", font=font_statistic)
 draw.text((480 * scale_factor, 90 * scale_factor), " | ", fill="white", font=font_statistic)
