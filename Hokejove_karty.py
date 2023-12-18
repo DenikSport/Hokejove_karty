@@ -155,10 +155,6 @@ Vek = Hrac['Věk']
 Zapasy= Hrac['GP']
 Body = Hrac['P']
 
-
-# Zobrazte vybraného hráče
-st.write(f"Vybraný hráč: {selected_player}")
-
 stats_data, category_scores = extract_stats(data, selected_player)
 if stats_data is not None:
     st.write()
@@ -212,7 +208,7 @@ pie_inner_radius = 20 * scale_factor
 
 logo_padding = 160  * scale_factor
 
-draw.rectangle([10 * scale_factor, 20 * scale_factor, 500*scale_factor, 90 * scale_factor], fill="#5d5758")
+draw.rectangle([5 * scale_factor, 20 * scale_factor, 500*scale_factor, 90 * scale_factor], fill="#5d5758")
 draw.text((140  * scale_factor, 25 * scale_factor), selected_player, fill="white", font=font_title)
 draw.text((140 * scale_factor, 55 * scale_factor), Tym, fill="white", font=font_statistic)
 
