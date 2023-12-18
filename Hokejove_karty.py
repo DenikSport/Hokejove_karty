@@ -152,7 +152,7 @@ Pozice = Hrac['Pozice']
 Vek = Hrac['Věk']
 Zapasy= Hrac['GP']
 Body = Hrac['P']
-
+#saddas
 
 # Zobrazte vybraného hráče
 st.write(f"Vybraný hráč: {selected_player}")
