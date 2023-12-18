@@ -302,9 +302,28 @@ logo = logo.resize((80 * scale_factor, 80 * scale_factor))
 # Určení pozice, kam chceme logo vložit
 x = 20 * scale_factor
 y = 15 * scale_factor
-
 # Vložení loga do obrázku
 image.paste(logo, (x, y), logo)
+
+
+
+# Vytvoření cesty k logu
+logo_url = f"https://raw.githubusercontent.com/DenikSport/Hokejove_karty/main/TELH%20Logos/TELH%20Logos/Isport logo.png"
+
+# Načtení loga z internetu
+response = requests.get(logo_url)
+logo = Image.open(BytesIO(response.content))
+
+# Přizpůsobení velikosti loga, pokud je to potřeba
+logo = logo.resize((80 * scale_factor, 80 * scale_factor))
+
+# Určení pozice, kam chceme logo vložit
+x = 500 * scale_factor
+y = 20 * scale_factor
+# Vložení loga do obrázku
+image.paste(logo, (x, y), logo)
+
+
 
 # Zobrazení obrázku
 st.image(image, caption='Popisek obrázku')
