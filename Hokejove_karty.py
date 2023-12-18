@@ -272,7 +272,6 @@ for category, stats in stats_data.items():
 
 
 # Zobrazení obrázku
-from IPython.display import display
 st.image(image, caption='Popisek obrázku')
 
 
