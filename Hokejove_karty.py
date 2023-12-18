@@ -147,6 +147,7 @@ selected_player = st.selectbox("Vyberte hráče", player_list, index=0)
 
 Hrac = data[data['Jméno'] == selected_player].iloc[0]
 st.write(Hrac)
+Tym = Hrac['Tym']
 Sezona = Hrac['Sezona']
 Pozice = Hrac['Pozice']
 Vek = Hrac['Věk']
