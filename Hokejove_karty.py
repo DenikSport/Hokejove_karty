@@ -146,7 +146,7 @@ player_list = pd.unique(data[['Jméno']].values.ravel())
 selected_player = st.selectbox("Vyberte hráče", player_list, index=0)
 
 Hrac = data[data['Jméno'] == selected_player].iloc[0]
-st.write(Hrac)
+
 Tym = Hrac['Nazev tymu']
 Logo = Hrac['Tym']
 Sezona = Hrac['Sezona']
@@ -161,8 +161,8 @@ st.write(f"Vybraný hráč: {selected_player}")
 
 stats_data, category_scores = extract_stats(data, selected_player)
 if stats_data is not None:
-    st.write(stats_data)
-    st.write(category_scores)
+    st.write()
+    st.write()
 
 original_width, original_height = 650, 830
 scale_factor = 10  # Faktor, kterým zvětšíme obrázek
