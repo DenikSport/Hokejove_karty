@@ -214,7 +214,7 @@ draw.text((140  * scale_factor, 25 * scale_factor), selected_player, fill="white
 draw.text((140 * scale_factor, 55 * scale_factor), Tym, fill="white", font=font_statistic)
 
 # Přidání "Počet zápasů:" a "Body:"
-draw.text((50 * scale_factor, 90 * scale_factor), "ezona, fill="white", font=font_statistic)
+draw.text((50 * scale_factor, 90 * scale_factor), Sezona, fill="white", font=font_statistic)
 draw.text((170 * scale_factor, 90 * scale_factor), " | ", fill="white", font=font_statistic)
 draw.text((190 * scale_factor, 90 * scale_factor), Pozice, fill="white", font=font_statistic)
 draw.text((260 * scale_factor, 90 * scale_factor), " | ", fill="white", font=font_statistic)
