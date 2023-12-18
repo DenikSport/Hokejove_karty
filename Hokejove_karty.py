@@ -16,8 +16,10 @@ def load_data():
     columns_to_convert = ["Věk", "GP", "P", "OFF", "OFF IMPACT", "POINT PRODUCTION", "SHOOTING", "PASSING", "PEN DRAWN", "PP", "TRA", "SHOT CONTRI", "HD CHANCES", "HD ASSISTS", "CARRIES", "ENTRY PASSES", "POSS EXITS", "DEF", "DEF IMPACT", "DENIALS", "RECOVERIES", "ROLE DIFF", "PEN TAKEN", "PK"]
     # Převod každého sloupce na číslo
     for column in columns_to_convert:
-        df[column] = pd.to_numeric(df[column], errors='coerce',downcast='integer')
-
+        df[column] = pd.to_numeric(df[column], errors='coerce')
+        df[column] = df[column].fillna(-1)  # nahraďte NaN nějakou placeholder hodnotou
+        df[column] = df[column].astype(int)
+        df[column] = df[column].replace(-1, np.nan)  # vrátit placeholder zpět na NaN
     return df
 
 def extract_stats(data, player_name):
