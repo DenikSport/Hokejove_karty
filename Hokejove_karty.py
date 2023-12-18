@@ -9,7 +9,7 @@ import numpy as np
 
 fonts_directory = '/mount/src/hokejove_karty/Fonts'
 
-#@st.cache_data
+@st.cache_data
 def load_data():
     df = pd.read_csv("https://raw.githubusercontent.com/DenikSport/Hokejove_karty/main/Database.csv", encoding='windows-1250', sep=';')
     
@@ -146,7 +146,7 @@ player_list = pd.unique(data[['Jméno']].values.ravel())
 selected_player = st.selectbox("Vyberte hráče", player_list, index=0)
 
 Hrac = data[data['Jméno'] == selected_player].iloc[0]
-st.write(Hrac)
+
 Tym = Hrac['Nazev tymu']
 Logo = Hrac['Tym']
 Sezona = Hrac['Sezona']
@@ -156,13 +156,7 @@ Zapasy= Hrac['GP']
 Body = Hrac['P']
 
 
-# Zobrazte vybraného hráče
-st.write(f"Vybraný hráč: {selected_player}")
-
 stats_data, category_scores = extract_stats(data, selected_player)
-if stats_data is not None:
-    st.write(stats_data)
-    st.write(category_scores)
 
 original_width, original_height = 650, 830
 scale_factor = 10  # Faktor, kterým zvětšíme obrázek
@@ -212,7 +206,7 @@ pie_inner_radius = 20 * scale_factor
 
 logo_padding = 160  * scale_factor
 
-draw.rectangle([10 * scale_factor, 20 * scale_factor, 500*scale_factor, 90 * scale_factor], fill="#5d5758")
+draw.rectangle([5 * scale_factor, 20 * scale_factor, 500*scale_factor, 90 * scale_factor], fill="#5d5758")
 draw.text((140  * scale_factor, 25 * scale_factor), selected_player, fill="white", font=font_title)
 draw.text((140 * scale_factor, 55 * scale_factor), Tym, fill="white", font=font_statistic)
 
