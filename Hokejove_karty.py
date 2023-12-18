@@ -170,7 +170,7 @@ font_value_bold = ImageFont.truetype('/mount/src/hokejove_karty/Fonts/Poppins-Bo
 
 
 def get_color(value):
-    if value == "-":
+    if pd.isna(value) or value == '-':
         return "#AAAAAA"  # Neutrální šedá
     elif value <= 20:
         return "#CF1E1C"
