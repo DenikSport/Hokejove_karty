@@ -11,14 +11,6 @@ fonts_directory = '/mount/src/hokejove_karty/Fonts'
 @st.cache_data
 def load_data():
     df = pd.read_csv("https://raw.githubusercontent.com/DenikSport/Hokejove_karty/main/Database.csv", encoding='windows-1250', sep=';')
-    
-    # Seznam sloupců k převedení
-    columns_to_convert = ["Věk", "GP", "P", "OFF", "OFF IMPACT", "POINT PRODUCTION", "SHOOTING", "PASSING", "PEN DRAWN", "PP", "TRA", "SHOT CONTRI", "HD CHANCES", "HD ASSISTS", "CARRIES", "ENTRY PASSES", "POSS EXITS", "DEF", "DEF IMPACT", "DENIALS", "RECOVERIES", "ROLE DIFF", "PEN TAKEN", "PK"]
-
-    # Převod každého sloupce na číslo
-    for column in columns_to_convert:
-        df[column] = pd.to_numeric(df[column], errors='coerce')
-
     return df
 
 def extract_stats(data, player_name):
