@@ -221,8 +221,8 @@ draw.text((170 * scale_factor, 90 * scale_factor), " | ", fill="white", font=fon
 draw.text((190 * scale_factor, 90 * scale_factor), str(Pozice), fill="white", font=font_statistic)
 draw.text((280 * scale_factor, 90 * scale_factor), " | ", fill="white", font=font_statistic)
 draw.text((300 * scale_factor, 90 * scale_factor),"Věk: "+str(Vek), fill="white", font=font_statistic)
-draw.text((360 * scale_factor, 90 * scale_factor), " | ", fill="white", font=font_statistic)
-draw.text((380 * scale_factor, 90 * scale_factor),"Zápasy: "+ str(Zapasy), fill="white", font=font_statistic)
+draw.text((375 * scale_factor, 90 * scale_factor), " | ", fill="white", font=font_statistic)
+draw.text((395 * scale_factor, 90 * scale_factor),"Zápasy: "+ str(Zapasy), fill="white", font=font_statistic)
 draw.text((480 * scale_factor, 90 * scale_factor), " | ", fill="white", font=font_statistic)
 draw.text((500 * scale_factor, 90 * scale_factor), str(Body), fill="white", font=font_statistic)
 
