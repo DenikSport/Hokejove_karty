@@ -306,7 +306,7 @@ for category, stats in stats_data.items():
         
         y_offset += bar_height + (4 * scale_factor)
 
-    pie_offset_right = 125 * scale_factor  # Zvětšení odsazení od pravého okraje
+    pie_offset_right = 150 * scale_factor  # Zvětšení odsazení od pravého okraje
     pie_center_x = width - pie_offset_right
     pie_center_y = start_y_offset + (category_title_height / 2)
     pie_center = (pie_center_x, pie_center_y)
