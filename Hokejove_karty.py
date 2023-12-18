@@ -223,8 +223,8 @@ draw.text((280 * scale_factor, 90 * scale_factor), " | ", fill="white", font=fon
 draw.text((300 * scale_factor, 90 * scale_factor),"Věk: "+str(Vek), fill="white", font=font_statistic)
 draw.text((375 * scale_factor, 90 * scale_factor), " | ", fill="white", font=font_statistic)
 draw.text((395 * scale_factor, 90 * scale_factor),"Zápasy: "+ str(Zapasy), fill="white", font=font_statistic)
-draw.text((500 * scale_factor, 90 * scale_factor), " | ", fill="white", font=font_statistic)
-draw.text((520 * scale_factor, 90 * scale_factor), "Body: "+str(Body), fill="white", font=font_statistic)
+draw.text((505 * scale_factor, 90 * scale_factor), " | ", fill="white", font=font_statistic)
+draw.text((525 * scale_factor, 90 * scale_factor), "Body: "+str(Body), fill="white", font=font_statistic)
 
 for category, stats in stats_data.items():
     start_y_offset = y_offset
