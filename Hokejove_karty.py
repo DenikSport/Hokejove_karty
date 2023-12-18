@@ -147,11 +147,11 @@ selected_player = st.selectbox("Vyberte hráče", player_list, index=0)
 
 Hrac = data[data['Jméno'] == selected_player].iloc[0]
 st.write(Hrac)
-#Sezona = data[data['Sezona'] == selected_player].iloc[0]
-#Pozice = data[data['Pozice'] == selected_player].iloc[0]
-#Vek = data[data['Věk'] == selected_player].iloc[0]
-#Zapasy= data[data['GP'] == selected_player].iloc[0]
-#Body = data[data['G'] == selected_player].iloc[0]
+Sezona = Hrac['Sezona']
+Pozice = Hrac['Pozice']
+Vek = Hrac['Věk']
+Zapasy= Hrac['GP']
+Body = Hrac["Body]
 
 
 # Zobrazte vybraného hráče
