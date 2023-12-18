@@ -14,7 +14,6 @@ def load_data():
     
     # Seznam sloupců k převedení
     columns_to_convert = ["Věk", "GP", "P", "OFF", "OFF IMPACT", "POINT PRODUCTION", "SHOOTING", "PASSING", "PEN DRAWN", "PP", "TRA", "SHOT CONTRI", "HD CHANCES", "HD ASSISTS", "CARRIES", "ENTRY PASSES", "POSS EXITS", "DEF", "DEF IMPACT", "DENIALS", "RECOVERIES", "ROLE DIFF", "PEN TAKEN", "PK"]
-
     # Převod každého sloupce na číslo
     for column in columns_to_convert:
         df[column] = pd.to_numeric(df[column], errors='coerce')
@@ -240,9 +239,21 @@ for category, stats in stats_data.items():
         stat_text_y = y_offset
         draw.text((stat_text_x, stat_text_y), stat, fill="white", font=font_statistic)
 
-        # Výpočet a vykreslení sloupce hodnoty
-        bar_x_end = bar_x_start + (value / 100) * bar_max_width
+        if pd.isna(value) or value == '-':
+            value_text = '-'
+            bar_x_end = bar_x_start  # Konec sloupce zůstává na počáteční pozici
+        else:
+            value_text = f"{value}"
+            bar_x_end = bar_x_start + (value / 100) * bar_max_width  # Výpočet konce sloupce
+
+        # Vykreslení sloupce grafu
         draw.rectangle([bar_x_start, y_offset, bar_x_end, y_offset + bar_height], fill=get_color(value))
+
+        # Zarovnání a vykreslení textu hodnoty
+        value_text_size = font_value_bold.getsize(value_text)
+        value_text_x = value_x_position - (value_text_size[0] / 2)
+        value_text_y = y_offset + (bar_height - value_text_size[1]) / 2 - 25
+        draw.text((value_text_x, value_text_y), value_text, fill="white", font=font_value_bold)
 
         # Zarovnání textu číselné hodnoty
         value_text = f"{value}"
