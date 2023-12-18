@@ -151,7 +151,7 @@ Sezona = Hrac['Sezona']
 Pozice = Hrac['Pozice']
 Vek = Hrac['Věk']
 Zapasy= Hrac['GP']
-Body = Hrac["Body"]
+Body = Hrac['P']
 
 
 # Zobrazte vybraného hráče
