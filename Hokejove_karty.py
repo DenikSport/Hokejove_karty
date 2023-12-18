@@ -145,6 +145,14 @@ data = load_data()
 player_list = pd.unique(data[['Jméno']].values.ravel())
 selected_player = st.selectbox("Vyberte hráče", player_list, index=0)
 
+Tym = player_data.iloc[0]['Tym']]
+Sezona = player_data.iloc[0]['Sezona']]
+Pozice = player_data.iloc[0]['Pozice']]
+Vek = player_data.iloc[0]['Věk']],
+Zapasy= player_data.iloc[0]['GP']]
+Body = player_data.iloc[0]['P']]
+
+
 # Zobrazte vybraného hráče
 st.write(f"Vybraný hráč: {selected_player}")
 
@@ -203,18 +211,18 @@ logo_padding = 160  * scale_factor
 
 draw.rectangle([10 * scale_factor, 20 * scale_factor, 500*scale_factor, 90 * scale_factor], fill="#5d5758")
 draw.text((140  * scale_factor, 25 * scale_factor), selected_player, fill="white", font=font_title)
-draw.text((140 * scale_factor, 55 * scale_factor), "HC Dynamo Pardubice", fill="white", font=font_statistic)
+draw.text((140 * scale_factor, 55 * scale_factor), Tym, fill="white", font=font_statistic)
 
 # Přidání "Počet zápasů:" a "Body:"
-draw.text((50 * scale_factor, 90 * scale_factor), "Sezona: 2023/24", fill="white", font=font_statistic)
+draw.text((50 * scale_factor, 90 * scale_factor), "ezona, fill="white", font=font_statistic)
 draw.text((170 * scale_factor, 90 * scale_factor), " | ", fill="white", font=font_statistic)
-draw.text((190 * scale_factor, 90 * scale_factor), "Pozice: Brankář", fill="white", font=font_statistic)
+draw.text((190 * scale_factor, 90 * scale_factor), Pozice, fill="white", font=font_statistic)
 draw.text((260 * scale_factor, 90 * scale_factor), " | ", fill="white", font=font_statistic)
-draw.text((280 * scale_factor, 90 * scale_factor), "Věk: 30", fill="white", font=font_statistic)
+draw.text((280 * scale_factor, 90 * scale_factor), Věk, fill="white", font=font_statistic)
 draw.text((380 * scale_factor, 90 * scale_factor), " | ", fill="white", font=font_statistic)
-draw.text((400 * scale_factor, 90 * scale_factor), "Zápasy: 15", fill="white", font=font_statistic)
+draw.text((400 * scale_factor, 90 * scale_factor), "Zapasy", fill="white", font=font_statistic)
 draw.text((480 * scale_factor, 90 * scale_factor), " | ", fill="white", font=font_statistic)
-draw.text((500 * scale_factor, 90 * scale_factor), "Body: 10", fill="white", font=font_statistic)
+draw.text((500 * scale_factor, 90 * scale_factor), Body, fill="white", font=font_statistic)
 
 for category, stats in stats_data.items():
     start_y_offset = y_offset
@@ -263,7 +271,7 @@ for category, stats in stats_data.items():
     pie_center_y = start_y_offset + (category_title_height / 2)
     pie_center = (pie_center_x, pie_center_y)
     values = [category_scores[category], 100 - category_scores[category]]
-    colors = [get_color(category_scores[category]), "#e6e6e6"]
+    colors = [get_color(category_scores[category]), "#2a2a2c"]
 
     draw.pieslice([pie_center[0] - pie_outer_radius, pie_center[1] - pie_outer_radius, pie_center[0] + pie_outer_radius, pie_center[1] + pie_outer_radius], start=-90, end=(-90 + (values[0] / 100) * 360), fill=colors[0])
     draw.pieslice([pie_center[0] - pie_outer_radius, pie_center[1] - pie_outer_radius, pie_center[0] + pie_outer_radius, pie_center[1] + pie_outer_radius], start=(-90 + (values[0] / 100) * 360), end=270, fill=colors[1])
