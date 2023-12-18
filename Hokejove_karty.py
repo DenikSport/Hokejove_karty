@@ -8,7 +8,7 @@ import PIL
 
 from PIL import Image, ImageDraw, ImageFont
 
-st.write(pip list)
+st.write(PIL.__version__)
 image = Image.new('RGB', (100, 100))
 draw = ImageDraw.Draw(image)
 
