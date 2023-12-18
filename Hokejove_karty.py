@@ -6,36 +6,19 @@ from io import BytesIO
 import os
 import PIL
 
-from PIL import Image, ImageDraw, ImageFont
-
-st.write(PIL.__version__)
-image = Image.new('RGB', (100, 100))
-draw = ImageDraw.Draw(image)
-
-# Create a font object
-font = ImageFont.truetype("/mount/src/hokejove_karty/Fonts/Poppins-Bold.ttf", 15)
-
-# Text for measuring
-text = "Hello, World!"
-
-# Get the width of the text
-text_width = draw.textlength(text, font=font)
-
-# Estimate the height of the text (assuming single line of text)
-# Multiply the font size by the number of lines of text
-text_height = font.size
-
-# Print the text dimensions
-print("Text width:", text_width, "Text height:", text_height)
-
-# Draw the text
-draw.text((10, 10), text, fill="black", font=font)
-
 fonts_directory = '/mount/src/hokejove_karty/Fonts'
 
 @st.cache_data
 def load_data():
-    df = pd.read_csv("https://raw.githubusercontent.com/DenikSport/Hokejove_karty/main/Database.csv",encoding='windows-1250', sep=';')
+    df = pd.read_csv("https://raw.githubusercontent.com/DenikSport/Hokejove_karty/main/Database.csv", encoding='windows-1250', sep=';')
+    
+    # Seznam sloupců k převedení
+    columns_to_convert = ["Věk", "GP", "P", "OFF", "OFF IMPACT", "POINT PRODUCTION", "SHOOTING", "PASSING", "PEN DRAWN", "PP", "TRA", "SHOT CONTRI", "HD CHANCES", "HD ASSISTS", "CARRIES", "ENTRY PASSES", "POSS EXITS", "DEF", "DEF IMPACT", "DENIALS", "RECOVERIES", "ROLE DIFF", "PEN TAKEN", "PK"]
+
+    # Převod každého sloupce na číslo
+    for column in columns_to_convert:
+        df[column] = pd.to_numeric(df[column], errors='coerce')
+
     return df
 
 def extract_stats(data, player_name):
@@ -252,7 +235,7 @@ for category, stats in stats_data.items():
         draw.rectangle([10 * scale_factor, y_offset, width - (10 * scale_factor), y_offset + bar_height], fill=row_color)
 
         # Zarovnání textu názvu podkategorie
-        stat_text_size = draw.textsize(stat, font=font_statistic)
+        stat_text_size = draw.text(stat, font=font_statistic)
         stat_text_x = 20 * scale_factor
         stat_text_y = y_offset
         draw.text((stat_text_x, stat_text_y), stat, fill="white", font=font_statistic)
