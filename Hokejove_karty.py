@@ -264,11 +264,12 @@ for category, stats in stats_data.items():
     draw.pieslice([pie_center[0] - pie_outer_radius, pie_center[1] - pie_outer_radius, pie_center[0] + pie_outer_radius, pie_center[1] + pie_outer_radius], start=(-90 + (values[0] / 100) * 360), end=270, fill=colors[1])
     draw.pieslice([pie_center[0] - pie_inner_radius, pie_center[1] - pie_inner_radius, pie_center[0] + pie_inner_radius, pie_center[1] + pie_inner_radius], start=-90, end=270, fill="#2a2a2c")
 
-    category_value_text = f"{category_values[category]}"
-    category_value_text_size = font_value_bold.getsize(category_value_text)
-    category_value_text_x = pie_center[0] - (category_value_text_size[0] / 2)
-    category_value_text_y = pie_center[1] - (category_value_text_size[1] / 2)-25
-    draw.text((category_value_text_x, category_value_text_y), category_value_text, fill="white", font=font_value_bold)
+    category_score_text = f"{category_scores[category]}"  # Použití správné proměnné
+    category_score_text_size = font_value_bold.getsize(category_score_text)  # Získání rozměrů textu
+    category_score_text_x = pie_center[0] - (category_score_text_size[0] / 2)
+    category_score_text_y = pie_center[1] - (category_score_text_size[1] / 2) - 25
+    draw.text((category_score_text_x, category_score_text_y), category_score_text, fill="white", font=font_value_bold)
+
 
 # Zobrazení obrázku
 from IPython.display import display
