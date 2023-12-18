@@ -257,8 +257,8 @@ for category, stats in stats_data.items():
     pie_center_x = width - pie_offset_right
     pie_center_y = start_y_offset + (category_title_height / 2)
     pie_center = (pie_center_x, pie_center_y)
-    values = [category_values[category], 100 - category_values[category]]
-    colors = [get_color(category_values[category]), "#e6e6e6"]
+    values = [category_score[category], 100 - category_score[category]]
+    colors = [get_color(category_score[category]), "#e6e6e6"]
 
     draw.pieslice([pie_center[0] - pie_outer_radius, pie_center[1] - pie_outer_radius, pie_center[0] + pie_outer_radius, pie_center[1] + pie_outer_radius], start=-90, end=(-90 + (values[0] / 100) * 360), fill=colors[0])
     draw.pieslice([pie_center[0] - pie_outer_radius, pie_center[1] - pie_outer_radius, pie_center[0] + pie_outer_radius, pie_center[1] + pie_outer_radius], start=(-90 + (values[0] / 100) * 360), end=270, fill=colors[1])
