@@ -145,12 +145,12 @@ data = load_data()
 player_list = pd.unique(data[['Jméno']].values.ravel())
 selected_player = st.selectbox("Vyberte hráče", player_list, index=0)
 
-Tym = player_data.iloc[0]['Tym']
-Sezona = player_data.iloc[0]['Sezona']
-Pozice = player_data.iloc[0]['Pozice']
-Vek = player_data.iloc[0]['Věk']
-Zapasy= player_data.iloc[0]['GP']
-Body = player_data.iloc[0]['P']
+Tym = data[data['Tym'] == selected_player].iloc[0]
+Sezona = data[data['Sezona'] == selected_player].iloc[0]
+Pozice = data[data['Pozice'] == selected_player].iloc[0]
+Vek = data[data['Věk'] == selected_player].iloc[0]
+Zapasy= data[data['GP'] == selected_player].iloc[0]
+Body = data[data['G'] == selected_player].iloc[0]
 
 
 # Zobrazte vybraného hráče
