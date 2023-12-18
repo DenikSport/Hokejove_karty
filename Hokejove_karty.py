@@ -147,7 +147,8 @@ selected_player = st.selectbox("Vyberte hráče", player_list, index=0)
 
 Hrac = data[data['Jméno'] == selected_player].iloc[0]
 st.write(Hrac)
-Tym = Hrac['Tym']
+Tym = Hrac['Nazev tymu']
+Logo = Hrac['Tym']
 Sezona = Hrac['Sezona']
 Pozice = Hrac['Pozice']
 Vek = Hrac['Věk']
@@ -285,6 +286,25 @@ for category, stats in stats_data.items():
     category_scores_text_y = pie_center[1] - (category_scores_text_size[1] / 2) - 25
     draw.text((category_scores_text_x, category_scores_text_y), category_scores_text, fill="white", font=font_value_bold)
 
+
+
+
+# Vytvoření cesty k logu
+logo_url = f"https://raw.githubusercontent.com/DenikSport/Hokejove_karty/main/TELH%20Logos/TELH%20Logos/{Logo}.png"
+
+# Načtení loga z internetu
+response = requests.get(logo_url)
+logo = Image.open(BytesIO(response.content))
+
+# Přizpůsobení velikosti loga, pokud je to potřeba
+logo = logo.resize((80 * scale_factor, 80 * scale_factor))
+
+# Určení pozice, kam chceme logo vložit
+x = 20 * scale_factor
+y = 15 * scale_factor
+
+# Vložení loga do obrázku
+image.paste(logo, (x, y), logo)
 
 # Zobrazení obrázku
 st.image(image, caption='Popisek obrázku')
