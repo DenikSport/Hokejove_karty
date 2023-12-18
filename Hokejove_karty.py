@@ -17,6 +17,26 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
+# Vložení vlastního CSS pomocí st.markdown()
+st.markdown("""
+    <style>
+    /* Změna barvy textu v selectboxu */
+    .st-b7 .css-2b097c-container {
+        color: white;
+    }
+
+    /* Změna barvy textu položek */
+    .st-b7 .css-1okebmr-indicatorSeparator {
+        background-color: white;
+    }
+
+    /* Změna barvy textu při najetí myší */
+    .st-b7 .css-1n7v3ny-option {
+        color: white;
+    }
+    </style>
+""", unsafe_allow_html=True)
+
 #@st.cache_data
 def load_data():
     df = pd.read_csv("https://raw.githubusercontent.com/DenikSport/Hokejove_karty/main/Database.csv", encoding='windows-1250', sep=';')
@@ -151,6 +171,13 @@ data = load_data()
 #st.write(data)
 
 player_list = pd.unique(data[['Jméno']].values.ravel())
+
+
+
+
+# Vytvoření selectboxu
+selected_player = st.selectbox("Vyberte hráče", player_list, index=0)
+
 selected_player = st.selectbox("Vyberte hráče", player_list, index=0)
 
 Hrac = data[data['Jméno'] == selected_player].iloc[0]
