@@ -178,8 +178,6 @@ player_list = pd.unique(data[['Jméno']].values.ravel())
 # Vytvoření selectboxu
 selected_player = st.selectbox("Vyberte hráče", player_list, index=0)
 
-selected_player = st.selectbox("Vyberte hráče", player_list, index=0)
-
 Hrac = data[data['Jméno'] == selected_player].iloc[0]
 
 Tym = Hrac['Nazev tymu']
