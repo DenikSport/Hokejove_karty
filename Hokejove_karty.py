@@ -176,7 +176,7 @@ player_list = pd.unique(data[['Jméno']].values.ravel())
 
 
 # Vytvoření selectboxu
-selected_player = st.selectbox("Vyberte hráče", player_list, index=0)
+selected_player = st.selectbox("", player_list, index=0)
 
 Hrac = data[data['Jméno'] == selected_player].iloc[0]
 
@@ -245,16 +245,24 @@ draw.rectangle([10 * scale_factor, 10 * scale_factor, 500*scale_factor, 90 * sca
 draw.text((140  * scale_factor, 20 * scale_factor), selected_player, fill="white", font=font_title)
 draw.text((140 * scale_factor, 50 * scale_factor), Tym, fill="white", font=font_statistic)
 
-# Přidání "Počet zápasů:" a "Body:"
-draw.text((50 * scale_factor, 90 * scale_factor), str(Sezona), fill="white", font=font_statistic)
-draw.text((170 * scale_factor, 90 * scale_factor), " | ", fill="white", font=font_statistic)
-draw.text((190 * scale_factor, 90 * scale_factor), str(Pozice), fill="white", font=font_statistic)
-draw.text((280 * scale_factor, 90 * scale_factor), " | ", fill="white", font=font_statistic)
-draw.text((300 * scale_factor, 90 * scale_factor),"Věk: "+str(Vek), fill="white", font=font_statistic)
-draw.text((375 * scale_factor, 90 * scale_factor), " | ", fill="white", font=font_statistic)
-draw.text((395 * scale_factor, 90 * scale_factor),"Zápasy: "+ str(Zapasy), fill="white", font=font_statistic)
-draw.text((505 * scale_factor, 90 * scale_factor), " | ", fill="white", font=font_statistic)
-draw.text((525 * scale_factor, 90 * scale_factor), "Body: "+str(Body), fill="white", font=font_statistic)
+if Pozice.lower() == 'brankář':
+    draw.text((50 * scale_factor, 90 * scale_factor), str(Sezona), fill="white", font=font_statistic)
+    draw.text((170 * scale_factor, 90 * scale_factor), " | ", fill="white", font=font_statistic)
+    draw.text((190 * scale_factor, 90 * scale_factor), str(Pozice), fill="white", font=font_statistic)
+    draw.text((280 * scale_factor, 90 * scale_factor), " | ", fill="white", font=font_statistic)
+    draw.text((300 * scale_factor, 90 * scale_factor),"Věk: "+str(Vek), fill="white", font=font_statistic)
+    draw.text((375 * scale_factor, 90 * scale_factor), " | ", fill="white", font=font_statistic)
+    draw.text((395 * scale_factor, 90 * scale_factor),"Zápasy: "+ str(Zapasy), fill="white", font=font_statistic)
+else:
+    draw.text((50 * scale_factor, 90 * scale_factor), str(Sezona), fill="white", font=font_statistic)
+    draw.text((170 * scale_factor, 90 * scale_factor), " | ", fill="white", font=font_statistic)
+    draw.text((190 * scale_factor, 90 * scale_factor), str(Pozice), fill="white", font=font_statistic)
+    draw.text((280 * scale_factor, 90 * scale_factor), " | ", fill="white", font=font_statistic)
+    draw.text((300 * scale_factor, 90 * scale_factor),"Věk: "+str(Vek), fill="white", font=font_statistic)
+    draw.text((375 * scale_factor, 90 * scale_factor), " | ", fill="white", font=font_statistic)
+    draw.text((395 * scale_factor, 90 * scale_factor),"Zápasy: "+ str(Zapasy), fill="white", font=font_statistic)
+    draw.text((505 * scale_factor, 90 * scale_factor), " | ", fill="white", font=font_statistic)
+    draw.text((525 * scale_factor, 90 * scale_factor), "Body: "+str(Body), fill="white", font=font_statistic)
 
 for category, stats in stats_data.items():
     start_y_offset = y_offset
