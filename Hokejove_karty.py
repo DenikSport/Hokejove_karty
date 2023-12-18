@@ -257,18 +257,18 @@ for category, stats in stats_data.items():
     pie_center_x = width - pie_offset_right
     pie_center_y = start_y_offset + (category_title_height / 2)
     pie_center = (pie_center_x, pie_center_y)
-    values = [category_score[category], 100 - category_score[category]]
-    colors = [get_color(category_score[category]), "#e6e6e6"]
+    values = [category_scores[category], 100 - category_scores[category]]
+    colors = [get_color(category_scores[category]), "#e6e6e6"]
 
     draw.pieslice([pie_center[0] - pie_outer_radius, pie_center[1] - pie_outer_radius, pie_center[0] + pie_outer_radius, pie_center[1] + pie_outer_radius], start=-90, end=(-90 + (values[0] / 100) * 360), fill=colors[0])
     draw.pieslice([pie_center[0] - pie_outer_radius, pie_center[1] - pie_outer_radius, pie_center[0] + pie_outer_radius, pie_center[1] + pie_outer_radius], start=(-90 + (values[0] / 100) * 360), end=270, fill=colors[1])
     draw.pieslice([pie_center[0] - pie_inner_radius, pie_center[1] - pie_inner_radius, pie_center[0] + pie_inner_radius, pie_center[1] + pie_inner_radius], start=-90, end=270, fill="#2a2a2c")
 
-    category_score_text = f"{category_scores[category]}"  # Použití správné proměnné
-    category_score_text_size = font_value_bold.getsize(category_score_text)  # Získání rozměrů textu
-    category_score_text_x = pie_center[0] - (category_score_text_size[0] / 2)
-    category_score_text_y = pie_center[1] - (category_score_text_size[1] / 2) - 25
-    draw.text((category_score_text_x, category_score_text_y), category_score_text, fill="white", font=font_value_bold)
+    category_scores_text = f"{category_scores[category]}"  # Použití správné proměnné
+    category_scores_text_size = font_value_bold.getsize(category_scores_text)  # Získání rozměrů textu
+    category_scores_text_x = pie_center[0] - (category_scores_text_size[0] / 2)
+    category_scores_text_y = pie_center[1] - (category_scores_text_size[1] / 2) - 25
+    draw.text((category_scores_text_x, category_scores_text_y), category_scores_text, fill="white", font=font_value_bold)
 
 
 # Zobrazení obrázku
