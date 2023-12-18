@@ -254,14 +254,7 @@ for category, stats in stats_data.items():
         value_text_x = value_x_position - (value_text_size[0] / 2)
         value_text_y = y_offset + (bar_height - value_text_size[1]) / 2 - 25
         draw.text((value_text_x, value_text_y), value_text, fill="white", font=font_value_bold)
-
-        # Zarovnání textu číselné hodnoty
-        value_text = f"{value}"
-        value_text_size = font_value_bold.getsize(value_text)
-        value_text_x = value_x_position - (value_text_size[0] / 2)
-        value_text_y = y_offset + (bar_height - value_text_size[1]) / 2 -25
-        draw.text((value_text_x, value_text_y), value_text, fill="white", font=font_value_bold)
-
+        
         y_offset += bar_height + (4 * scale_factor)
 
     pie_offset_right = 175 * scale_factor  # Zvětšení odsazení od pravého okraje
