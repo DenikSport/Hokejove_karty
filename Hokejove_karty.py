@@ -150,7 +150,7 @@ st.write(Hrac)
 Tym = Hrac['Tym']
 Sezona = Hrac['Sezona']
 Pozice = Hrac['Pozice']
-Věk = Hrac['Věk']
+Vek = Hrac['Věk']
 Zapasy= Hrac['GP']
 Body = Hrac['P']
 
@@ -216,15 +216,15 @@ draw.text((140  * scale_factor, 25 * scale_factor), selected_player, fill="white
 draw.text((140 * scale_factor, 55 * scale_factor), Tym, fill="white", font=font_statistic)
 
 # Přidání "Počet zápasů:" a "Body:"
-draw.text((50 * scale_factor, 90 * scale_factor), Sezona, fill="white", font=font_statistic)
+draw.text((50 * scale_factor, 90 * scale_factor), str(Sezona), fill="white", font=font_statistic)
 draw.text((170 * scale_factor, 90 * scale_factor), " | ", fill="white", font=font_statistic)
-draw.text((190 * scale_factor, 90 * scale_factor), Pozice, fill="white", font=font_statistic)
+draw.text((190 * scale_factor, 90 * scale_factor), str(Pozice), fill="white", font=font_statistic)
 draw.text((260 * scale_factor, 90 * scale_factor), " | ", fill="white", font=font_statistic)
-draw.text((280 * scale_factor, 90 * scale_factor), Věk, fill="white", font=font_statistic)
+draw.text((280 * scale_factor, 90 * scale_factor), str(Vek), fill="white", font=font_statistic)
 draw.text((380 * scale_factor, 90 * scale_factor), " | ", fill="white", font=font_statistic)
-draw.text((400 * scale_factor, 90 * scale_factor), Zapasy, fill="white", font=font_statistic)
+draw.text((400 * scale_factor, 90 * scale_factor), str(Zapasy), fill="white", font=font_statistic)
 draw.text((480 * scale_factor, 90 * scale_factor), " | ", fill="white", font=font_statistic)
-draw.text((500 * scale_factor, 90 * scale_factor), Body, fill="white", font=font_statistic)
+draw.text((500 * scale_factor, 90 * scale_factor), str(Body), fill="white", font=font_statistic)
 
 for category, stats in stats_data.items():
     start_y_offset = y_offset
