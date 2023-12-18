@@ -233,18 +233,13 @@ for category, stats in stats_data.items():
         row_color = "#3b3839" if index % 2 == 0 else "#404040"
         draw.rectangle([10 * scale_factor, y_offset, width - (10 * scale_factor), y_offset + bar_height], fill=row_color)
 
-        # Zarovnání textu názvu podkategorie
-        # stat_text_size = draw.textsize(stat, font=font_statistic)
-        stat_text_x = 20 * scale_factor
-        stat_text_y = y_offset
-        draw.text((stat_text_x, stat_text_y), stat, fill="white", font=font_statistic)
-
         if pd.isna(value) or value == '-':
-            value_text = '-'
-            bar_x_end = bar_x_start  # Konec sloupce zůstává na počáteční pozici
+            value_text = '-'  # Pro NaN nebo '-' nastavíme text na '-'
         else:
-            value_text = f"{value}"
-            bar_x_end = bar_x_start + (value / 100) * bar_max_width  # Výpočet konce sloupce
+            value_text = f"{value}"  # Jinak použijeme skutečnou hodnotu
+
+        # Výpočet konce sloupce grafu
+        bar_x_end = bar_x_start + (value / 100) * bar_max_width if not pd.isna(value) and value != '-' else bar_x_start
 
         # Vykreslení sloupce grafu
         draw.rectangle([bar_x_start, y_offset, bar_x_end, y_offset + bar_height], fill=get_color(value))
