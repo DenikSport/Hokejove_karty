@@ -18,7 +18,7 @@ def load_data():
     # Převod každého sloupce na číslo
     for column in columns_to_convert:
         df[column] = pd.to_numeric(df[column], errors='coerce')
-         df[column] = df[column].round(0).astype('Int64', errors='ignore')
+        df[column] = df[column].round(0).astype('Int64', errors='ignore')
     return df
 
 def extract_stats(data, player_name):
