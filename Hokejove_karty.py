@@ -293,7 +293,7 @@ response = requests.get(logo_url)
 logo = Image.open(BytesIO(response.content))
 
 # Přizpůsobení velikosti loga, pokud je to potřeba
-logo = logo.resize((75 * scale_factor, 75 * scale_factor))
+logo = logo.resize((70 * scale_factor, 70 * scale_factor))
 
 # Určení pozice, kam chceme logo vložit
 x = 20 * scale_factor
