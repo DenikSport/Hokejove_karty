@@ -5,6 +5,7 @@ import requests
 from io import BytesIO
 import os
 import PIL
+import numpy as np
 
 fonts_directory = '/mount/src/hokejove_karty/Fonts'
 
