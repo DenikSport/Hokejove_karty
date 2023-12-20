@@ -368,11 +368,11 @@ st.image(image)
 components.html(
     """
         <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" 
-        data-text="Check my cool Streamlit Web-App🎈" 
+        data-text="Koukněte na hokejové karty" 
         data-url="https://streamlit.io"
         data-show-count="false">
         data-size="Large" 
-        data-hashtags="streamlit,python"
+        data-hashtags="Hokejove karty iSport"
         Tweet
         </a>
         <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
