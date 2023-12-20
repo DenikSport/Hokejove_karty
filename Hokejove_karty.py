@@ -6,6 +6,7 @@ from io import BytesIO
 import os
 import PIL
 import numpy as np
+import streamlit.components.v1 as components
 
 fonts_directory = '/mount/src/hokejove_karty/Fonts'
 
@@ -362,3 +363,18 @@ image.paste(logo, (x, y), logo)
 
 
 st.image(image)
+
+
+components.html(
+    """
+        <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" 
+        data-text="Check my cool Streamlit Web-App🎈" 
+        data-url="https://streamlit.io"
+        data-show-count="false">
+        data-size="Large" 
+        data-hashtags="streamlit,python"
+        Tweet
+        </a>
+        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    """
+)
