@@ -369,7 +369,7 @@ components.html(
     """
         <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" 
         data-text="Koukněte na hokejové karty" 
-        data-url="https://streamlit.io"
+        data-url="https://hokejovekarty.streamlit.app/"
         data-show-count="false">
         data-size="Large" 
         data-hashtags="Hokejove karty iSport"
