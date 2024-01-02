@@ -185,7 +185,7 @@ if stats_data is not None:
     st.write()
     st.write()
 
-original_width, original_height = 650, 840
+original_width, original_height = 650, 860
 scale_factor = 10  # Faktor, kterým zvětšíme obrázek
 width, height = original_width * scale_factor, original_height * scale_factor
 
