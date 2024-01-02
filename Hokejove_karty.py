@@ -355,3 +355,20 @@ image.paste(logo, (x, y), logo)
 
 st.image(image)
 
+image = Image.open(image_path)
+
+# Připravte obrázek pro stažení
+buffered = io.BytesIO()
+image.save(buffered, format="PNG")
+img_data = buffered.getvalue()
+
+# Zobrazte obrázek v aplikaci Streamlit
+st.image(image, caption='iSport Logo')
+
+# Vytvořte tlačítko pro stažení obrázku
+st.download_button(
+    label="Stáhnout logo",
+    data=img_data,
+    file_name="isport_logo.png",
+    mime="image/png"
+)
