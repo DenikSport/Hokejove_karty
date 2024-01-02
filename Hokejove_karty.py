@@ -10,33 +10,18 @@ import streamlit.components.v1 as components
 
 fonts_directory = '/mount/src/hokejove_karty/Fonts'
 
-st.markdown("""
-    <style>
-    .stApp {
-        background-color: #2a2a2c;
-    }
-    </style>
-""", unsafe_allow_html=True)
+css = """
+     <style>
+     .nadpis {
+         color: #f63366;  # Můžete změnit barvu podle potřeby
+     }
+     </style>
+     """
 
-# Vložení vlastního CSS pomocí st.markdown()
-st.markdown("""
-    <style>
-    /* Změna barvy textu v selectboxu */
-    .st-b7 .css-2b097c-container {
-        color: white;
-    }
+# Použití HTML a CSS pro vytvoření stylizovaného nadpisu
+st.markdown(css, unsafe_allow_html=True)
+st.markdown('<p class="nadpis">Vyberte hráče:</p>', unsafe_allow_html=True)
 
-    /* Změna barvy textu položek */
-    .st-b7 .css-1okebmr-indicatorSeparator {
-        background-color: white;
-    }
-
-    /* Změna barvy textu při najetí myší */
-    .st-b7 .css-1n7v3ny-option {
-        color: white;
-    }
-    </style>
-""", unsafe_allow_html=True)
 
 @st.cache_data
 def load_data():
