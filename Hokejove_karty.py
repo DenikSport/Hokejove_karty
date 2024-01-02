@@ -362,7 +362,7 @@ image.save(buffered, format="PNG")
 img_data = buffered.getvalue()
 file_name = f"Hokejová karta - {selected_player} iSport.png"
 
-col1, col2, col3 = st.columns([2,1,2])
+col1, col2, col3 = st.columns([1.5,1,1.5])
 
 # Vycentrování tlačítka pro stažení ve středním sloupci
 with col2:
