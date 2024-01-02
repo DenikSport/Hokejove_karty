@@ -152,7 +152,7 @@ data = load_data()
 #st.write(data)
 
 
-kluby = ['Všechny kluby'] + list(data['Nazev tymu'].values.ravel())
+kluby = ['Všechny kluby'] + sorted(data['Nazev tymu'].unique().tolist())
 
 # Vytvoření selectboxu pro kluby
 vybrany_klub = st.selectbox('', kluby)
