@@ -10,7 +10,6 @@ import streamlit.components.v1 as components
 import io
 
 fonts_directory = '/mount/src/hokejove_karty/Fonts'
-
 st.markdown("""
     <style>
     .stApp {
@@ -237,7 +236,7 @@ logo_padding = 160  * scale_factor
 draw.rectangle([10 * scale_factor, 10 * scale_factor, 500*scale_factor, 90 * scale_factor], fill="#5d5758")
 draw.text((140  * scale_factor, 20 * scale_factor), selected_player, fill="white", font=font_title)
 draw.text((140 * scale_factor, 50 * scale_factor), Tym, fill="white", font=font_statistic)
-draw.text((350 * scale_factor, 830 * scale_factor), "Poslední aktualizace: 1.1.2023", fill="white", font=font_statistic)
+draw.text((350 * scale_factor, 830 * scale_factor), "Poslední aktualizace: 1.1.2024", fill="white", font=font_statistic)
 
 if Pozice.lower() == 'brankář':
     draw.text((90 * scale_factor, 90 * scale_factor), str(Sezona), fill="white", font=font_statistic)
