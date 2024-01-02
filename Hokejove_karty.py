@@ -10,6 +10,14 @@ import streamlit.components.v1 as components
 
 fonts_directory = '/mount/src/hokejove_karty/Fonts'
 
+st.markdown("""
+    <style>
+    .stApp {
+        background-color: #2a2a2c;
+    }
+    </style>
+    """, unsafe_allow_html=True)
+
 @st.cache_data
 def load_data():
     df = pd.read_csv("https://raw.githubusercontent.com/DenikSport/Hokejove_karty/main/Database.csv", encoding='windows-1250', sep=';')
