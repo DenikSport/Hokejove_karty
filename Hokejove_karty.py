@@ -38,7 +38,7 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
-#@st.cache_data
+@st.cache_data
 def load_data():
     df = pd.read_csv("https://raw.githubusercontent.com/DenikSport/Hokejove_karty/main/Database.csv", encoding='windows-1250', sep=';')
     
@@ -106,9 +106,9 @@ def extract_player_stats(data, player_name):
 
     # Combining data into the required format
     stats_data = {
-        "OFENZÍVA": off_data,
+        "OFENZIVA": off_data,
         "TRANZICE": tra_data,
-        "DEFENZÍVA": deff_data
+        "DEFENZIVA": deff_data
     }
 
     # Using category values from the dataset
@@ -174,12 +174,22 @@ data = load_data()
 player_list = pd.unique(data[['Jméno']].values.ravel())
 
 
+# Vytvoření filtru 
+tymy = ['Všechny kluby'] + data['Nazev tymu'].unique().tolist()
+
+# Vytvoření filtru pro kluby
+vybrane_kluby = st.multiselect('', tymy, default='Všechny kluby')
+
+# Kontrola, zda byla vybrána možnost 'Všechny kluby'
+if 'Všechny kluby' in vybrane_kluby:
+    filtrovana_data = data
+else:
+    filtrovana_data = data[data['Nazev tymu'].isin(vybrane_kluby)]
 
 
-# Vytvoření selectboxu
+player_list = filtrovana_data['Jméno'].unique()
 selected_player = st.selectbox("", player_list, index=0)
-
-Hrac = data[data['Jméno'] == selected_player].iloc[0]
+Hrac = filtrovana_data[filtrovana_data['Jméno'] == selected_player].iloc[0]
 
 Tym = Hrac['Nazev tymu']
 Logo = Hrac['Tym']
@@ -194,7 +204,7 @@ if stats_data is not None:
     st.write()
     st.write()
 
-original_width, original_height = 650, 830
+original_width, original_height = 650, 840
 scale_factor = 10  # Faktor, kterým zvětšíme obrázek
 width, height = original_width * scale_factor, original_height * scale_factor
 
