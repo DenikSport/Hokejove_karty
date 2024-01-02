@@ -171,24 +171,25 @@ def extract_goalie_stats(data, player_name):
 data = load_data() 
 #st.write(data)
 
-player_list = pd.unique(data[['Jméno']].values.ravel())
 
+kluby = ['Všechny kluby'] + list(data['Nazev tymu'].values.ravel())
 
-# Vytvoření filtru 
-tymy = ['Všechny kluby'] + data['Nazev tymu'].unique().tolist()
+# Vytvoření selectboxu pro kluby
+vybrany_klub = st.selectbox('', kluby)
 
-# Vytvoření filtru pro kluby
-vybrane_kluby = st.multiselect('', tymy, default='Všechny kluby')
-
-# Kontrola, zda byla vybrána možnost 'Všechny kluby'
-if 'Všechny kluby' in vybrane_kluby:
+# Filtrování dat podle vybraného klubu
+if vybrany_klub == 'Všechny kluby':
     filtrovana_data = data
 else:
-    filtrovana_data = data[data['Nazev tymu'].isin(vybrane_kluby)]
+    filtrovana_data = data[data['Nazev tymu'] == vybrany_klub]
 
+# Vytvoření seznamu hráčů na základě filtrovaných dat
+player_list = pd.unique(data[['Jméno']].values.ravel())
 
-player_list = filtrovana_data['Jméno'].unique()
-selected_player = st.selectbox("", player_list, index=0)
+# Vytvoření selectboxu pro hráče
+selected_player = st.selectbox("Vyberte hráče:", player_list)
+
+# Získání dat pro vybraného hráče
 Hrac = filtrovana_data[filtrovana_data['Jméno'] == selected_player].iloc[0]
 
 Tym = Hrac['Nazev tymu']
