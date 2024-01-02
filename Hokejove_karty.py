@@ -10,19 +10,6 @@ import streamlit.components.v1 as components
 
 fonts_directory = '/mount/src/hokejove_karty/Fonts'
 
-css = """
-     <style>
-     .nadpis {
-         color: #f63366;  # Můžete změnit barvu podle potřeby
-     }
-     </style>
-     """
-
-# Použití HTML a CSS pro vytvoření stylizovaného nadpisu
-st.markdown(css, unsafe_allow_html=True)
-st.markdown('<p class="nadpis">Vyberte hráče:</p>', unsafe_allow_html=True)
-
-
 @st.cache_data
 def load_data():
     df = pd.read_csv("https://raw.githubusercontent.com/DenikSport/Hokejove_karty/main/Database.csv", encoding='windows-1250', sep=';')
@@ -349,10 +336,10 @@ response = requests.get(logo_url)
 logo = Image.open(BytesIO(response.content))
 
 # Přizpůsobení velikosti loga, pokud je to potřeba
-logo = logo.resize((160 * scale_factor, 80 * scale_factor))
+logo = logo.resize((200 * scale_factor, 80 * scale_factor))
 
 # Určení pozice, kam chceme logo vložit
-x = 480 * scale_factor
+x = 460 * scale_factor
 y = 10 * scale_factor
 # Vložení loga do obrázku
 image.paste(logo, (x, y), logo)
