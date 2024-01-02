@@ -355,8 +355,6 @@ image.paste(logo, (x, y), logo)
 
 st.image(image)
 
-image = Image.open(image_path)
-
 # Připravte obrázek pro stažení
 buffered = io.BytesIO()
 image.save(buffered, format="PNG")
