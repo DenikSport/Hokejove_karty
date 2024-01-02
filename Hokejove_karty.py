@@ -359,14 +359,15 @@ st.image(image)
 
 components.html(
     """
-        <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" 
-        data-text="Koukněte na hokejové karty" 
-        data-url="https://hokejovekarty.streamlit.app/"
-        data-show-count="false">
-        data-size="Large" 
-        data-hashtags="Hokejove karty iSport"
-        Tweet
-        </a>
-        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button"
+    data-text="Koukněte na hokejové karty"
+    data-url="https://hokejovekarty.streamlit.app/"
+    data-show-count="false"
+    data-size="large"
+    data-hashtags="HokejoveKartyiSport"
+    data-lang="cs">
+    Sdílej
+    </a>
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     """
 )
