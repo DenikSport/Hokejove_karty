@@ -113,9 +113,9 @@ def extract_player_stats(data, player_name):
 
     # Using category values from the dataset
     category_values = {
-        "OFENZÍVA": player_data.iloc[0]['OFF'],
+        "OFENZIVA": player_data.iloc[0]['OFF'],
         "TRANZICE": player_data.iloc[0]['TRA'],
-        "DEFENZÍVA": player_data.iloc[0]['DEF']
+        "DEFENZIVA": player_data.iloc[0]['DEF']
     }
 
     return stats_data, category_values
