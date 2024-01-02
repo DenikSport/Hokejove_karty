@@ -360,14 +360,15 @@ st.image(image)
 buffered = io.BytesIO()
 image.save(buffered, format="PNG")
 img_data = buffered.getvalue()
+file_name = f"Hokejová karta - {selected_player} iSport.png"
 
-# Zobrazte obrázek v aplikaci Streamlit
-st.image(image, caption='iSport Logo')
+col1, col2, col3 = st.columns([1,2,1])
 
-# Vytvořte tlačítko pro stažení obrázku
-st.download_button(
-    label="Stáhnout logo",
-    data=img_data,
-    file_name="isport_logo.png",
-    mime="image/png"
-)
+# Vycentrování tlačítka pro stažení ve středním sloupci
+with col2:
+    st.download_button(
+        label="Stáhnout obrázek",
+        data=img_data,
+        file_name=file_name,
+        mime="image/png"
+    )
