@@ -179,9 +179,9 @@ vybrany_klub = st.selectbox('', kluby)
 
 # Filtrování dat podle vybraného klubu
 if vybrany_klub == 'Všechny kluby':
-    filtrovana_data = data
+    data = data
 else:
-    filtrovana_data = data[data['Nazev tymu'] == vybrany_klub]
+    data = data[data['Nazev tymu'] == vybrany_klub]
 
 # Vytvoření seznamu hráčů na základě filtrovaných dat
 player_list = pd.unique(data[['Jméno']].values.ravel())
@@ -190,7 +190,7 @@ player_list = pd.unique(data[['Jméno']].values.ravel())
 selected_player = st.selectbox("Vyberte hráče:", player_list)
 
 # Získání dat pro vybraného hráče
-Hrac = filtrovana_data[filtrovana_data['Jméno'] == selected_player].iloc[0]
+Hrac = data[data['Jméno'] == selected_player].iloc[0]
 
 Tym = Hrac['Nazev tymu']
 Logo = Hrac['Tym']
