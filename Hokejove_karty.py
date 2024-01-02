@@ -239,13 +239,13 @@ draw.text((140 * scale_factor, 50 * scale_factor), Tym, fill="white", font=font_
 draw.text((350 * scale_factor, 830 * scale_factor), "Poslední aktualizace: 1.1.2023", fill="white", font=font_statistic)
 
 if Pozice.lower() == 'brankář':
-    draw.text((70 * scale_factor, 90 * scale_factor), str(Sezona), fill="white", font=font_statistic)
-    draw.text((190 * scale_factor, 90 * scale_factor), " | ", fill="white", font=font_statistic)
-    draw.text((210 * scale_factor, 90 * scale_factor), str(Pozice), fill="white", font=font_statistic)
-    draw.text((300 * scale_factor, 90 * scale_factor), " | ", fill="white", font=font_statistic)
-    draw.text((320 * scale_factor, 90 * scale_factor),"Věk: "+str(Vek), fill="white", font=font_statistic)
-    draw.text((395 * scale_factor, 90 * scale_factor), " | ", fill="white", font=font_statistic)
-    draw.text((415 * scale_factor, 90 * scale_factor),"Zápasy: "+ str(Zapasy), fill="white", font=font_statistic)
+    draw.text((90 * scale_factor, 90 * scale_factor), str(Sezona), fill="white", font=font_statistic)
+    draw.text((210 * scale_factor, 90 * scale_factor), " | ", fill="white", font=font_statistic)
+    draw.text((230 * scale_factor, 90 * scale_factor), str(Pozice), fill="white", font=font_statistic)
+    draw.text((320 * scale_factor, 90 * scale_factor), " | ", fill="white", font=font_statistic)
+    draw.text((340 * scale_factor, 90 * scale_factor),"Věk: "+str(Vek), fill="white", font=font_statistic)
+    draw.text((415 * scale_factor, 90 * scale_factor), " | ", fill="white", font=font_statistic)
+    draw.text((435 * scale_factor, 90 * scale_factor),"Zápasy: "+ str(Zapasy), fill="white", font=font_statistic)
 else:
     draw.text((50 * scale_factor, 90 * scale_factor), str(Sezona), fill="white", font=font_statistic)
     draw.text((170 * scale_factor, 90 * scale_factor), " | ", fill="white", font=font_statistic)
