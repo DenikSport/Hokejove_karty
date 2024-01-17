@@ -178,6 +178,7 @@ Pozice = Hrac['Pozice']
 Vek = Hrac['Věk']
 Zapasy= Hrac['GP']
 Body = Hrac['P']
+Aktualizace = Hrac['Akt']
 
 stats_data, category_scores = extract_stats(data, selected_player)
 if stats_data is not None:
@@ -235,7 +236,7 @@ logo_padding = 160  * scale_factor
 draw.rectangle([10 * scale_factor, 10 * scale_factor, 500*scale_factor, 90 * scale_factor], fill="#5d5758")
 draw.text((140  * scale_factor, 20 * scale_factor), selected_player, fill="white", font=font_title)
 draw.text((140 * scale_factor, 50 * scale_factor), Tym, fill="white", font=font_statistic)
-draw.text((350 * scale_factor, 830 * scale_factor), "Poslední aktualizace: 1.1.2024", fill="white", font=font_statistic)
+draw.text((350 * scale_factor, 830 * scale_factor), f"Poslední aktualizace : {Aktualizace}.png", fill="white", font=font_statistic)
 
 if Pozice.lower() == 'brankář':
     draw.text((90 * scale_factor, 90 * scale_factor), str(Sezona), fill="white", font=font_statistic)
@@ -358,7 +359,7 @@ st.image(image)
 buffered = io.BytesIO()
 image.save(buffered, format="PNG")
 img_data = buffered.getvalue()
-file_name = f"Hokejová karta - {selected_player} iSport.png"
+file_name = f"Hokejová karta - {selected_player}.png"
 
 col1, col2, col3 = st.columns([1.5,1,1.5])
 
