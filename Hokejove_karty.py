@@ -230,7 +230,7 @@ value_x_position = 600 * scale_factor  # Nastavení X pozice hodnoty
 pie_outer_radius = 25 * scale_factor
 pie_inner_radius = 20 * scale_factor
 
-
+str(int(Body))
 logo_padding = 160  * scale_factor
 
 draw.rectangle([10 * scale_factor, 10 * scale_factor, 500*scale_factor, 90 * scale_factor], fill="#5d5758")
@@ -243,19 +243,19 @@ if Pozice.lower() == 'brankář':
     draw.text((210 * scale_factor, 90 * scale_factor), " | ", fill="white", font=font_statistic)
     draw.text((230 * scale_factor, 90 * scale_factor), str(Pozice), fill="white", font=font_statistic)
     draw.text((320 * scale_factor, 90 * scale_factor), " | ", fill="white", font=font_statistic)
-    draw.text((340 * scale_factor, 90 * scale_factor),"Věk: "+str(Vek), fill="white", font=font_statistic)
+    draw.text((340 * scale_factor, 90 * scale_factor),"Věk: "+str(int(Vek)), fill="white", font=font_statistic)
     draw.text((415 * scale_factor, 90 * scale_factor), " | ", fill="white", font=font_statistic)
-    draw.text((435 * scale_factor, 90 * scale_factor),"Zápasy: "+ str(Zapasy), fill="white", font=font_statistic)
+    draw.text((435 * scale_factor, 90 * scale_factor),"Zápasy: "+ str(int(Zapasy)), fill="white", font=font_statistic)
 else:
     draw.text((50 * scale_factor, 90 * scale_factor), str(Sezona), fill="white", font=font_statistic)
     draw.text((170 * scale_factor, 90 * scale_factor), " | ", fill="white", font=font_statistic)
     draw.text((190 * scale_factor, 90 * scale_factor), str(Pozice), fill="white", font=font_statistic)
     draw.text((280 * scale_factor, 90 * scale_factor), " | ", fill="white", font=font_statistic)
-    draw.text((300 * scale_factor, 90 * scale_factor),"Věk: "+str(Vek), fill="white", font=font_statistic)
+    draw.text((300 * scale_factor, 90 * scale_factor),"Věk: "+str(int(Vek)), fill="white", font=font_statistic)
     draw.text((375 * scale_factor, 90 * scale_factor), " | ", fill="white", font=font_statistic)
-    draw.text((395 * scale_factor, 90 * scale_factor),"Zápasy: "+ str(Zapasy), fill="white", font=font_statistic)
+    draw.text((395 * scale_factor, 90 * scale_factor),"Zápasy: "+ str(int(Zapasy)), fill="white", font=font_statistic)
     draw.text((505 * scale_factor, 90 * scale_factor), " | ", fill="white", font=font_statistic)
-    draw.text((525 * scale_factor, 90 * scale_factor), "Body: "+str(Body), fill="white", font=font_statistic)
+    draw.text((525 * scale_factor, 90 * scale_factor), "Body: "+str(int(Body)), fill="white", font=font_statistic)
 
 for category, stats in stats_data.items():
     start_y_offset = y_offset
