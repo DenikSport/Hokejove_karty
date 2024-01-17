@@ -1,329 +1,320 @@
-Jméno;Hokej.cz ID;Tym;Nazev tymu;Sezona;Pozice;Vìk;GP;P;OFF;OFF IMPACT;POINT PRODUCTION;SHOOTING;PASSING;PEN DRAWN;PP;TRA;SHOT CONTRI;HD CHANCES;HD ASSISTS;CARRIES;ENTRY PASSES;POSS EXITS;DEF;DEF IMPACT;DENIALS;RECOVERIES;ROLE DIFF;PEN TAKEN;PK;First;Second;Jmeno hrace
-Aaron Irving;318533;SPA;HC Sparta Praha;2023 / 2024;obránce;27;25;9;40;35;41;59;44;89;43;94;97;84;90;72;68;61;16;10;48;89;60;40;3;Aaron;Irving;Irving A.
-Adam Jánošík;11534;MBL;BK Mladá Boleslav;2023 / 2024;obránce;30;27;0;10;49;1;9;1;1;-;13;29;51;29;4;1;55;9;12;9;64;94;72;46;Adam;Jánošík;Janosik A.
-Adam Jiøíèek;10096041;PLZ;HC Škoda Plzeò;2023 / 2024;obránce;17;19;1;3;6;1;18;1;80;32;34;49;10;1;21;59;91;4;5;90;92;27;90;-;Adam;Jiøíèek;Jiricek A.
-Adam Kubík;17550;CEB;Banes Motor Èeské Budìjovice;2023 / 2024;útoèník;24;23;14;73;81;52;74;54;46;75;91;89;97;42;92;94;74;15;14;59;73;62;35;-;Adam;Kubík;Kubik A.
-Adam Musil;49651;PCE;HC Dynamo Budìjovice;2023 / 2024;útoèník;26;12;4;55;62;42;35;62;1;-;76;85;89;61;51;25;52;82;75;71;89;62;5;-;Adam;Musil;Musil A.
-Adam Najman;54066;LIB;Bílí Tygøi Liberec;2023 / 2024;útoèník;22;25;21;84;84;78;46;86;26;64;60;72;35;87;84;73;19;18;24;30;30;13;87;-;Adam;Najman;Najman A.
-Adam Polášek;10878;TRI;HC Oceláøi Tøinec;2023 / 2024;obránce;32;25;3;56;70;42;53;45;19;-;21;88;28;43;8;1;39;84;83;78;39;49;61;99;Adam;Polášek;Polasek A.
-Adam Rutar;4132550;OLO;HC Olomouc;2023 / 2024;obránce;21;21;0;8;29;1;17;1;1;-;65;51;68;32;85;85;46;26;30;5;42;8;20;-;Adam;Rutar;Rutar A.
-Adam Smith;50;TRI;HC Oceláøi Tøinec;2023 / 2024;obránce;26;24;3;55;87;37;6;56;30;-;58;84;47;72;43;60;5;62;57;92;23;42;68;63;Adam;Smith;Smith A.
-Adam Zboøil;14491;KOM;HC Kometa Brno;2023 / 2024;útoèník;27;24;10;28;22;39;26;59;71;9;60;82;76;65;57;38;28;46;43;38;49;35;32;-;Adam;Zboøil;Zboril A.
-Adrián Holešinskı;18097;PLZ;HC Škoda Plzeò;2023 / 2024;útoèník;27;26;17;67;48;75;70;79;78;44;58;37;66;49;96;27;90;47;51;26;35;13;58;-;Adrián;Holešinskı;Holesinsky A.
-Aleksi Laakso;57;PLZ;HC Škoda Plzeò;2023 / 2024;obránce;33;11;6;42;33;57;46;71;30;-;30;51;29;93;32;1;25;32;34;20;53;65;30;58;Aleksi;Laakso;Laakso A.
-Aleksi Rekonen;12;PLZ;HC Škoda Plzeò;2023 / 2024;útoèník;30;26;13;93;88;84;90;82;27;52;30;50;49;35;10;33;7;42;45;66;93;74;37;-;Aleksi;Rekonen;Rekonen A.
-Aleš Èech;10083954;MBL;BK Mladá Boleslav;2023 / 2024;obránce;19;24;3;45;67;48;13;72;95;-;56;40;81;19;68;51;57;43;44;79;17;62;8;-;Aleš;Èech;Cech A.
-Aleš Jergl;14654;MHK;Mountfield HK;2023 / 2024;útoèník;29;19;10;78;91;72;51;38;30;51;95;89;94;80;39;93;64;89;86;97;92;35;44;-;Aleš;Jergl;Jergl A.
-Alex Lintuniemi;10099575;KOM;HC Kometa Brno;2023 / 2024;obránce;27;24;7;72;59;67;69;36;49;-;88;60;89;81;61;60;73;55;55;42;52;15;49;83;Alex;Lintuniemi;Lintuniemi A.
-Alex Rašner;14657;OLO;HC Olomouc;2023 / 2024;obránce;27;21;7;84;69;91;57;98;48;-;92;71;83;48;96;92;82;11;15;35;85;33;96;-;Alex;Rašner;Rasner A.
-Alex Tamáši;51;MHK;Mountfield HK;2023 / 2024;útoèník;25;26;8;77;97;60;19;65;32;1;83;75;69;69;62;67;66;55;46;56;91;18;86;66;Alex;Tamáši;Tamasi A.
-Andrej Kudrna;7229427;LIT;HC Verva Litvínov;2023 / 2024;útoèník;32;27;9;39;19;61;42;33;28;19;64;62;91;40;88;67;12;28;35;15;70;91;65;29;Andrej;Kudrna;Kudrna A.
-Andrej Nestrašil;10330;TRI;HC Oceláøi Tøinec;2023 / 2024;útoèník;32;25;23;92;70;87;81;91;9;86;29;66;24;71;12;13;41;72;69;1;65;96;39;59;Andrej;Nestrašil;Nestrasil A.
-Antonín Melka;10433;KLA;Rytíøi Kladno;2023 / 2024;útoèník;33;25;4;22;59;13;11;26;81;-;37;31;37;2;61;77;80;55;58;36;12;15;17;26;Antonín;Melka;Melka A.
-Aron Chmielewski;41531;OLO;HC Olomouc;2023 / 2024;útoèník;31;11;3;69;86;54;32;75;66;45;73;97;53;62;43;66;75;35;40;1;77;4;54;-;Aron;Chmielewski;Chmielewski A.
-Bohumil Jank;10853;MHK;Mountfield HK;2023 / 2024;obránce;31;27;3;27;51;18;48;1;30;-;42;48;36;25;46;87;16;68;60;82;70;30;25;9;Bohumil;Jank;Jank B.
-Brant Harris;32;CEB;Banes Motor Èeské Budìjovice;2023 / 2024;útoèník;33;26;15;53;61;40;51;50;32;48;26;22;49;13;18;48;45;27;23;67;33;69;61;65;Brant;Harris;Harris B.
-Dalibor Øezníèek;11223;OLO;HC Olomouc;2023 / 2024;obránce;31;27;11;68;54;68;96;32;1;82;24;45;43;65;49;1;6;96;98;45;43;77;87;82;Dalibor;Øezníèek;Reznicek D.
-Dalimil Mikyska;18682;KVA;HC Energie Karlovy Vary;2023 / 2024;obránce;24;21;4;75;48;79;92;55;1;-;66;14;51;62;57;51;94;59;67;96;3;38;96;-;Dalimil;Mikyska;Mikyska D.
-Daniel Gazda;17303;KOM;HC Kometa Brno;2023 / 2024;obránce;26;26;17;99;99;98;99;50;26;48;47;72;87;43;30;1;36;68;65;70;47;15;89;-;Daniel;Gazda;Gazda D.
-Daniel Kurovskı;15703;TRI;HC Oceláøi Tøinec;2023 / 2024;útoèník;25;26;11;80;54;90;86;70;32;-;50;29;93;17;11;78;25;69;62;88;58;46;26;-;Daniel;Kurovskı;Kurovsky D.
-Daniel Malák;10081964;PLZ;HC Škoda Plzeò;2023 / 2024;obránce;21;20;5;96;90;88;86;82;1;-;87;89;62;14;94;94;65;70;77;87;88;66;57;-;Daniel;Malák;Malak D.
-Daniel Rákos;8700;PCE;HC Dynamo Budìjovice;2023 / 2024;útoèník;36;9;1;18;27;16;10;49;90;-;36;83;38;84;1;2;21;43;41;93;13;60;6;-;Daniel;Rákos;Rakos D.
-Daniel Voenílek;14888;TRI;HC Oceláøi Tøinec;2023 / 2024;útoèník;27;26;21;90;91;76;60;84;40;78;91;65;73;82;85;85;70;48;45;80;85;11;44;-;Daniel;Voenílek;Vozenilek D.
-David Bernad;13685;MBL;BK Mladá Boleslav;2023 / 2024;obránce;29;24;3;38;43;49;20;80;96;-;50;69;15;34;69;49;72;75;70;54;93;37;78;-;David;Bernad;Bernad D.
-David Cienciala;14107;PCE;HC Dynamo Budìjovice;2023 / 2024;útoèník;27;26;17;62;52;64;30;83;20;72;75;76;58;88;44;35;71;41;33;33;94;57;58;-;David;Cienciala;Cienciala D.
-David Dvoøáèek;12539;MBL;BK Mladá Boleslav;2023 / 2024;útoèník;31;23;2;6;12;8;28;18;7;-;5;3;18;14;40;4;17;14;12;82;29;72;89;90;David;Dvoøáèek;Dvoracek D.
-Dávid Gríger;41581;KVA;HC Energie Karlovy Vary;2023 / 2024;útoèník;29;26;24;98;96;97;96;89;25;26;84;55;89;81;76;70;46;17;17;58;51;12;20;-;Dávid;Gríger;Griger D.
-David Kaše;15634;LIT;HC Verva Litvínov;2023 / 2024;útoèník;26;25;23;92;93;81;52;84;93;57;90;96;78;90;82;37;68;76;82;81;66;59;13;-;David;Kaše;Kase D.
-David Kofroò;18961;KVA;HC Energie Karlovy Vary;2023 / 2024;útoèník;24;18;1;8;23;9;40;1;45;-;28;22;47;1;42;16;98;84;86;74;8;37;95;-;David;Kofroò;Kofron D.
-David Kvasnièka;19921;PLZ;HC Škoda Plzeò;2023 / 2024;obránce;24;25;3;58;74;43;60;48;81;-;43;35;30;34;91;71;60;55;58;10;31;1;47;10;David;Kvasnièka;Kvasnicka D.
-David Musil;11411;PCE;HC Dynamo Budìjovice;2023 / 2024;obránce;30;23;6;68;31;69;79;74;18;-;23;33;21;69;6;41;3;95;92;62;72;79;55;13;David;Musil;Musil D.
-David Nìmeèek;14256;SPA;HC Sparta Praha;2023 / 2024;obránce;28;27;2;20;26;23;52;16;46;-;43;42;67;30;70;43;74;24;17;11;5;81;34;31;David;Nìmeèek;Nemecek D.
-David Škùrek;12848;OLO;HC Olomouc;2023 / 2024;obránce;30;9;0;34;96;1;37;1;51;-;17;63;16;22;16;79;11;50;54;53;24;82;22;-;David;Škùrek;Skurek D.
-David Šastnı;17629;MHK;Mountfield HK;2023 / 2024;útoèník;30;26;12;63;30;74;65;84;86;25;88;92;44;62;91;80;84;45;39;82;75;28;95;-;David;Šastnı;Stastny D.
-David Vitouch;4135321;SPA;HC Sparta Praha;2023 / 2024;útoèník;21;14;5;69;25;90;88;66;98;-;46;19;58;57;23;63;50;76;73;51;17;44;2;-;David;Vitouch;Vitouch D.
-Denis Kusı;17152;KLA;Rytíøi Kladno;2023 / 2024;útoèník;26;17;14;96;90;95;93;93;8;28;87;86;87;50;75;50;93;97;98;54;81;1;51;-;Denis;Kusı;Kusy D.
-Denis Zeman;51841;LIT;HC Verva Litvínov;2023 / 2024;obránce;22;26;2;37;77;20;16;27;86;-;75;30;46;48;88;72;51;61;66;98;58;6;6;73;Denis;Zeman;Zeman D.
-Deven Sideroff;48;KLA;Rytíøi Kladno;2023 / 2024;útoèník;26;22;7;29;33;37;63;13;61;16;30;41;33;27;63;41;13;94;95;40;74;36;58;-;Deven;Sideroff;Sideroff D.
-Dominik Lakatoš;15669;VIT;HC Vítkovice RIDERA;2023 / 2024;útoèník;26;24;17;57;76;45;87;1;67;67;71;66;34;55;70;84;87;25;29;32;53;55;26;38;Dominik;Lakatoš;Lakatos D.
-Dominik Simon;13;CEB;Banes Motor Èeské Budìjovice;2023 / 2024;útoèník;29;24;10;45;38;46;35;66;55;30;50;58;31;72;20;31;78;51;49;17;97;49;71;-;Dominik;Simon;Simon D.
-Eduards Tralmaks;52;KLA;Rytíøi Kladno;2023 / 2024;útoèník;26;25;18;75;73;66;92;42;76;97;39;61;66;29;15;23;39;89;91;32;82;57;9;-;Eduards;Tralmaks;Tralmaks E.
-Evan Jasper;35;MHK;Mountfield HK;2023 / 2024;útoèník;31;27;13;47;29;47;72;34;50;64;3;4;32;5;2;39;14;11;6;33;21;17;57;-;Evan;Jasper;Jasper E.
-Filip Chlapík;15568;SPA;HC Sparta Praha;2023 / 2024;útoèník;26;23;21;86;57;94;75;91;69;41;93;96;66;97;96;95;84;90;89;35;13;71;26;-;Filip;Chlapík;Chlapik F.
-Filip Jansa;10079000;PLZ;HC Škoda Plzeò;2023 / 2024;útoèník;21;26;4;41;46;38;72;14;15;-;9;25;12;43;14;17;17;65;67;19;72;24;80;71;Filip;Jansa;Jansa F.
-Filip Koffer;1690717;KVA;HC Energie Karlovy Vary;2023 / 2024;útoèník;22;26;5;27;9;48;82;15;18;-;9;9;13;18;28;22;6;74;76;95;64;88;21;-;Filip;Koffer;Koffer F.
-Filip Pavlík;11583;MBL;BK Mladá Boleslav;2023 / 2024;obránce;31;25;4;6;19;1;26;1;64;-;67;83;73;92;43;1;14;89;88;38;82;83;65;-;Filip;Pavlík;Pavlik F.
-Filip Pøikryl;1055796;CEB;Banes Motor Èeské Budìjovice;2023 / 2024;útoèník;22;26;10;76;69;71;56;82;12;11;61;54;22;51;40;65;96;88;84;96;69;33;62;-;Filip;Pøikryl;Prikryl F.
-Filip Pyrochta;14636;MBL;BK Mladá Boleslav;2023 / 2024;obránce;27;27;13;33;55;29;49;38;23;88;89;70;44;90;98;74;96;87;90;12;73;17;79;-;Filip;Pyrochta;Pyrochta F.
-Filip Suchı;17142;MBL;BK Mladá Boleslav;2023 / 2024;útoèník;25;23;3;15;58;6;2;29;53;-;14;10;59;29;10;18;8;84;84;77;30;22;91;83;Filip;Suchı;Suchy F.
-Giorgio Estephan;10099336;MHK;Mountfield HK;2023 / 2024;útoèník;26;15;10;60;38;71;89;20;64;45;35;35;51;14;5;61;71;95;92;91;12;11;48;-;Giorgio;Estephan;Estephan G.
-Chris Martenet;41;KLA;Rytíøi Kladno;2023 / 2024;obránce;26;24;1;28;62;15;32;30;70;-;4;5;17;28;5;1;18;80;86;37;21;30;3;22;Chris;Martenet;Martenet C.
-Christophe Lalancette;318379;MHK;Mountfield HK;2023 / 2024;útoèník;29;27;14;23;10;37;38;58;47;34;59;50;42;66;45;76;38;80;79;88;54;26;87;-;Christophe;Lalancette;Lalancette C.
-Ian McCoshen;42;LIB;Bílí Tygøi Liberec;2023 / 2024;obránce;28;27;9;55;17;76;51;91;54;18;74;22;74;51;76;55;90;76;78;43;11;45;39;56;Ian;McCoshen;McCoshen I.
-Iikka Kangasniemi;36;KVA;HC Energie Karlovy Vary;2023 / 2024;útoèník;28;19;12;81;92;76;14;81;89;2;66;53;45;88;74;69;33;5;10;41;29;2;91;-;Iikka;Kangasniemi;Kangasniemi I.
-Jáchym Kondelík;56;CEB;Banes Motor Èeské Budìjovice;2023 / 2024;útoèník;23;16;13;79;64;80;67;92;88;93;25;23;25;48;37;18;44;24;23;23;76;70;78;14;Jáchym;Kondelík;Kondelik J.
-Jake Dotchin;10082784;KLA;Rytíøi Kladno;2023 / 2024;obránce;29;23;11;67;65;71;3;96;84;10;38;78;22;61;33;1;55;64;71;74;73;93;7;17;Jake;Dotchin;Dotchin J.
-Jakub Babka;12028;KLA;Rytíøi Kladno;2023 / 2024;obránce;31;22;1;1;5;1;15;1;75;-;62;19;92;1;93;99;27;1;1;3;67;11;85;-;Jakub;Babka;Babka J.
-Jakub Dvoøák;10086113;LIB;Bílí Tygøi Liberec;2023 / 2024;obránce;18;19;3;79;61;79;94;23;91;-;39;2;68;41;66;67;10;15;21;99;4;52;1;-;Jakub;Dvoøák;Dvorak J.
-Jakub Flek;17397;KOM;HC Kometa Brno;2023 / 2024;útoèník;30;25;19;85;83;88;33;93;30;70;99;95;97;94;97;99;90;28;31;31;70;90;94;42;Jakub;Flek;Flek J.
-Jakub Jeøábek;10842;TRI;HC Oceláøi Tøinec;2023 / 2024;obránce;32;26;12;31;36;38;4;58;42;54;53;62;40;86;44;39;37;53;47;18;64;44;84;97;Jakub;Jeøábek;Jerabek J.
-Jakub Klepiš;2219;KLA;Rytíøi Kladno;2023 / 2024;útoèník;39;25;19;77;81;69;30;96;35;63;40;67;8;89;46;43;21;74;78;47;25;18;37;-;Jakub;Klepiš;Klepis J.
-Jakub Koneènı;9422597;SPA;HC Sparta Praha;2023 / 2024;útoèník;21;25;6;42;32;41;20;78;81;-;63;53;48;69;89;64;40;10;6;21;54;32;78;9;Jakub;Koneènı;Konecny J.
-Jakub Kos;10082389;KOM;HC Kometa Brno;2023 / 2024;útoèník;20;11;4;67;41;81;56;75;55;-;40;38;63;51;20;70;18;38;40;1;61;96;76;-;Jakub;Kos;Kos J.
-Jakub Kotala;14050;VIT;HC Vítkovice RIDERA;2023 / 2024;útoèník;27;16;5;36;39;36;44;57;12;-;48;60;43;33;62;72;22;21;25;30;69;42;95;-;Jakub;Kotala;Kotala J.
-Jakub Krejèík;11158;SPA;HC Sparta Praha;2023 / 2024;obránce;32;26;6;65;64;55;45;70;47;1;76;81;63;79;87;1;97;82;79;21;10;46;38;-;Jakub;Krejèík;Krejcik J.
-Jakub Lev;10988;PLZ;HC Škoda Plzeò;2023 / 2024;útoèník;32;26;14;50;36;53;75;29;77;61;17;46;26;35;39;11;35;20;20;1;57;51;13;27;Jakub;Lev;Lev J.
-Jakub Navrátil;31781;OLO;HC Olomouc;2023 / 2024;útoèník;24;27;19;86;70;89;95;74;40;55;46;57;28;37;72;31;45;7;9;64;79;88;66;-;Jakub;Navrátil;Navratil J.
-Jakub Orsava;12797;OLO;HC Olomouc;2023 / 2024;útoèník;32;25;11;50;69;39;28;44;28;33;75;69;71;53;80;60;30;31;37;56;82;42;22;14;Jakub;Orsava;Orsava J.
-Jakub Pour;21081;PLZ;HC Škoda Plzeò;2023 / 2024;útoèník;24;24;6;35;74;14;4;62;64;36;86;78;75;47;80;87;89;75;81;61;51;60;21;-;Jakub;Pour;Pour J.
-Jakub Rychlovskı;53011;LIB;Bílí Tygøi Liberec;2023 / 2024;útoèník;22;28;22;89;90;74;72;80;59;59;86;70;83;87;97;74;42;7;7;42;24;40;53;95;Jakub;Rychlovskı;Rychlovsky J.
-Jakub Sirota;49;OLO;HC Olomouc;2023 / 2024;obránce;24;27;9;90;92;72;81;73;57;12;93;64;88;87;58;83;84;77;82;33;92;47;42;12;Jakub;Sirota;Sirota J.
-Jakub Strnad;11179;KLA;Rytíøi Kladno;2023 / 2024;útoèník;31;21;1;3;16;1;16;1;45;-;19;29;20;37;11;25;79;2;5;23;31;77;8;44;Jakub;Strnad;Strnad J.
-Jakub Šiler;10082615;PLZ;HC Škoda Plzeò;2023 / 2024;útoèník;19;11;2;47;20;73;93;1;1;-;6;7;35;4;5;12;80;86;87;1;47;67;11;-;Jakub;Šiler;Siler J.
-Jakub Valskı;8918;CEB;Banes Motor Èeské Budìjovice;2023 / 2024;útoèník;34;20;7;74;49;86;91;39;39;-;72;49;84;59;28;82;26;96;91;75;75;80;7;-;Jakub;Valskı;Valsky J.
-Jan Bambula;36851;OLO;HC Olomouc;2023 / 2024;útoèník;23;23;6;15;28;20;55;11;97;-;55;59;69;23;34;33;76;66;70;92;84;86;81;78;Jan;Bambula;Bambula J.
-Jan Buchtele;10883;SPA;HC Sparta Praha;2023 / 2024;útoèník;33;27;8;51;42;44;85;10;50;-;15;27;38;28;59;29;1;64;61;57;3;41;22;54;Jan;Buchtele;Buchtele J.
-Jan Eberle;9498;MHK;Mountfield HK;2023 / 2024;útoèník;34;19;3;33;51;30;47;15;40;-;41;51;61;18;29;79;61;72;65;22;19;76;75;-;Jan;Eberle;Eberle J.
-Jan Hladonik;18968;KVA;HC Energie Karlovy Vary;2023 / 2024;útoèník;24;25;12;54;71;38;20;79;69;91;27;17;55;8;64;44;67;67;70;14;7;48;39;-;Jan;Hladonik;Hladonik J.
-Jan Káòa;12325;OLO;HC Olomouc;2023 / 2024;útoèník;32;22;7;43;71;24;15;62;22;79;73;88;8;84;90;47;55;56;62;60;99;25;71;-;Jan;Káòa;Kana J.
-Jan Knotek;10144;OLO;HC Olomouc;2023 / 2024;útoèník;35;27;8;13;47;12;5;25;56;49;32;26;21;24;57;40;85;50;57;13;67;73;16;74;Jan;Knotek;Knotek J.
-Jan Koláø;6601;PCE;HC Dynamo Budìjovice;2023 / 2024;obránce;37;24;4;51;28;59;67;64;68;-;20;84;14;60;6;1;50;19;14;14;79;21;61;-;Jan;Koláø;Kolar J.
-Jan Košálek;14506;PCE;HC Dynamo Budìjovice;2023 / 2024;obránce;28;19;11;73;55;63;64;76;60;52;95;98;64;90;80;84;64;20;16;68;70;3;55;-;Jan;Košálek;Kostalek J.
-Jan Mandát;14310;PCE;HC Dynamo Budìjovice;2023 / 2024;útoèník;27;25;4;7;15;4;13;16;50;-;43;65;40;39;37;38;63;86;83;20;84;17;28;39;Jan;Mandát;Mandat J.
-Jan Ordoš;14965;CEB;Banes Motor Èeské Budìjovice;2023 / 2024;útoèník;27;26;13;64;60;66;79;24;73;19;18;27;65;33;15;21;28;34;35;12;11;73;57;35;Jan;Ordoš;Ordos J.
-Jan Piskáèek;9521;PLZ;HC Škoda Plzeò;2023 / 2024;obránce;33;26;8;81;50;87;80;92;19;-;46;36;40;58;25;79;43;21;19;52;24;92;4;87;Jan;Piskáèek;Piskacek J.
-Jan Schleiss;13640;PLZ;HC Škoda Plzeò;2023 / 2024;útoèník;28;26;9;12;27;18;9;37;95;56;48;47;36;28;76;49;63;23;27;29;77;70;33;-;Jan;Schleiss;Schleiss J.
-Jan Stránskı;9676;MBL;BK Mladá Boleslav;2023 / 2024;útoèník;33;23;0;1;11;1;8;1;44;-;4;17;11;2;30;6;20;9;7;42;58;56;24;68;Jan;Stránskı;Stransky J.
-Jan Šèotka;14190;KOM;HC Kometa Brno;2023 / 2024;obránce;27;23;12;43;10;62;58;78;14;84;79;57;58;48;55;60;79;60;56;65;96;58;72;51;Jan;Šèotka;Scotka J.
-Jan Šír;36171;LIB;Bílí Tygøi Liberec;2023 / 2024;útoèník;23;27;4;12;1;30;52;40;71;-;15;4;13;48;26;64;27;8;8;22;23;93;4;12;Jan;Šír;Sir J.
-Jan Štencel;13684;CEB;Banes Motor Èeské Budìjovice;2023 / 2024;obránce;28;26;11;62;95;30;42;55;87;74;68;61;31;82;11;55;81;83;80;76;47;73;75;1;Jan;Štencel;Stencel J.
-Jan Štibingr;38461;MBL;BK Mladá Boleslav;2023 / 2024;obránce;23;11;1;35;15;66;87;1;1;-;8;13;26;1;7;1;87;40;45;31;45;32;12;-;Jan;Štibingr;Stibingr J.
-Jan Švrèek;5625;OLO;HC Olomouc;2023 / 2024;obránce;37;25;1;14;41;13;23;19;88;-;7;56;1;42;19;1;6;7;7;17;58;68;41;60;Jan;Švrèek;Svrcek J.
-Jan Závora;10081997;MBL;BK Mladá Boleslav;2023 / 2024;útoèník;21;18;1;5;9;7;47;1;36;-;1;2;3;4;24;1;13;40;42;1;50;42;82;-;Jan;Závora;Zavora J.
-Jani Lajunen;40;SPA;HC Sparta Praha;2023 / 2024;útoèník;33;27;12;46;55;41;17;42;37;13;77;63;53;94;77;29;77;87;87;37;86;26;25;71;Jani;Lajunen;Lajunen J.
-Janis Jaks;10083186;LIT;HC Verva Litvínov;2023 / 2024;obránce;28;20;10;78;83;56;68;52;57;60;60;64;57;80;71;1;32;18;27;66;57;5;43;-;Janis;Jaks;Jaks J.
-Jaromír Pérez;10095907;LIB;Bílí Tygøi Liberec;2023 / 2024;útoèník;18;28;7;46;24;58;60;44;88;-;47;45;44;82;67;40;9;57;57;37;35;39;18;-;Jaromír;Pérez;Perez Lisa J.
-Jaromír Pytlík;50181;KLA;Rytíøi Kladno;2023 / 2024;útoèník;22;25;10;61;63;51;71;53;50;53;23;20;30;14;41;31;38;77;77;99;37;77;44;47;Jaromír;Pytlík;Pytlik J.
-Jaroslav Vlach;11825;LIB;Bílí Tygøi Liberec;2023 / 2024;útoèník;31;28;13;68;31;82;97;42;36;46;18;48;38;34;21;6;8;46;48;79;42;89;6;98;Jaroslav;Vlach;Vlach J.
-Jayce Hawryluk;33;LIB;Bílí Tygøi Liberec;2023 / 2024;útoèník;27;16;7;74;79;63;24;94;88;22;82;56;51;97;64;58;98;71;74;72;21;66;38;-;Jayce;Hawryluk;Hawryluk J.
-Jérémie Ouellet-Blain;317639;MHK;Mountfield HK;2023 / 2024;obránce;31;26;21;70;40;68;79;63;39;96;55;39;76;55;54;41;43;56;46;58;24;86;59;24;Jérémie;Ouellet-Blain;Ouellet-Blain J.
-Jindøich Abdul;14203;LIT;HC Verva Litvínov;2023 / 2024;útoèník;27;27;21;97;94;91;89;95;53;53;97;92;82;98;95;94;88;16;21;27;33;23;77;-;Jindøich;Abdul;Abdul J.
-Jiøí Èernoch;15234;KVA;HC Energie Karlovy Vary;2023 / 2024;útoèník;27;26;10;35;58;28;31;37;62;69;20;40;23;78;22;7;29;13;12;1;22;57;17;99;Jiøí;Èernoch;Cernoch J.
-Jiøí Ondrušek;5430;OLO;HC Olomouc;2023 / 2024;obránce;37;27;8;17;39;24;6;29;51;34;49;84;39;51;59;1;69;31;37;30;98;99;45;79;Jiøí;Ondrušek;Ondrusek J.
-Jiøí Ticháèek;10081972;KLA;Rytíøi Kladno;2023 / 2024;obránce;20;25;22;93;92;90;97;37;66;99;92;92;91;24;90;91;80;90;94;88;68;48;50;26;Jiøí;Ticháèek;Tichacek J.
-Joachim Rohdin;58;MBL;BK Mladá Boleslav;2023 / 2024;útoèník;31;14;2;32;78;17;12;17;1;-;37;38;88;26;70;3;59;62;64;1;11;8;47;-;Joachim;Rohdin;Rohdin J.
-Jonáš Peterek;36801;VIT;HC Vítkovice RIDERA;2023 / 2024;útoèník;-;8;2;2;11;1;37;1;43;-;1;1;2;5;25;2;42;56;59;75;1;97;95;-;Jonáš;Peterek;Peterek J.
-Joona Huttula;5;KVA;HC Energie Karlovy Vary;2023 / 2024;obránce;26;25;2;47;82;27;55;25;83;-;52;10;65;27;42;69;78;63;74;63;50;36;76;-;Joona;Huttula;Huttula J.
-Jordann Perret;10079644;MHK;Mountfield HK;2023 / 2024;útoèník;29;25;10;14;15;24;17;51;40;36;72;44;71;47;61;83;82;63;63;35;44;9;32;22;Jordann;Perret;Perret J.
-Josef Koláèek;10079493;CEB;Banes Motor Èeské Budìjovice;2023 / 2024;útoèník;21;12;2;49;44;43;62;39;22;-;24;7;1;43;9;35;92;69;66;84;54;10;71;-;Josef;Koláèek;Kolacek J.
-Josef Krejsa;10079384;VIT;HC Vítkovice RIDERA;2023 / 2024;útoèník;20;16;1;9;13;12;18;40;22;-;2;1;4;11;4;1;60;10;11;49;44;28;71;-;Josef;Krejsa;Krejsa J.
-Josh Kestner;38;SPA;HC Sparta Praha;2023 / 2024;útoèník;29;26;17;65;77;49;33;70;95;88;96;98;98;93;91;96;73;35;28;14;23;10;61;-;Josh;Kestner;Kestner J.
-Juhamatti Aaltonen;28;MBL;BK Mladá Boleslav;2023 / 2024;útoèník;38;25;16;49;73;31;27;55;5;98;31;55;14;65;35;35;18;26;28;79;28;35;70;-;Juhamatti;Aaltonen;Aaltonen J.
-Juraj Mikuš;47341;VIT;HC Vítkovice RIDERA;2023 / 2024;obránce;34;25;8;61;78;64;7;60;45;-;37;40;31;44;52;41;56;97;97;25;76;43;70;61;Juraj;Mikuš;Mikus J.
-Karel Plášek;31831;OLO;HC Olomouc;2023 / 2024;útoèník;23;11;5;24;30;32;44;26;44;73;16;24;16;8;9;11;94;6;8;93;43;85;80;-;Karel;Plášek;Plasek K.
-Kelly Klíma;10097779;LIB;Bílí Tygøi Liberec;2023 / 2024;útoèník;26;27;8;34;23;49;59;27;67;38;79;31;64;73;92;80;81;78;80;69;5;50;9;89;Kelly;Klíma;Klima Kl.
-Kevin Czuczman;31;LIT;HC Verva Litvínov;2023 / 2024;obránce;32;27;4;60;79;45;10;77;85;-;48;10;79;38;63;60;67;94;96;29;9;74;32;72;Kevin;Czuczman;Czuczman K.
-Kristaps Zile;5607414;LIT;HC Verva Litvínov;2023 / 2024;obránce;25;27;5;30;9;44;47;54;66;15;9;12;31;13;29;55;2;51;55;26;24;98;35;18;Kristaps;Zile;Zile K.
-Kristián Pospíšil;24;KOM;HC Kometa Brno;2023 / 2024;útoèník;27;22;13;82;93;69;64;60;44;62;98;94;90;91;95;95;84;51;47;49;81;14;1;-;Kristián;Pospíšil;Pospisil K.
-Kryštof Hrabík;18923;PLZ;HC Škoda Plzeò;2023 / 2024;útoèník;24;25;3;4;8;5;14;19;1;41;21;11;4;51;50;37;47;6;5;24;40;29;29;84;Kryštof;Hrabík;Hrabik K.
-Liam Kirk;39;LIT;HC Verva Litvínov;2023 / 2024;útoèník;23;27;15;70;88;54;44;35;80;65;92;84;92;76;78;76;75;19;24;44;83;24;42;-;Liam;Kirk;Kirk L.
-Libor Hudáèek;5370635;TRI;HC Oceláøi Tøinec;2023 / 2024;útoèník;32;18;15;98;98;99;95;97;76;-;77;97;86;86;29;75;3;38;38;21;93;59;74;-;Libor;Hudáèek;Hudacek L.
-Lukas Zetterberg;55;KVA;HC Energie Karlovy Vary;2023 / 2024;útoèník;26;24;9;40;41;33;40;72;16;58;20;25;17;74;16;46;6;91;97;1;56;82;90;-;Lukas;Zetterberg;Zetterberg L.
-Lukáš Andìl;15078;OLO;HC Olomouc;2023 / 2024;útoèník;25;19;6;37;13;62;10;98;53;-;13;28;7;30;25;41;40;26;27;48;9;95;68;-;Lukáš;Andìl;Andel L.
-Lukáš Cingel;19881;KOM;HC Kometa Brno;2023 / 2024;útoèník;31;26;16;66;78;44;57;69;52;87;33;9;27;49;26;62;55;63;63;74;20;30;64;4;Lukáš;Cingel;Cingel L.
-Lukáš Derner;6949;LIB;Bílí Tygøi Liberec;2023 / 2024;obránce;39;26;2;16;30;17;28;20;99;-;15;7;70;10;53;1;38;45;49;56;30;55;15;28;Lukáš;Derner;Derner L.
-Lukáš Kaòák;15225;KOM;HC Kometa Brno;2023 / 2024;obránce;26;16;3;57;30;74;78;39;41;-;63;76;12;99;30;96;30;38;43;44;15;29;96;-;Lukáš;Kaòák;Kanak L.
-Lukáš Klimek;8483;OLO;HC Olomouc;2023 / 2024;útoèník;36;22;3;19;37;18;20;35;46;-;29;40;57;20;46;45;7;98;99;40;47;55;79;62;Lukáš;Klimek;Klimek L.
-Lukáš Kováø;11621;VIT;HC Vítkovice RIDERA;2023 / 2024;obránce;31;18;1;15;18;22;35;43;60;-;14;17;9;33;10;55;30;6;6;61;68;43;70;95;Lukáš;Kováø;Kovar L.
-Lukáš Kucsera;11200;OLO;HC Olomouc;2023 / 2024;útoèník;32;17;8;71;39;89;71;72;67;-;22;51;34;67;13;12;14;59;67;1;56;29;95;-;Lukáš;Kucsera;Kucsera L.
-Lukáš Mareš;20921;OLO;HC Olomouc;2023 / 2024;obránce;24;10;1;21;34;30;36;34;1;-;3;7;59;1;1;1;4;3;6;22;8;18;69;-;Lukáš;Mareš;Mares L.
-Lukáš Nahodil;9949;OLO;HC Olomouc;2023 / 2024;útoèník;35;23;6;56;68;51;29;54;13;27;54;74;76;35;27;24;53;65;71;76;89;2;15;-;Lukáš;Nahodil;Nahodil L.
-Lukáš Pech;1099;CEB;Banes Motor Èeské Budìjovice;2023 / 2024;útoèník;39;13;3;32;35;43;6;69;98;3;42;39;11;99;16;53;33;15;15;73;26;23;84;-;Lukáš;Pech;Pech L.
-Lukáš Pulpán;7136;KVA;HC Energie Karlovy Vary;2023 / 2024;obránce;38;16;1;12;22;19;28;21;92;-;27;25;47;78;48;1;33;8;8;2;42;40;43;68;Lukáš;Pulpán;Pulpan L.
-Lukáš Radil;10440;PCE;HC Dynamo Budìjovice;2023 / 2024;útoèník;33;27;25;90;62;97;99;52;10;76;89;80;82;77;98;97;23;25;18;77;7;43;77;-;Lukáš;Radil;Radil L.
-Lukáš Sedlák;12978;PCE;HC Dynamo Budìjovice;2023 / 2024;útoèník;30;25;20;91;87;86;50;87;99;84;98;87;87;86;79;92;91;85;78;95;60;41;22;-;Lukáš;Sedlák;Sedlak L.
-Lukáš Válek;14465;LIT;HC Verva Litvínov;2023 / 2024;útoèník;29;23;5;58;45;59;67;38;39;15;51;35;45;50;56;56;34;1;1;94;35;19;89;-;Lukáš;Válek;Valek L.
-Lukáš Vopelka;14879;CEB;Banes Motor Èeské Budìjovice;2023 / 2024;útoèník;27;19;2;11;21;21;29;21;84;-;45;77;40;58;21;16;31;95;93;61;95;81;10;-;Lukáš;Vopelka;Vopelka L.
-Marcel Barinka;38171;VIT;HC Vítkovice RIDERA;2023 / 2024;útoèník;22;8;8;91;95;92;98;1;18;-;43;45;73;58;23;14;43;23;25;46;54;65;95;-;Marcel;Barinka;Barinka M.
-Marek Baránek;13911;LIT;HC Verva Litvínov;2023 / 2024;obránce;28;24;11;53;43;50;66;51;18;57;28;58;27;68;35;1;29;2;3;93;37;54;30;-;Marek;Baránek;Baranek M.
-Marek Ïaloga;18160;KOM;HC Kometa Brno;2023 / 2024;obránce;34;25;8;88;97;80;2;97;68;-;97;32;96;64;99;98;99;25;25;94;19;26;87;5;Marek;Ïaloga;Daloga M.
-Marek Kalus;12936;VIT;HC Vítkovice RIDERA;2023 / 2024;útoèník;30;23;12;30;80;11;5;25;60;50;67;66;52;46;49;58;73;44;48;72;84;94;34;23;Marek;Kalus;Kalus M.
-Marek Zachar;17902;MHK;Mountfield HK;2023 / 2024;útoèník;25;17;3;14;24;19;38;20;90;-;16;30;39;16;41;66;2;19;13;24;22;93;95;77;Marek;Zachar;Zachar M.
-Marian Adámek;15156;TRI;HC Oceláøi Tøinec;2023 / 2024;obránce;26;26;7;64;7;85;81;88;89;-;45;79;71;69;25;1;12;79;75;27;94;64;50;-;Marian;Adámek;Adamek M.
-Mario Grman;10083232;VIT;HC Vítkovice RIDERA;2023 / 2024;obránce;26;23;2;30;57;21;22;43;70;-;33;46;6;85;75;1;28;93;93;79;47;6;13;36;Mario;Grman;Grman M.
-Marko Daòo;16023;TRI;HC Oceláøi Tøinec;2023 / 2024;útoèník;28;18;19;99;99;98;94;95;73;84;95;86;95;68;73;98;51;70;66;87;97;3;31;-;Marko;Daòo;Dano M.
-Martin Beránek;39381;CEB;Banes Motor Èeské Budìjovice;2023 / 2024;útoèník;22;24;7;26;43;27;22;28;58;-;44;32;59;21;53;57;77;48;43;15;52;92;38;43;Martin;Beránek;Beranek M.
-Martin Buèko;10082096;PCE;HC Dynamo Budìjovice;2023 / 2024;obránce;23;16;6;87;72;94;44;94;1;-;40;99;38;63;27;1;22;34;28;79;68;50;82;-;Martin;Buèko;Bucko M.
-Martin Faško-Rudáš;10079542;LIB;Bílí Tygøi Liberec;2023 / 2024;útoèník;23;24;10;71;80;60;48;48;70;43;53;14;63;38;90;61;62;4;2;50;13;8;53;-;Martin;Faško-Rudáš;Fasko-Rudas M.
-Martin Hanzl;13089;CEB;Banes Motor Èeské Budìjovice;2023 / 2024;útoèník;29;17;3;39;67;22;38;22;9;22;70;63;63;77;38;42;72;27;31;27;90;47;69;-;Martin;Hanzl;Hanzl M.
-Martin Havelka;17112;LIT;HC Verva Litvínov;2023 / 2024;útoèník;25;26;2;7;1;15;12;46;94;-;2;2;2;27;1;4;26;91;94;58;63;7;14;96;Martin;Havelka;Havelka M.
-Martin Kaut;21531;PCE;HC Dynamo Budìjovice;2023 / 2024;útoèník;23;19;13;81;55;87;83;77;30;89;78;99;94;23;94;28;76;64;58;53;62;6;28;80;Martin;Kaut;Kaut M.
-Martin Kohout;14193;KOM;HC Kometa Brno;2023 / 2024;útoèník;28;21;3;30;56;23;9;33;77;-;96;90;81;81;86;96;37;37;34;90;95;38;76;-;Martin;Kohout;Kohout M.
-Martin Marinèin;16247;TRI;HC Oceláøi Tøinec;2023 / 2024;obránce;31;26;10;83;93;70;1;92;13;40;61;90;69;88;13;1;24;41;38;60;77;4;65;39;Martin;Marinèin;Marincin M.
-Martin Plánìk;10211;MHK;Mountfield HK;2023 / 2024;obránce;32;26;5;77;56;93;39;75;64;-;35;77;1;98;40;1;47;86;81;8;79;97;65;94;Martin;Plánìk;Planek M.
-Martin Procházka;13766;KLA;Rytíøi Kladno;2023 / 2024;útoèník;29;25;7;54;35;67;68;61;58;8;25;34;31;17;32;27;89;2;2;39;27;9;40;-;Martin;Procházka;Prochazka M.
-Martin Rùièka;6360;TRI;HC Oceláøi Tøinec;2023 / 2024;útoèník;37;24;26;95;89;93;92;90;34;69;56;87;79;63;7;77;4;22;22;26;63;37;58;-;Martin;Rùièka;Ruzicka M.
-Martin Zaoviè;6886;KOM;HC Kometa Brno;2023 / 2024;útoèník;38;26;14;79;54;88;73;87;17;5;49;43;50;79;17;91;2;30;32;70;15;38;43;16;Martin;Zaoviè;Zatovic M.
-Matìj Chalupa;18941;MHK;Mountfield HK;2023 / 2024;útoèník;25;19;4;40;35;46;25;64;35;-;65;71;79;9;66;72;53;24;17;60;88;98;84;-;Matìj;Chalupa;Chalupa M.
-Matìj Maštalíøskı;10096098;LIT;HC Verva Litvínov;2023 / 2024;útoèník;18;15;5;64;31;79;64;73;18;-;53;53;33;84;51;82;1;45;53;43;60;71;75;-;Matìj;Maštalíøskı;Mastalirsky M.
-Matej Pauloviè;2491895;PCE;HC Dynamo Budìjovice;2023 / 2024;útoèník;29;23;10;62;17;77;84;74;16;-;49;33;55;70;65;68;5;81;72;47;16;46;90;20;Matej;Pauloviè;Paulovic M.
-Matìj Prèík;10084770;VIT;HC Vítkovice RIDERA;2023 / 2024;obránce;19;8;0;2;1;1;41;1;66;-;6;9;24;1;65;1;19;6;4;7;1;20;27;-;Matìj;Prèík;Prcik M.
-Matìj Pøibyl;10083935;VIT;HC Vítkovice RIDERA;2023 / 2024;útoèník;19;15;0;2;6;1;20;1;1;-;12;5;1;31;18;20;35;18;18;97;78;52;20;-;Matìj;Pøibyl;Pribyl M.
-Matìj Støíteskı;9447;KVA;HC Energie Karlovy Vary;2023 / 2024;obránce;32;25;5;22;27;25;55;24;14;29;22;16;24;17;22;60;42;44;51;95;54;76;28;76;Matìj;Støíteskı;Stritesky M.
-Matìj Toman;39351;CEB;Banes Motor Èeské Budìjovice;2023 / 2024;útoèník;23;21;2;4;10;6;43;1;82;-;21;26;6;61;13;10;62;87;88;48;57;59;51;-;Matìj;Toman;Toman M.
-Matouš Menšík;10082161;OLO;HC Olomouc;2023 / 2024;útoèník;20;10;1;13;18;25;69;1;1;-;10;5;10;19;58;49;48;66;73;1;15;82;13;-;Matouš;Menšík;Mensik M.
-Matti Järvinen;34;MBL;BK Mladá Boleslav;2023 / 2024;útoèník;33;23;12;20;43;10;23;50;16;99;8;23;14;45;6;28;4;22;26;50;32;5;55;1;Matti;Järvinen;Jarvinen M.
-Matúš Sukel´;2491887;LIT;HC Verva Litvínov;2023 / 2024;útoèník;27;11;8;96;96;96;84;71;11;40;55;72;37;94;68;10;54;68;75;1;86;63;41;88;Matúš;Sukel´;Sukel M.
-Michael Frolík;8758;KLA;Rytíøi Kladno;2023 / 2024;útoèník;35;19;4;35;72;23;7;35;22;21;61;76;62;39;54;39;82;79;81;81;37;34;91;-;Michael;Frolík;Frolik M.
-Michal Birner;7961;LIB;Bílí Tygøi Liberec;2023 / 2024;útoèník;37;22;5;24;25;34;49;11;65;7;52;37;30;78;54;73;49;88;90;38;6;1;81;-;Michal;Birner;Birner M.
-Michal Bulíø;11304;LIB;Bílí Tygøi Liberec;2023 / 2024;útoèník;32;24;10;51;33;63;34;50;60;23;74;47;75;64;75;80;22;99;98;96;13;6;69;-;Michal;Bulíø;Bulir M.
-Michal Gulaši;7926;CEB;Banes Motor Èeské Budìjovice;2023 / 2024;obránce;37;26;1;7;3;12;30;17;30;-;6;4;5;15;3;60;17;14;11;16;18;78;29;91;Michal;Gulaši;Gulasi M.
-Michal Gut;10077703;LIT;HC Verva Litvínov;2023 / 2024;útoèník;21;23;4;31;4;58;84;17;60;-;7;6;10;24;27;7;35;32;39;51;59;69;34;31;Michal;Gut;Gut M.
-Michal Houdek;51951;PLZ;HC Škoda Plzeò;2023 / 2024;obránce;23;22;3;29;14;54;8;84;79;-;54;59;47;37;41;1;89;65;69;85;97;14;24;41;Michal;Houdek;Houdek M.
-Michal Hrádek;4132419;PCE;HC Dynamo Budìjovice;2023 / 2024;obránce;21;18;2;50;68;39;27;66;1;-;26;66;43;74;18;1;9;37;24;75;22;28;63;-;Michal;Hrádek;Hradek M.
-Michal Ivan;10096585;LIB;Bílí Tygøi Liberec;2023 / 2024;obránce;24;27;8;74;42;77;88;59;43;-;82;24;95;54;84;75;76;92;91;43;13;55;95;75;Michal;Ivan;Ivan M.
-Michal Kempnı;13000;SPA;HC Sparta Praha;2023 / 2024;obránce;33;27;18;97;89;96;94;87;54;79;80;91;85;30;79;60;91;39;31;13;18;70;65;55;Michal;Kempnı;Kempny M.
-Michal Kunc;30611;OLO;HC Olomouc;2023 / 2024;útoèník;22;27;12;55;26;68;81;59;18;10;35;44;46;9;74;35;47;16;16;52;38;78;61;81;Michal;Kunc;Kunc M.
-Michal Moravèík;14253;SPA;HC Sparta Praha;2023 / 2024;obránce;29;27;7;76;38;78;73;86;79;-;68;95;53;68;51;1;93;91;89;28;38;80;23;67;Michal;Moravèík;Moravcik M.
-Michal Plutnar;13276;KVA;HC Energie Karlovy Vary;2023 / 2024;obránce;29;26;10;52;66;55;5;83;51;62;19;44;19;11;45;39;68;19;23;59;11;34;18;49;Michal;Plutnar;Plutnar M.
-Michal Øepík;8701;SPA;HC Sparta Praha;2023 / 2024;útoèník;35;26;23;76;53;84;62;76;37;86;89;91;84;73;99;98;31;93;92;13;36;73;34;-;Michal;Øepík;Repik M.
-Mikuláš Hovorka;10082044;CEB;Banes Motor Èeské Budìjovice;2023 / 2024;obránce;22;26;11;92;80;89;91;57;14;26;85;94;55;55;55;55;92;27;29;71;66;50;15;93;Mikuláš;Hovorka;Hovorka M.
-Milan Doudera;12819;CEB;Banes Motor Èeské Budìjovice;2023 / 2024;obránce;30;25;10;79;44;92;68;85;74;-;83;74;56;57;82;76;71;78;76;39;58;85;82;43;Milan;Doudera;Doudera M.
-Milan Gulaš;7951;CEB;Banes Motor Èeské Budìjovice;2023 / 2024;útoèník;38;24;19;88;79;85;80;81;28;83;84;75;80;44;48;92;88;58;61;85;50;81;65;-;Milan;Gulaš;Gulas M.
-Miloš Roman;18964;TRI;HC Oceláøi Tøinec;2023 / 2024;útoèník;24;26;9;29;5;55;59;41;30;14;13;20;26;21;6;14;10;90;84;90;95;84;86;49;Miloš;Roman;Roman M.
-Miroslav Forman;10560;SPA;HC Sparta Praha;2023 / 2024;útoèník;32;24;12;73;50;77;77;46;55;-;81;74;93;91;83;84;16;41;38;17;9;94;42;56;Miroslav;Forman;Forman M.
-Miroslav Indrák;14240;PLZ;HC Škoda Plzeò;2023 / 2024;útoèník;27;25;8;65;86;50;4;88;66;29;54;61;86;44;31;20;44;98;96;71;67;38;27;-;Miroslav;Indrák;Indrak M.
-Nicolas Hlava;13667;LIT;HC Verva Litvínov;2023 / 2024;útoèník;29;27;17;80;87;70;41;77;62;35;87;79;85;56;71;90;32;21;26;69;96;72;62;-;Nicolas;Hlava;Hlava N.
-Oliver Okuliar;10079544;MHK;Mountfield HK;2023 / 2024;útoèník;23;27;23;97;97;93;98;63;96;92;92;94;90;76;72;93;51;40;42;28;98;31;1;-;Oliver;Okuliar;Okuliar O.
-Ondøej Beránek;14041;KVA;HC Energie Karlovy Vary;2023 / 2024;útoèník;28;26;11;41;64;32;35;22;63;42;38;52;88;7;47;71;15;9;14;12;5;32;6;93;Ondøej;Beránek;Beranek O.
-Ondøej Bláha;31281;KLA;Rytíøi Kladno;2023 / 2024;útoèník;23;21;4;38;16;62;79;21;74;-;6;6;77;3;3;26;5;1;1;59;2;98;74;73;Ondøej;Bláha;Blaha O.
-Ondøej Dlapa;11274;KVA;HC Energie Karlovy Vary;2023 / 2024;obránce;32;26;1;13;25;14;34;25;63;-;1;3;1;19;12;1;19;49;48;46;6;53;10;30;Ondøej;Dlapa;Dlapa O.
-Ondøej Jurèík;11273;LIT;HC Verva Litvínov;2023 / 2024;útoèník;31;22;5;31;5;56;65;46;22;-;26;29;17;36;43;24;10;60;69;92;91;16;71;69;Ondøej;Jurèík;Jurcik O.
-Ondøej Kachyòa;18507;CEB;Banes Motor Èeské Budìjovice;2023 / 2024;obránce;25;14;2;41;20;60;74;45;92;-;25;55;55;12;68;1;68;98;99;41;24;31;14;-;Ondøej;Kachyòa;Kachyna O.
-Ondøej Kaše;37;LIT;HC Verva Litvínov;2023 / 2024;útoèník;27;24;22;94;89;84;78;88;87;59;93;93;84;63;98;89;94;79;88;1;80;48;51;24;Ondøej;Kaše;Kase O.
-Ondøej Matıs;29371;PLZ;HC Škoda Plzeò;2023 / 2024;útoèník;24;24;5;45;28;48;58;67;71;-;62;57;6;82;89;45;99;11;11;45;28;16;53;-;Ondøej;Matıs;Matys O.
-Ondøej Mikliš;14071;SPA;HC Sparta Praha;2023 / 2024;obránce;27;24;4;66;52;61;54;65;43;-;51;84;75;79;31;1;45;88;84;32;30;12;5;54;Ondøej;Mikliš;Miklis O.
-Ondøej Najman;17536;SPA;HC Sparta Praha;2023 / 2024;útoèník;25;27;6;26;57;16;23;13;11;6;59;69;47;96;58;19;59;61;55;53;39;75;65;2;Ondøej;Najman;Najman O.
-Ondøej Procházka;17217;KVA;HC Energie Karlovy Vary;2023 / 2024;útoèník;26;26;10;66;45;73;75;73;73;83;71;56;67;41;56;81;65;8;9;55;67;84;29;-;Ondøej;Procházka;Prochazka O.
-Ondøej Roman;8810;MBL;BK Mladá Boleslav;2023 / 2024;útoèník;35;25;9;25;46;25;16;41;15;27;5;8;25;25;2;9;66;4;4;18;25;90;48;-;Ondøej;Roman;Roman O.
-Ondøej Slováèek;12827;KLA;Rytíøi Kladno;2023 / 2024;obránce;29;25;4;19;19;35;14;67;26;-;64;37;11;66;95;43;79;10;13;23;86;90;6;66;Ondøej;Slováèek;Slovacek O.
-Ondøej Vála;17809;PCE;HC Dynamo Budìjovice;2023 / 2024;obránce;25;25;10;80;21;97;98;81;30;-;32;82;44;71;14;1;40;52;40;50;41;92;53;78;Ondøej;Vála;Vala O.
-Oscar Flynn;29091;LIB;Bílí Tygøi Liberec;2023 / 2024;útoèník;24;21;19;94;95;92;50;96;85;60;94;88;98;84;88;58;91;37;44;63;41;50;49;-;Oscar;Flynn;Flynn O.
-Patrik Demel;14369;LIT;HC Verva Litvínov;2023 / 2024;obránce;27;25;4;19;12;32;43;22;26;-;78;15;94;15;92;86;62;48;50;30;80;63;21;45;Patrik;Demel;Demel P.
-Patrik Hrehorèák;32581;TRI;HC Oceláøi Tøinec;2023 / 2024;útoèník;24;26;6;10;4;28;14;49;79;-;65;64;17;62;69;91;37;92;90;84;73;87;49;85;Patrik;Hrehorèák;Hrehorcak P.
-Patrik Marcel;13639;MHK;Mountfield HK;2023 / 2024;obránce;29;25;0;6;8;1;32;1;26;-;10;6;8;53;19;1;20;23;19;72;34;25;2;-;Patrik;Marcel;Marcel P.
-Patrik Miškáø;15275;MHK;Mountfield HK;2023 / 2024;útoèník;27;23;12;56;67;45;8;80;6;74;68;61;65;60;33;62;67;29;22;41;87;79;47;63;Patrik;Miškáø;Miskar P.
-Patrik Poulíèek;15476;PCE;HC Dynamo Budìjovice;2023 / 2024;útoèník;30;24;9;58;37;59;85;31;93;17;69;73;74;56;81;13;96;73;59;1;64;56;42;32;Patrik;Poulíèek;Poulicek P.
-Patrik Zdráhal;14150;VIT;HC Vítkovice RIDERA;2023 / 2024;útoèník;28;12;6;72;98;42;3;89;82;-;82;84;68;75;87;90;56;14;16;25;23;49;66;-;Patrik;Zdráhal;Zdrahal P.
-Pavel Kousal;18669;SPA;HC Sparta Praha;2023 / 2024;útoèník;24;26;19;72;76;64;36;64;87;72;94;98;99;98;83;69;74;42;41;29;42;45;66;-;Pavel;Kousal;Kousal P.
-Pavel Musil;12569;OLO;HC Olomouc;2023 / 2024;útoèník;30;19;2;17;65;5;1;15;8;50;80;77;62;79;69;49;72;77;82;20;91;20;25;-;Pavel;Musil;Musil P.
-Pavel Pıcha;14920;CEB;Banes Motor Èeské Budìjovice;2023 / 2024;obránce;27;25;10;36;11;58;75;30;25;76;16;21;34;17;50;1;63;57;53;55;32;87;47;33;Pavel;Pıcha;Pycha P.
-Pavol Skalickı;2491888;MBL;BK Mladá Boleslav;2023 / 2024;útoèník;28;27;10;38;84;22;10;23;21;77;31;21;56;31;47;26;46;96;93;28;48;20;73;61;Pavol;Skalickı;Skalicky P.
-Pawel Zygmunt;10096884;LIT;HC Verva Litvínov;2023 / 2024;útoèník;23;15;1;5;2;13;48;1;1;-;32;32;15;7;82;22;64;92;94;80;90;45;22;-;Pawel;Zygmunt;Zygmunt P.
-Peter Èerešòák;16240;PCE;HC Dynamo Budìjovice;2023 / 2024;obránce;30;27;18;85;79;73;65;89;12;93;69;92;80;83;34;1;54;99;95;69;7;70;79;6;Peter;Èerešòák;Ceresnak P.
-Peter Krieger;7;VIT;HC Vítkovice RIDERA;2023 / 2024;útoèník;30;25;10;20;49;9;44;10;91;55;45;42;41;59;35;45;58;49;56;11;78;57;29;-;Peter;Krieger;Krieger P.
-Peter Mueller;316216;VIT;HC Vítkovice RIDERA;2023 / 2024;útoèník;35;17;14;37;40;31;66;32;13;91;70;82;20;71;65;79;69;93;97;78;27;30;82;-;Peter;Mueller;Mueller P.
-Petr Fridrich;37111;VIT;HC Vítkovice RIDERA;2023 / 2024;útoèník;23;25;5;44;65;33;27;45;79;-;57;13;78;31;52;74;70;73;70;68;49;27;56;75;Petr;Fridrich;Fridrich P.
-Petr Gewiese;12268;MBL;BK Mladá Boleslav;2023 / 2024;obránce;30;27;1;32;45;36;71;1;76;-;55;75;30;46;73;96;31;85;85;4;55;58;36;14;Petr;Gewiese;Gewiese P.
-Petr Hauser;10083033;SPA;HC Sparta Praha;2023 / 2024;útoèník;19;16;4;48;12;72;7;97;80;-;67;79;59;67;84;43;79;58;55;1;26;25;38;-;Petr;Hauser;Hauser P.
-Petr Holík;12321;KOM;HC Kometa Brno;2023 / 2024;útoèník;31;23;10;59;59;55;44;58;7;5;58;70;72;90;44;65;9;33;33;16;31;22;93;-;Petr;Holík;Holik P.
-Petr Chlán;31051;VIT;HC Vítkovice RIDERA;2023 / 2024;útoèník;24;18;7;44;53;35;60;32;26;-;24;16;61;12;22;23;69;47;53;63;17;27;15;56;Petr;Chlán;Chlan P.
-Petr Kalina;17225;MHK;Mountfield HK;2023 / 2024;obránce;26;27;3;39;47;34;50;41;14;-;44;49;42;55;28;90;26;74;64;55;15;91;58;80;Petr;Kalina;Kalina P.
-Petr Koblasa;13233;LIT;HC Verva Litvínov;2023 / 2024;útoèník;29;27;19;59;44;57;74;36;35;81;62;73;92;74;53;30;50;70;77;25;4;80;93;-;Petr;Koblasa;Koblasa P.
-Petr Kratochvíl;16851;KOM;HC Kometa Brno;2023 / 2024;útoèník;25;13;1;9;8;14;13;43;75;-;41;12;50;70;33;8;61;43;47;55;72;12;62;-;Petr;Kratochvíl;Kratochvil P.
-Petr Straka;11296;PLZ;HC Škoda Plzeò;2023 / 2024;útoèník;31;23;3;33;17;50;42;60;27;-;23;33;12;13;17;54;27;17;20;89;88;54;68;86;Petr;Straka;Straka P.
-Petr Vrána;2182;TRI;HC Oceláøi Tøinec;2023 / 2024;útoèník;38;26;10;42;22;56;53;45;47;39;22;24;5;26;42;55;48;54;52;35;45;15;16;-;Petr;Vrána;Vrana P.
-Petr Zámorskı;12347;PLZ;HC Škoda Plzeò;2023 / 2024;obránce;31;26;19;94;91;81;91;79;1;68;84;93;23;76;79;73;98;58;62;6;62;39;72;40;Petr;Zámorskı;Zamorsky P.
-Radek Jeøábek;17234;VIT;HC Vítkovice RIDERA;2023 / 2024;obránce;25;18;0;18;71;1;23;1;1;-;12;26;99;1;1;1;1;71;73;1;99;35;96;-;Radek;Jeøábek;Jerabek R.
-Radek Kuèeøík;35491;KOM;HC Kometa Brno;2023 / 2024;obránce;22;26;5;25;6;40;72;18;93;-;73;28;76;25;60;87;86;69;68;24;34;88;33;25;Radek;Kuèeøík;Kucerik R.
-Radek Muík;1055795;SPA;HC Sparta Praha;2023 / 2024;útoèník;22;11;2;8;7;8;32;28;1;-;28;13;7;54;49;84;23;5;4;54;1;92;64;-;Radek;Muík;Muzik R.
-Radek Pilaø;14881;MHK;Mountfield HK;2023 / 2024;útoèník;27;19;2;10;14;17;24;17;21;-;12;8;46;12;14;59;36;36;30;1;18;64;49;11;Radek;Pilaø;Pilar R.
-Radek Smoleòák;6731;KLA;Rytíøi Kladno;2023 / 2024;útoèník;36;19;10;28;47;21;78;1;86;94;7;14;29;42;4;31;12;30;30;1;37;5;1;-;Radek;Smoleòák;Smolenak R.
-Radim Šalda;19035;LIT;HC Verva Litvínov;2023 / 2024;obránce;24;26;0;23;81;1;11;1;72;-;29;20;60;9;37;49;23;46;52;97;50;2;17;52;Radim;Šalda;Salda R.
-Radovan Pavlík;16940;MHK;Mountfield HK;2023 / 2024;útoèník;25;23;5;18;56;7;1;31;14;-;85;71;56;60;63;88;92;80;76;65;76;75;10;36;Radovan;Pavlík;Pavlik R.
-Ralfs Freibergs;10079557;MHK;Mountfield HK;2023 / 2024;obránce;32;27;5;49;53;51;43;62;59;7;59;30;89;46;61;78;21;73;68;40;6;10;37;90;Ralfs;Freibergs;Freibergs R.
-Rastislav Dej;10666;VIT;HC Vítkovice RIDERA;2023 / 2024;útoèník;34;21;4;53;48;56;56;46;9;-;11;15;43;1;50;14;11;61;64;57;42;83;46;41;Rastislav;Dej;Dej R.
-Rhett Holland;10083253;KOM;HC Kometa Brno;2023 / 2024;obránce;29;26;0;4;3;1;21;1;94;-;36;43;34;83;9;1;52;72;63;57;82;96;10;48;Rhett;Holland;Holland R.
-Richard Jarùšek;11188;KLA;Rytíøi Kladno;2023 / 2024;útoèník;32;25;4;48;75;26;2;78;92;3;57;35;42;30;45;70;97;71;74;67;79;21;46;-;Richard;Jarùšek;Jarusek R.
-Richard Nedomlel;13220;TRI;HC Oceláøi Tøinec;2023 / 2024;obránce;30;26;1;9;2;19;30;40;22;-;5;18;1;17;15;1;15;13;9;68;13;84;44;37;Richard;Nedomlel;Nedomlel R.
-Richard Pánik;46;TRI;HC Oceláøi Tøinec;2023 / 2024;útoèník;32;26;17;83;66;82;91;71;59;33;79;81;81;38;86;89;60;12;10;1;79;4;19;-;Richard;Pánik;Panik R.
-Robert Kousal;10438;PCE;HC Dynamo Budìjovice;2023 / 2024;útoèník;32;27;27;87;60;98;55;98;37;31;88;89;96;79;73;59;56;32;19;46;44;33;55;-;Robert;Kousal;Kousal R.
-Róbert Lantoši;23941;MBL;BK Mladá Boleslav;2023 / 2024;útoèník;27;27;22;82;92;67;90;48;29;96;90;84;72;92;93;62;86;59;60;43;53;51;43;-;Róbert;Lantoši;Lantosi R.
-Robert Øíèka;10315;PCE;HC Dynamo Budìjovice;2023 / 2024;útoèník;34;27;18;52;18;53;76;76;52;95;51;64;70;10;48;54;32;78;68;98;48;66;54;-;Robert;Øíèka;Ricka R.
-Roberts Bukarts;5919098;VIT;HC Vítkovice RIDERA;2023 / 2024;útoèník;33;24;9;21;29;27;69;1;64;17;42;58;48;51;36;31;24;50;54;64;71;21;31;-;Roberts;Bukarts;Bukarts R.
-Rok Macuh;53281;OLO;HC Olomouc;2023 / 2024;útoèník;26;25;18;93;82;94;82;90;97;77;84;91;57;75;93;17;97;49;56;76;59;95;3;50;Rok;Macuh;Macuh R.
-Roman Horák;10339;SPA;HC Sparta Praha;2023 / 2024;útoèník;32;27;22;78;74;75;31;92;47;81;80;78;91;95;60;30;39;39;32;65;45;31;93;-;Roman;Horák;Horak R.
-Roman Vráblík;10250;CEB;Banes Motor Èeské Budìjovice;2023 / 2024;obránce;33;19;3;44;88;28;19;31;77;-;57;47;53;21;67;53;59;43;43;67;86;13;50;-;Roman;Vráblík;Vrablik R.
-Ronald Knot;13592;LIB;Bílí Tygøi Liberec;2023 / 2024;obránce;29;20;8;54;24;75;90;28;35;4;77;19;93;39;89;48;83;79;79;50;36;79;93;88;Ronald;Knot;Knot R.
-Sebastian Malát;10079113;MBL;BK Mladá Boleslav;2023 / 2024;útoèník;21;24;4;21;20;29;58;30;74;-;39;28;9;6;77;48;83;35;36;84;62;86;18;-;Sebastian;Malát;Malat S.
-Silvester Kusko;14492;OLO;HC Olomouc;2023 / 2024;útoèník;28;24;6;11;32;10;53;1;32;24;14;21;9;45;31;9;54;29;35;39;33;61;35;7;Silvester;Kusko;Kusko S.
-Steve Moses;43;KOM;HC Kometa Brno;2023 / 2024;útoèník;34;26;20;88;82;79;96;56;83;94;78;39;96;40;94;86;81;44;44;45;6;53;79;-;Steve;Moses;Moses S.
-Stuart Percy;10099422;VIT;HC Vítkovice RIDERA;2023 / 2024;obránce;30;23;16;48;58;53;31;68;72;70;79;43;50;97;39;43;49;54;59;92;81;19;59;-;Stuart;Percy;Percy S.
-T.J. Melancon;10099298;LIB;Bílí Tygøi Liberec;2023 / 2024;obránce;27;28;15;92;73;86;93;68;81;65;99;67;98;93;77;92;85;30;32;73;75;19;92;-;T.J.;Melancon;Melancon T.
-Tadeáš Hejda;17092;KLA;Rytíøi Kladno;2023 / 2024;obránce;26;25;5;43;46;46;62;47;26;-;11;6;5;40;24;1;34;28;35;81;33;23;55;64;Tadeáš;Hejda;Hejda T.
-Tim Söderlund;25;PLZ;HC Škoda Plzeò;2023 / 2024;útoèník;26;26;16;75;63;70;88;65;92;66;44;42;23;20;60;51;87;75;78;87;40;40;82;-;Tim;Söderlund;Soderlund T.
-Tomáš Bartejs;12172;KVA;HC Energie Karlovy Vary;2023 / 2024;obránce;31;6;2;59;16;95;38;99;98;-;81;27;79;96;74;1;77;92;92;49;90;75;19;-;Tomáš;Bartejs;Bartejs T.
-Tomáš Èernı;15644;OLO;HC Olomouc;2023 / 2024;obránce;25;18;0;5;12;1;25;1;56;-;31;53;18;31;64;81;8;33;33;19;91;9;53;19;Tomáš;Èernı;Cerny T.
-Tomáš Dujsík;12883;PLZ;HC Škoda Plzeò;2023 / 2024;obránce;31;23;2;24;32;26;61;19;37;-;30;68;7;23;83;47;44;81;87;47;55;56;45;21;Tomáš;Dujsík;Dujsik T.
-Tomáš Dvoøák;14026;PCE;HC Dynamo Budìjovice;2023 / 2024;obránce;28;27;5;63;84;43;12;69;42;-;19;78;13;36;19;1;58;42;26;64;45;72;76;70;Tomáš;Dvoøák;Dvorak T.
-Tomáš Filippi;11957;LIB;Bílí Tygøi Liberec;2023 / 2024;útoèník;31;28;32;95;84;95;87;94;49;80;74;93;40;96;79;57;58;12;15;11;17;54;29;8;Tomáš;Filippi;Filippi T.
-Tomáš Foøt;12283;MBL;BK Mladá Boleslav;2023 / 2024;útoèník;31;22;7;60;94;34;63;11;96;31;76;68;60;72;67;5;95;94;95;77;87;76;84;92;Tomáš;Foøt;Fort T.
-Tomáš Galvas;10097211;LIB;Bílí Tygøi Liberec;2023 / 2024;obránce;17;19;4;95;94;82;63;79;37;-;91;54;97;75;92;93;70;66;72;15;39;88;86;-;Tomáš;Galvas;Galvas T.
-Tomáš Havlín;14798;KVA;HC Energie Karlovy Vary;2023 / 2024;obránce;27;25;2;46;75;31;83;1;78;-;70;34;72;44;56;46;75;29;39;84;29;6;19;85;Tomáš;Havlín;Havlin T.
-Tomáš Hyka;12581;PCE;HC Dynamo Budìjovice;2023 / 2024;útoèník;30;27;20;84;77;80;66;85;84;70;97;95;80;93;87;97;78;52;46;62;71;78;56;-;Tomáš;Hyka;Hyka T.
-Tomáš Chlubna;9417638;CEB;Banes Motor Èeské Budìjovice;2023 / 2024;útoèník;21;19;2;23;50;15;6;56;40;-;47;35;77;32;7;55;57;31;29;94;20;84;81;-;Tomáš;Chlubna;Chlubna T.
-Tomáš Kundrátek;9580;TRI;HC Oceláøi Tøinec;2023 / 2024;obránce;33;25;11;89;60;84;85;90;19;38;72;38;37;89;23;68;35;22;22;89;78;23;79;-;Tomáš;Kundrátek;Kundratek T.
-Tomáš Marcinko;47331;KOM;HC Kometa Brno;2023 / 2024;útoèník;35;25;8;25;42;20;26;23;57;9;38;42;24;55;29;51;11;67;60;86;66;79;12;29;Tomáš;Marcinko;Marcinko T.
-Tomáš Mertl;7953;PLZ;HC Škoda Plzeò;2023 / 2024;útoèník;37;21;6;63;72;61;77;11;6;12;35;46;70;15;35;47;29;62;65;16;60;7;41;34;Tomáš;Mertl;Mertl T.
-Tomáš Pavelka;12962;MHK;Mountfield HK;2023 / 2024;obránce;30;26;14;82;86;65;70;49;24;90;96;68;76;73;78;95;95;47;42;86;56;22;90;-;Tomáš;Pavelka;Pavelka T.
-Tomáš Plekanec;2077;KLA;Rytíøi Kladno;2023 / 2024;útoèník;40;9;4;6;26;1;25;1;72;67;17;18;26;22;8;42;49;82;85;98;2;97;4;53;Tomáš;Plekanec;Plekanec T.
-Tomáš Rachùnek;10470;KVA;HC Energie Karlovy Vary;2023 / 2024;útoèník;32;26;19;89;85;78;94;68;22;47;81;80;29;89;66;73;93;13;13;44;64;14;87;-;Tomáš;Rachùnek;Rachunek T.
-Tomáš Redlich;13325;KVA;HC Energie Karlovy Vary;2023 / 2024;útoèník;30;26;5;27;14;40;49;61;25;-;11;12;19;11;8;44;86;97;96;18;10;68;91;19;Tomáš;Redlich;Redlich T.
-Tomáš Šmerha;17440;MBL;BK Mladá Boleslav;2023 / 2024;útoèník;25;21;2;22;61;11;22;14;83;-;56;48;53;54;71;52;65;54;51;70;16;87;50;-;Tomáš;Šmerha;Smerha T.
-Tomáš Vincour;9904;KOM;HC Kometa Brno;2023 / 2024;útoèník;32;19;10;87;66;91;96;55;70;89;34;16;22;66;18;87;25;53;50;30;29;99;7;-;Tomáš;Vincour;Vincour T.
-Tomáš Vondráèek;10860;VIT;HC Vítkovice RIDERA;2023 / 2024;útoèník;32;20;4;57;40;65;70;24;77;-;66;81;95;41;24;52;24;81;72;66;98;52;58;-;Tomáš;Vondráèek;Vondracek T.
-Tomáš Zohorna;9032;PCE;HC Dynamo Budìjovice;2023 / 2024;útoèník;35;27;21;84;51;96;61;99;56;14;64;59;21;92;54;21;95;33;21;62;74;63;32;51;Tomáš;Zohorna;Zohorna T.
-Václav Veber;31901;KLA;Rytíøi Kladno;2023 / 2024;obránce;24;23;1;11;23;16;19;32;39;-;18;23;19;8;38;82;48;12;18;19;44;61;92;7;Václav;Veber;Veber V.
-Valentin Claireaux;10097120;VIT;HC Vítkovice RIDERA;2023 / 2024;útoèník;32;13;3;61;75;47;37;67;14;-;27;41;74;5;55;56;20;3;3;1;8;63;95;-;Valentin;Claireaux;Claireaux V.
-Viliam Èacho;30;TRI;HC Oceláøi Tøinec;2023 / 2024;útoèník;24;26;7;43;7;65;43;86;63;-;63;49;32;55;78;88;15;39;37;89;94;44;5;5;Viliam;Èacho;Cacho V.
-Vít Jiskra;3087341;KVA;HC Energie Karlovy Vary;2023 / 2024;útoèník;22;26;7;17;21;26;41;27;49;20;10;14;16;21;38;14;42;84;89;34;41;65;87;58;Vít;Jiskra;Jiskra V.
-Vladimír Draveckı;53425;TRI;HC Oceláøi Tøinec;2023 / 2024;útoèník;38;26;4;16;6;29;54;30;40;-;4;11;5;25;12;5;15;57;49;86;10;67;11;46;Vladimír;Draveckı;Dravecky V.
-Vladimír Sobotka;7271;SPA;HC Sparta Praha;2023 / 2024;útoèník;36;19;14;70;34;83;80;57;43;37;69;59;53;44;81;78;41;60;54;83;45;89;24;-;Vladimír;Sobotka;Sobotka V.
-Vojtìch Budík;17410;LIB;Bílí Tygøi Liberec;2023 / 2024;obránce;26;24;11;91;63;92;75;93;49;21;86;55;60;66;86;87;66;5;2;83;20;68;63;-;Vojtìch;Budík;Budik V.
-Vojtìch Lednickı;10079059;VIT;HC Vítkovice RIDERA;2023 / 2024;útoèník;22;14;0;1;2;1;18;1;91;-;8;10;13;15;32;8;57;53;50;91;4;91;95;-;Vojtìch;Lednickı;Lednicky V.
-Vojtìch Mozík;12817;SPA;HC Sparta Praha;2023 / 2024;obránce;30;25;5;69;68;52;56;53;35;-;71;80;81;58;36;69;13;67;61;34;63;67;9;34;Vojtìch;Mozík;Mozik V.
-Vojtìch Zeleòák;54;VIT;HC Vítkovice RIDERA;2023 / 2024;obránce;25;9;1;26;37;33;40;35;1;-;2;1;20;1;17;1;7;35;40;91;1;95;30;-;Vojtìch;Zeleòák;Zelenak V.
-Willie Raskob;11;VIT;HC Vítkovice RIDERA;2023 / 2024;obránce;28;24;14;98;98;99;84;95;62;24;90;73;66;95;81;77;53;17;20;36;84;40;94;-;Willie;Raskob;Raskob W.
-Yohann Auvitu;60;VIT;HC Vítkovice RIDERA;2023 / 2024;obránce;34;8;5;86;76;83;89;61;97;-;41;31;86;1;47;79;41;30;30;6;61;69;81;-;Yohann;Auvitu;Auvitu Y.
-Zach Osburn;45;MBL;BK Mladá Boleslav;2023 / 2024;obránce;26;27;10;71;85;47;77;42;54;46;98;96;92;77;97;54;88;36;36;77;95;56;25;-;Zach;Osburn;Osburn Z.
-Zdenìk Okál;10466;KOM;HC Kometa Brno;2023 / 2024;útoèník;33;25;5;16;3;35;39;53;94;-;33;17;27;10;59;86;30;83;80;73;39;47;12;17;Zdenìk;Okál;Okal Z.
-Patrik Bartošák;12834;MHK;Mountfield HK;2023 / 2024;brankáø;30;17;4;92;92;70;84;79;94;;67;67;77;65;69;67;;99;99;60;94;91;99;;Patrik;Bartošák;Bartosak P.
-Landon Bow;10084498;KLA;Rytíøi Kladno;2023 / 2024;brankáø;28;10;0;58;58;50;52;89;60;;50;50;75;55;85;50;;82;82;50;65;89;85;;Landon;Bow;Bow L.
-Adam Brízgala;17213;KLA;Rytíøi Kladno;2023 / 2024;brankáø;25;18;1;63;63;55;82;53;70;;55;55;50;91;53;65;;75;75;85;70;63;94;;Adam;Brízgala;Brizgala A.
-Dominik Frodl;15316;KVA;HC Energie Karlovy Vary;2023 / 2024;brankáø;27;24;1;97;97;62;99;96;53;;92;92;55;92;91;63;;84;84;62;89;96;52;;Dominik;Frodl;Frodl D.
-Dominik Furch;10449;KOM;HC Kometa Brno;2023 / 2024;brankáø;33;19;3;82;82;52;72;87;75;;80;80;53;75;82;72;;79;79;69;75;80;79;;Dominik;Furch;Furch D.
-Vladislav Habal;10380;KVA;HC Energie Karlovy Vary;2023 / 2024;brankáø;32;3;0;62;62;57;53;63;84;;60;60;60;63;58;84;;67;67;55;55;69;89;;Vladislav;Habal;Habal V.
-Samuel Hlavaj;2;PLZ;HC Škoda Plzeò;2023 / 2024;brankáø;22;14;0;79;79;82;96;55;79;;91;91;69;87;80;75;;62;62;94;97;50;91;;Samuel;Hlavaj;Hlavaj S.
-Dominik Hrachovina;13641;CEB;Banes Motor Èeské Budìjovice;2023 / 2024;brankáø;29;20;2;77;77;65;94;50;92;;53;53;57;82;50;92;;94;94;89;99;77;75;;Dominik;Hrachovina;Hrachovina D.
-Dávid Hrenák;3;LIB;Bílí Tygøi Liberec;2023 / 2024;brankáø;25;9;0;65;65;94;80;60;63;;87;87;89;79;92;74;;52;52;92;67;57;50;;Dávid;Hrenák;Hrenak D.
-Ondøej Kacetl;10362;TRI;HC Oceláøi Tøinec;2023 / 2024;brankáø;32;6;1;55;55;67;60;57;74;;65;65;74;80;60;69;;63;63;58;58;70;77;;Ondøej;Kacetl;Kacetl O.
-Henri Kiviaho;318342;MHK;Mountfield HK;2023 / 2024;brankáø;29;5;1;70;70;75;67;77;69;;69;69;70;67;65;70;;80;80;70;74;87;74;;Henri;Kiviaho;Kiviaho H.
-Lukáš Klimeš;13132;VIT;HC Vítkovice RIDERA;2023 / 2024;brankáø;29;15;0;69;69;80;70;62;82;;77;77;91;52;84;82;;85;85;74;91;58;87;;Lukáš;Klimeš;Klimes L.
-Milan Klouèek;18731;PCE;HC Dynamo Budìjovice;2023 / 2024;brankáø;25;5;1;74;74;89;85;82;58;;75;75;94;85;72;60;;77;77;63;72;92;63;;Milan;Klouèek;Kloucek M.
-Branislav Konrád;32651;OLO;HC Olomouc;2023 / 2024;brankáø;35;18;1;96;96;96;97;65;80;;97;97;85;99;77;97;;58;58;84;87;55;55;;Branislav;Konrád;Konrad B.
-Josef Koøenáø;18658;SPA;HC Sparta Praha;2023 / 2024;brankáø;25;10;0;67;67;74;63;67;91;;82;82;72;62;70;94;;72;72;63;84;67;67;;Josef;Koøenáø;Korenar J.
-Jakub Kováø;1;SPA;HC Sparta Praha;2023 / 2024;brankáø;35;18;2;80;80;69;69;92;72;;63;63;62;57;67;77;;91;91;80;82;97;65;;Jakub;Kováø;Kovar J.
-Daniel Král;10078861;LIB;Bílí Tygøi Liberec;2023 / 2024;brankáø;20;17;1;60;60;97;65;84;52;;74;74;96;58;97;55;;65;65;99;85;60;60;;Daniel;Král;Kral D.
-Jan Lukáš;11905;MHK;Mountfield HK;2023 / 2024;brankáø;30;7;0;91;91;85;92;69;96;;84;84;79;72;63;96;;92;92;91;96;62;82;;Jan;Lukáš;Lukas J.
-Štìpán Lukeš;15242;KOM;HC Kometa Brno;2023 / 2024;brankáø;27;7;0;53;53;79;57;74;50;;52;52;65;60;75;58;;57;57;96;62;72;57;;Štìpán;Lukeš;Lukes S.
-Matìj Machovskı;12013;VIT;HC Vítkovice RIDERA;2023 / 2024;brankáø;30;13;0;50;50;91;50;75;67;;62;62;84;50;79;79;;55;55;79;63;65;53;;Matìj;Machovskı;Machovsky M.
-Marek Mazanec;10249;TRI;HC Oceláøi Tøinec;2023 / 2024;brankáø;32;21;0;87;87;92;89;80;65;;58;58;92;84;62;57;;97;97;75;92;99;80;;Marek;Mazanec;Mazanec M.
-Filip Novotnı;11407;MBL;BK Mladá Boleslav;2023 / 2024;brankáø;32;18;1;57;57;87;79;58;62;;70;70;97;96;74;52;;53;53;53;52;53;92;;Filip;Novotnı;Novotny F.
-Lukáš Paøík;3331756;LIB;Bílí Tygøi Liberec;2023 / 2024;brankáø;22;4;0;89;89;84;75;85;87;;94;94;87;77;89;91;;87;87;77;80;79;84;;Lukáš;Paøík;Parik L.
-Dominik Pavlát;18455;PLZ;HC Škoda Plzeò;2023 / 2024;brankáø;23;14;2;94;94;63;74;91;97;;89;89;58;69;87;80;;96;96;87;79;84;97;;Dominik;Pavlát;Pavlat D.
-Jan Rùièka;15662;MBL;BK Mladá Boleslav;2023 / 2024;brankáø;26;11;1;52;52;72;58;52;85;;57;57;63;70;52;89;;50;50;72;50;52;72;;Jan;Rùièka;Ruzicka J.
-Jakub Sedláèek;9869;OLO;HC Olomouc;2023 / 2024;brankáø;33;9;0;84;84;53;77;97;55;;96;96;67;89;96;62;;69;69;52;60;94;62;;Jakub;Sedláèek;Sedlacek J.
-Jan Strmeò;11556;CEB;Banes Motor Èeské Budìjovice;2023 / 2024;brankáø;31;8;0;75;75;77;87;94;57;;85;85;82;94;94;53;;74;74;63;77;74;69;;Jan;Strmeò;Strmen J.
-Matej Tomek;40031;LIT;HC Verva Litvínov;2023 / 2024;brankáø;26;19;0;85;85;58;55;72;99;;72;72;52;53;57;99;;89;89;97;69;75;96;;Matej;Tomek;Tomek M.
-Roman Will;10989;PCE;HC Dynamo Budìjovice;2023 / 2024;brankáø;31;23;1;72;72;60;62;70;89;;79;79;80;74;55;85;;70;70;57;57;82;70;;Roman;Will;Will R.
-Šimon Zajíèek;3084138;LIT;HC Verva Litvínov;2023 / 2024;brankáø;22;10;0;99;99;99;91;99;77;;99;99;99;97;99;87;;60;60;82;53;85;58;;Šimon;Zajíèek;Zajicek S.
+Jméno;Hokej.cz ID;Tym;Nazev tymu;Sezona;Pozice;Vìk;GP;P;OFF;OFF IMPACT;POINT PRODUCTION;SHOOTING;PASSING;PEN DRAWN;PP;TRA;SHOT CONTRI;HD CHANCES;HD ASSISTS;CARRIES;ENTRY PASSES;POSS EXITS;DEF;DEF IMPACT;DENIALS;RECOVERIES;ROLE DIFF;PEN TAKEN;PK;First;Second;Jmeno hrace;Akt;
+Jakub Flek;17397;KOM;HC Kometa Brno;2023 / 2024;útoèník;30;32;26;77;72;75;32;88;40;81;98;90;95;93;94;99;89;39;43;23;69;73;96;53;Jakub;Flek;Flek J.;17. 1. 2024;
+Aaron Irving;318533;SPA;HC Sparta Praha;2023 / 2024;obránce;27;32;12;60;41;50;76;49;85;45;93;95;82;80;71;79;53;14;11;41;-;60;36;5;Aaron;Irving;Irving A.;17. 1. 2024;
+Adam Jánošík;11534;MBL;BK Mladá Boleslav;2023 / 2024;obránce;30;34;0;7;33;1;6;1;1;-;10;19;56;20;1;1;41;36;38;6;-;82;79;53;Adam;Jánošík;Janosik A.;17. 1. 2024;
+Adam Jiøíèek;10096041;PLZ;HC Škoda Plzeò;2023 / 2024;obránce;17;19;1;1;3;1;15;1;82;26;33;47;7;1;19;61;88;3;4;91;-;83;92;-;Adam;Jiøíèek;Jiricek A.;17. 1. 2024;
+Adam Kubík;17550;CEB;Banes Motor È. Budìjovice;2023 / 2024;útoèník;24;30;18;77;71;67;75;65;44;70;89;88;94;51;86;91;66;16;16;44;80;90;22;91;Adam;Kubík;Kubik A.;17. 1. 2024;
+Adam Musil;49651;PCE;HC Dynamo Pardubice;2023 / 2024;útoèník;26;15;6;74;68;63;54;77;1;-;79;89;91;42;77;47;45;83;77;60;77;48;4;-;Adam;Musil;Musil A.;17. 1. 2024;
+Adam Najman;54066;LIB;Bílí Tygøi Liberec;2023 / 2024;útoèník;22;33;30;90;84;87;69;85;34;66;57;66;49;79;76;57;27;26;33;21;20;12;91;32;Adam;Najman;Najman A.;17. 1. 2024;
+Adam Polášek;10878;TRI;HC Oceláøi Tøinec;2023 / 2024;obránce;32;33;4;55;62;38;42;55;12;-;19;83;36;56;6;1;28;68;64;77;-;81;66;92;Adam;Polášek;Polasek A.;17. 1. 2024;
+Adam Rutar;4132550;OLO;HC Olomouc;2023 / 2024;obránce;21;28;0;12;50;1;8;1;1;-;59;29;61;35;82;89;47;11;15;8;-;13;13;23;Adam;Rutar;Rutar A.;17. 1. 2024;
+Adam Smith;50;TRI;HC Oceláøi Tøinec;2023 / 2024;obránce;26;32;5;66;93;36;37;47;20;-;47;80;57;76;25;46;2;70;63;70;-;47;78;72;Adam;Smith;Smith A.;17. 1. 2024;
+Adam Zboøil;14491;KOM;HC Kometa Brno;2023 / 2024;útoèník;27;30;11;38;40;35;18;57;75;9;63;83;69;65;63;45;21;63;59;33;56;60;20;-;Adam;Zboøil;Zboril A.;17. 1. 2024;
+Adrián Holešinskı;18097;PLZ;HC Škoda Plzeò;2023 / 2024;útoèník;27;31;24;56;36;67;64;70;84;64;66;33;61;54;97;33;90;68;69;38;46;25;57;-;Adrián;Holešinskı;Holesinsky A.;17. 1. 2024;
+Aleksi Laakso;57;PLZ;HC Škoda Plzeò;2023 / 2024;obránce;33;17;8;50;52;51;29;69;46;-;56;75;65;97;24;1;36;43;47;12;-;12;50;64;Aleksi;Laakso;Laakso A.;17. 1. 2024;
+Aleksi Rekonen;12;PLZ;HC Škoda Plzeò;2023 / 2024;útoèník;30;32;18;87;80;82;87;79;15;67;38;44;65;25;25;53;19;26;26;47;91;74;36;-;Aleksi;Rekonen;Rekonen A.;17. 1. 2024;
+Aleš Èech;10083954;MBL;BK Mladá Boleslav;2023 / 2024;obránce;19;24;3;50;74;47;12;65;98;-;49;36;84;12;66;50;57;45;46;84;-;31;6;-;Aleš;Èech;Cech A.;17. 1. 2024;
+Aleš Jergl;14654;MHK;Mountfield HK;2023 / 2024;útoèník;29;26;14;70;90;56;63;21;61;53;96;95;90;88;45;96;56;88;85;97;92;45;23;-;Aleš;Jergl;Jergl A.;17. 1. 2024;
+Alex Lintuniemi;10099575;MBL;BK Mladá Boleslav;2023 / 2024;obránce;27;30;8;28;2;61;62;31;70;-;91;73;93;85;51;50;77;90;92;73;-;72;65;96;Alex;Lintuniemi;Lintuniemi A.;17. 1. 2024;
+Alex Rašner;14657;OLO;HC Olomouc;2023 / 2024;obránce;27;26;7;74;54;80;54;92;43;-;86;58;79;32;94;90;78;26;27;20;-;18;98;-;Alex;Rašner;Rasner A.;17. 1. 2024;
+Alex Tamáši;51;MHK;Mountfield HK;2023 / 2024;útoèník;25;33;11;79;93;62;27;81;35;1;83;73;77;72;54;63;50;40;29;85;82;14;82;43;Alex;Tamáši;Tamasi A.;17. 1. 2024;
+Andrej Kudrna;7229427;LIT;HC VERVA Litvínov;2023 / 2024;útoèník;32;34;13;45;25;57;40;63;18;17;73;68;90;52;92;75;7;37;47;10;75;87;65;41;Andrej;Kudrna;Kudrna A.;17. 1. 2024;
+Andrej Nestrašil;10330;TRI;HC Oceláøi Tøinec;2023 / 2024;útoèník;32;33;29;71;55;66;68;86;19;95;22;64;14;62;19;12;36;55;52;1;64;86;45;48;Andrej;Nestrašil;Nestrasil A.;17. 1. 2024;
+Antonín Melka;10433;KLA;Rytíøi Kladno;2023 / 2024;útoèník;33;32;5;33;71;14;18;16;89;-;35;33;38;5;59;65;97;38;44;43;10;22;14;14;Antonín;Melka;Melka A.;17. 1. 2024;
+Aron Chmielewski;41531;OLO;HC Olomouc;2023 / 2024;útoèník;31;11;3;66;86;52;33;71;69;39;66;98;47;60;40;65;71;32;34;1;77;5;53;-;Aron;Chmielewski;Chmielewski A.;17. 1. 2024;
+Bohumil Jank;10853;MHK;Mountfield HK;2023 / 2024;obránce;31;29;4;29;51;23;70;1;32;-;46;48;41;21;44;86;16;87;78;74;-;53;15;8;Bohumil;Jank;Jank B.;17. 1. 2024;
+Brant Harris;32;CEB;Banes Motor È. Budìjovice;2023 / 2024;útoèník;33;31;20;57;62;47;59;59;57;65;26;29;50;20;20;42;39;27;24;58;53;25;71;67;Brant;Harris;Harris B.;17. 1. 2024;
+Dalibor Øezníèek;11223;OLO;HC Olomouc;2023 / 2024;obránce;31;32;13;77;70;69;92;45;1;61;17;45;35;73;41;1;6;93;97;30;-;50;85;98;Dalibor;Øezníèek;Reznicek D.;17. 1. 2024;
+Dalimil Mikyska;18682;KVA;HC Energie Karlovy Vary;2023 / 2024;obránce;24;21;4;79;50;81;91;60;1;-;58;8;52;64;55;51;89;46;50;97;-;4;98;-;Dalimil;Mikyska;Mikyska D.;17. 1. 2024;
+Daniel Gazda;17303;KOM;HC Kometa Brno;2023 / 2024;obránce;26;33;22;99;99;97;99;44;21;53;71;70;90;54;40;52;20;72;70;85;-;19;77;-;Daniel;Gazda;Gazda D.;17. 1. 2024;
+Daniel Kurovskı;15703;TRI;HC Oceláøi Tøinec;2023 / 2024;útoèník;25;34;13;68;45;81;78;49;17;-;48;25;94;11;20;86;22;74;67;93;39;35;32;-;Daniel;Kurovskı;Kurovsky D.;17. 1. 2024;
+Daniel Malák;10081964;PLZ;HC Škoda Plzeò;2023 / 2024;obránce;21;23;6;92;85;89;84;89;1;-;85;89;67;8;95;95;61;71;74;92;-;63;64;-;Daniel;Malák;Malak D.;17. 1. 2024;
+Daniel Voenílek;14888;TRI;HC Oceláøi Tøinec;2023 / 2024;útoèník;27;34;24;79;94;59;45;74;50;79;93;72;61;87;85;91;82;64;61;66;84;17;27;-;Daniel;Voenílek;Vozenilek D.;17. 1. 2024;
+David Bernad;13685;MBL;BK Mladá Boleslav;2023 / 2024;obránce;29;31;5;57;49;57;52;76;97;-;65;69;20;52;49;62;72;84;81;64;-;68;73;-;David;Bernad;Bernad D.;17. 1. 2024;
+David Cienciala;14107;PCE;HC Dynamo Pardubice;2023 / 2024;útoèník;27;31;22;67;47;70;51;90;13;72;74;75;56;88;40;28;86;41;27;29;89;66;42;-;David;Cienciala;Cienciala D.;17. 1. 2024;
+David Dvoøáèek;12539;MBL;BK Mladá Boleslav;2023 / 2024;útoèník;31;30;2;3;7;5;13;10;21;-;7;5;24;12;47;11;21;12;11;70;14;76;93;58;David;Dvoøáèek;Dvoracek D.;17. 1. 2024;
+Dávid Gríger;41581;KVA;HC Energie Karlovy Vary;2023 / 2024;útoèník;29;31;29;96;94;96;98;84;40;46;87;54;88;73;75;81;59;17;17;84;52;4;21;-;Dávid;Gríger;Griger D.;17. 1. 2024;
+David Kaše;15634;LIT;HC VERVA Litvínov;2023 / 2024;útoèník;26;32;29;87;88;78;60;79;90;69;88;95;81;86;83;39;75;68;71;73;54;54;18;-;David;Kaše;Kase D.;17. 1. 2024;
+David Kofroò;18961;KVA;HC Energie Karlovy Vary;2023 / 2024;útoèník;24;25;3;4;14;4;21;1;47;-;17;19;14;14;36;6;98;89;88;50;6;96;97;-;David;Kofroò;Kofron D.;17. 1. 2024;
+David Kvasnièka;19921;PLZ;HC Škoda Plzeò;2023 / 2024;obránce;24;31;3;47;73;30;49;37;81;-;61;52;30;69;92;76;62;66;68;11;-;9;50;7;David;Kvasnièka;Kvasnicka D.;17. 1. 2024;
+David Musil;11411;PCE;HC Dynamo Pardubice;2023 / 2024;obránce;30;23;6;64;21;73;81;70;14;-;14;34;19;70;3;37;3;97;93;62;-;77;52;19;David;Musil;Musil D.;17. 1. 2024;
+David Nìmeèek;14256;SPA;HC Sparta Praha;2023 / 2024;obránce;28;31;4;30;30;39;48;57;71;-;39;56;58;26;67;32;80;28;21;9;-;55;30;21;David;Nìmeèek;Nemecek D.;17. 1. 2024;
+David Škùrek;12848;OLO;HC Olomouc;2023 / 2024;obránce;30;13;0;26;96;1;24;1;39;-;21;78;28;24;14;68;8;48;55;96;-;85;24;67;David;Škùrek;Skurek D.;17. 1. 2024;
+David Šastnı;17629;MHK;Mountfield HK;2023 / 2024;útoèník;30;33;14;52;43;58;35;75;82;33;92;94;54;83;95;82;79;38;30;72;71;43;95;-;David;Šastnı;Stastny D.;17. 1. 2024;
+Denis Kusı;17152;KLA;Rytíøi Kladno;2023 / 2024;útoèník;26;24;19;92;76;94;82;95;20;23;72;76;77;43;73;20;94;89;94;74;39;7;57;-;Denis;Kusı;Kusy D.;17. 1. 2024;
+Denis Zeman;51841;LIT;HC VERVA Litvínov;2023 / 2024;obránce;22;33;3;40;81;22;11;41;83;-;52;33;26;41;89;59;49;47;54;94;-;7;5;79;Denis;Zeman;Zeman D.;17. 1. 2024;
+Deven Sideroff;48;KLA;Rytíøi Kladno;2023 / 2024;útoèník;26;29;11;40;38;44;70;17;60;18;37;47;48;28;70;50;14;84;89;31;68;25;60;42;Deven;Sideroff;Sideroff D.;17. 1. 2024;
+Dominik Lakatoš;15669;VIT;HC Vítkovice RIDERA;2023 / 2024;útoèník;26;30;20;57;81;46;62;12;55;62;82;75;53;67;68;70;88;53;56;59;70;85;30;8;Dominik;Lakatoš;Lakatos D.;17. 1. 2024;
+Dominik Simon;13;CEB;Banes Motor È. Budìjovice;2023 / 2024;útoèník;29;30;12;42;28;50;44;65;41;20;39;60;32;66;5;20;81;57;54;11;98;78;54;-;Dominik;Simon;Simon D.;17. 1. 2024;
+Eduards Tralmaks;52;KLA;Rytíøi Kladno;2023 / 2024;útoèník;26;32;22;61;42;69;92;44;92;91;40;57;60;27;35;38;57;92;93;25;74;48;11;-;Eduards;Tralmaks;Tralmaks E.;17. 1. 2024;
+Evan Jasper;35;MHK;Mountfield HK;2023 / 2024;útoèník;31;34;16;39;26;46;55;53;37;57;1;3;30;8;1;27;16;10;7;27;34;32;44;-;Evan;Jasper;Jasper E.;17. 1. 2024;
+Filip Chlapík;15568;SPA;HC Sparta Praha;2023 / 2024;útoèník;26;30;31;94;63;98;94;99;63;30;96;97;75;96;97;97;80;93;92;55;5;69;33;-;Filip;Chlapík;Chlapik F.;17. 1. 2024;
+Filip Jansa;10079000;PLZ;HC Škoda Plzeò;2023 / 2024;útoèník;21;32;5;22;22;31;59;21;8;-;5;14;5;34;15;10;10;33;37;13;65;20;86;75;Filip;Jansa;Jansa F.;17. 1. 2024;
+Filip Koffer;1690717;KVA;HC Energie Karlovy Vary;2023 / 2024;útoèník;22;32;8;35;10;53;73;52;30;-;8;11;10;19;21;24;3;62;63;97;38;89;5;79;Filip;Koffer;Koffer F.;17. 1. 2024;
+Filip Pavlík;11583;MBL;BK Mladá Boleslav;2023 / 2024;obránce;31;32;5;23;22;37;33;46;42;-;44;81;14;51;35;88;11;21;16;39;-;96;40;-;Filip;Pavlík;Pavlik F.;17. 1. 2024;
+Filip Pøikryl;1055796;CEB;Banes Motor È. Budìjovice;2023 / 2024;útoèník;22;33;14;66;48;73;67;81;16;7;52;42;20;47;33;57;94;71;65;95;50;46;52;44;Filip;Pøikryl;Prikryl F.;17. 1. 2024;
+Filip Pyrochta;14636;MBL;BK Mladá Boleslav;2023 / 2024;obránce;27;34;16;27;64;25;32;35;31;85;89;71;44;82;97;87;93;57;60;18;-;10;87;-;Filip;Pyrochta;Pyrochta F.;17. 1. 2024;
+Filip Suchı;17142;MBL;BK Mladá Boleslav;2023 / 2024;útoèník;25;23;3;16;55;5;3;24;54;-;14;10;55;26;6;17;9;85;84;79;28;20;93;56;Filip;Suchı;Suchy F.;17. 1. 2024;
+Giorgio Estephan;10099336;MHK;Mountfield HK;2023 / 2024;útoèník;26;22;12;56;47;65;89;11;39;31;47;50;76;17;8;69;74;81;81;77;18;29;40;-;Giorgio;Estephan;Estephan G.;17. 1. 2024;
+Chris Martenet;41;KLA;Rytíøi Kladno;2023 / 2024;obránce;26;29;2;18;37;20;58;20;60;-;3;4;18;25;2;1;23;61;65;51;-;26;3;54;Chris;Martenet;Martenet C.;17. 1. 2024;
+Christophe Lalancette;318379;MHK;Mountfield HK;2023 / 2024;útoèník;29;34;17;13;9;23;38;40;55;25;68;56;34;81;44;80;49;65;64;84;53;37;77;-;Christophe;Lalancette;Lalancette C.;17. 1. 2024;
+Ian McCoshen;42;LIB;Bílí Tygøi Liberec;2023 / 2024;obránce;28;34;9;59;38;65;40;81;53;23;66;27;62;50;75;65;89;86;89;21;-;62;33;49;Ian;McCoshen;McCoshen I.;17. 1. 2024;
+Iikka Kangasniemi;36;KVA;HC Energie Karlovy Vary;2023 / 2024;útoèník;28;25;14;65;87;57;7;82;88;11;64;47;39;90;81;77;28;6;9;45;16;3;94;-;Iikka;Kangasniemi;Kangasniemi I.;17. 1. 2024;
+Jáchym Kondelík;56;CEB;Banes Motor È. Budìjovice;2023 / 2024;útoèník;23;22;19;82;77;76;40;94;80;96;30;30;36;77;22;4;36;35;41;16;89;54;76;59;Jáchym;Kondelík;Kondelik J.;17. 1. 2024;
+Jake Dotchin;10082784;KLA;Rytíøi Kladno;2023 / 2024;obránce;29;27;15;80;56;84;51;96;87;34;29;66;15;47;26;1;65;39;43;76;-;37;7;14;Jake;Dotchin;Dotchin J.;17. 1. 2024;
+Jakub Babka;12028;KLA;Rytíøi Kladno;2023 / 2024;obránce;31;29;1;2;10;1;11;1;52;-;42;14;86;1;76;99;26;1;1;1;-;14;94;-;Jakub;Babka;Babka J.;17. 1. 2024;
+Jakub Dvoøák;10086113;LIB;Bílí Tygøi Liberec;2023 / 2024;obránce;18;19;3;84;65;83;94;22;95;-;38;1;71;40;61;64;9;23;24;99;-;95;2;-;Jakub;Dvoøák;Dvorak J.;17. 1. 2024;
+Jakub Jeøábek;10842;TRI;HC Oceláøi Tøinec;2023 / 2024;obránce;32;34;17;17;23;32;2;53;44;77;51;67;31;89;36;41;45;50;45;27;-;66;84;99;Jakub;Jeøábek;Jerabek J.;17. 1. 2024;
+Jakub Klepiš;2219;KLA;Rytíøi Kladno;2023 / 2024;útoèník;39;30;24;67;58;73;35;96;27;60;31;59;4;85;59;25;24;77;82;40;19;43;26;-;Jakub;Klepiš;Klepis J.;17. 1. 2024;
+Jakub Koneènı;9422597;SPA;HC Sparta Praha;2023 / 2024;útoèník;21;32;7;32;27;32;25;56;71;-;63;52;56;58;87;40;54;6;4;52;58;56;85;9;Jakub;Koneènı;Konecny J.;17. 1. 2024;
+Jakub Kos;10082389;KOM;HC Kometa Brno;2023 / 2024;útoèník;20;18;6;63;35;80;57;69;28;-;52;45;70;41;27;74;28;12;13;26;93;98;87;-;Jakub;Kos;Kos J.;17. 1. 2024;
+Jakub Kotala;14050;VIT;HC Vítkovice RIDERA;2023 / 2024;útoèník;27;16;5;31;31;32;38;55;9;-;41;59;40;30;61;73;20;21;23;32;67;35;97;-;Jakub;Kotala;Kotala J.;17. 1. 2024;
+Jakub Krejèík;11158;SPA;HC Sparta Praha;2023 / 2024;obránce;32;33;8;70;77;55;57;58;59;1;80;88;70;86;91;1;90;89;87;13;-;24;38;-;Jakub;Krejèík;Krejcik J.;17. 1. 2024;
+Jakub Lev;10988;PLZ;HC Škoda Plzeò;2023 / 2024;útoèník;32;32;17;36;29;42;65;28;84;58;11;40;12;21;32;11;38;22;22;1;49;71;17;13;Jakub;Lev;Lev J.;17. 1. 2024;
+Jakub Navrátil;31781;OLO;HC Olomouc;2023 / 2024;útoèník;24;34;22;84;70;88;96;67;28;32;46;63;37;31;85;40;41;4;4;48;71;80;69;-;Jakub;Navrátil;Navratil J.;17. 1. 2024;
+Jakub Orsava;12797;OLO;HC Olomouc;2023 / 2024;útoèník;32;26;11;44;66;34;26;42;30;37;73;65;66;59;80;60;31;25;28;56;81;9;19;17;Jakub;Orsava;Orsava J.;17. 1. 2024;
+Jakub Pour;21081;PLZ;HC Škoda Plzeò;2023 / 2024;útoèník;24;30;11;53;67;41;36;71;62;38;86;80;71;44;79;84;92;70;73;65;61;53;13;-;Jakub;Pour;Pour J.;17. 1. 2024;
+Jakub Rychlovskı;53011;LIB;Bílí Tygøi Liberec;2023 / 2024;útoèník;22;36;31;93;89;87;90;75;67;56;83;69;86;84;91;63;44;13;15;46;25;27;61;99;Jakub;Rychlovskı;Rychlovsky J.;17. 1. 2024;
+Jakub Sirota;49;OLO;HC Olomouc;2023 / 2024;obránce;24;27;9;89;94;76;79;75;55;31;96;61;92;89;63;91;86;81;88;36;-;50;42;9;Jakub;Sirota;Sirota J.;17. 1. 2024;
+Jakub Strnad;11179;KLA;Rytíøi Kladno;2023 / 2024;útoèník;31;24;2;6;22;4;30;1;36;-;12;18;19;24;11;22;66;2;6;19;24;6;5;71;Jakub;Strnad;Strnad J.;17. 1. 2024;
+Jakub Valskı;8918;CEB;Banes Motor È. Budìjovice;2023 / 2024;útoèník;34;27;11;71;44;86;90;39;22;-;75;55;87;63;30;85;18;96;94;75;91;85;6;-;Jakub;Valskı;Valsky J.;17. 1. 2024;
+Jan Bambula;36851;OLO;HC Olomouc;2023 / 2024;útoèník;23;30;12;35;54;25;50;17;97;-;68;70;79;42;22;50;56;75;80;94;88;91;73;83;Jan;Bambula;Bambula J.;17. 1. 2024;
+Jan Buchtele;10883;SPA;HC Sparta Praha;2023 / 2024;útoèník;33;34;8;31;32;26;69;6;47;-;19;43;49;27;46;13;4;45;39;63;3;42;25;50;Jan;Buchtele;Buchtele J.;17. 1. 2024;
+Jan Eberle;9498;MHK;Mountfield HK;2023 / 2024;útoèník;34;22;3;22;38;21;39;7;54;-;44;55;72;17;29;71;76;76;74;18;15;82;78;-;Jan;Eberle;Eberle J.;17. 1. 2024;
+Jan Hladonik;18968;KVA;HC Energie Karlovy Vary;2023 / 2024;útoèník;24;31;13;50;75;35;19;60;58;83;23;12;59;10;50;44;60;61;63;27;16;45;47;-;Jan;Hladonik;Hladonik J.;17. 1. 2024;
+Jan Káòa;12325;OLO;HC Olomouc;2023 / 2024;útoèník;32;25;11;41;79;19;9;64;33;92;53;73;18;77;49;27;45;34;42;71;95;27;64;-;Jan;Káòa;Kana J.;17. 1. 2024;
+Jan Knotek;10144;OLO;HC Olomouc;2023 / 2024;útoèník;35;34;9;12;49;7;5;13;62;56;46;44;32;46;55;31;84;69;75;41;63;79;12;51;Jan;Knotek;Knotek J.;17. 1. 2024;
+Jan Koláø;6601;PCE;HC Dynamo Pardubice;2023 / 2024;obránce;37;28;5;56;31;59;60;59;57;-;15;81;23;57;4;1;39;10;7;19;-;28;71;-;Jan;Koláø;Kolar J.;17. 1. 2024;
+Jan Košálek;14506;PCE;HC Dynamo Pardubice;2023 / 2024;obránce;28;24;13;67;59;56;44;72;49;42;97;98;78;92;77;89;76;38;33;44;-;3;53;-;Jan;Košálek;Kostalek J.;17. 1. 2024;
+Jan Mandát;14310;PCE;HC Dynamo Pardubice;2023 / 2024;útoèník;27;30;8;14;11;20;28;47;42;-;49;67;34;50;26;54;70;86;79;36;85;18;25;80;Jan;Mandát;Mandat J.;17. 1. 2024;
+Jan Ordoš;14965;CEB;Banes Motor È. Budìjovice;2023 / 2024;útoèník;27;33;17;53;40;61;66;46;65;34;19;24;63;34;14;19;25;24;21;8;27;74;59;78;Jan;Ordoš;Ordos J.;17. 1. 2024;
+Jan Piskáèek;9521;PLZ;HC Škoda Plzeò;2023 / 2024;obránce;33;32;9;78;46;82;73;90;13;-;31;31;24;49;22;73;40;24;18;57;-;90;4;77;Jan;Piskáèek;Piskacek J.;17. 1. 2024;
+Jan Schleiss;13640;PLZ;HC Škoda Plzeò;2023 / 2024;útoèník;28;32;10;7;17;12;5;22;96;55;50;49;45;22;91;55;67;28;28;24;65;52;46;-;Jan;Schleiss;Schleiss J.;17. 1. 2024;
+Jan Stránskı;9676;MBL;BK Mladá Boleslav;2023 / 2024;útoèník;33;23;0;1;12;1;8;1;46;-;3;14;9;1;24;3;17;13;12;41;59;61;19;45;Jan;Stránskı;Stransky J.;17. 1. 2024;
+Jan Šèotka;14190;KOM;HC Kometa Brno;2023 / 2024;obránce;27;29;20;38;6;74;43;87;34;94;84;63;69;62;62;70;67;55;49;66;-;39;75;74;Jan;Šèotka;Scotka J.;17. 1. 2024;
+Jan Šír;36171;LIB;Bílí Tygøi Liberec;2023 / 2024;útoèník;23;35;6;12;1;28;56;30;61;-;4;3;3;39;7;45;23;3;2;17;13;97;4;20;Jan;Šír;Sir J.;17. 1. 2024;
+Jan Štencel;13684;CEB;Banes Motor È. Budìjovice;2023 / 2024;obránce;28;33;12;52;92;18;30;39;89;69;57;57;42;83;12;43;68;85;84;79;-;88;82;11;Jan;Štencel;Stencel J.;17. 1. 2024;
+Jan Švrèek;5625;OLO;HC Olomouc;2023 / 2024;obránce;37;32;2;10;29;8;16;11;93;-;7;43;1;55;30;1;18;7;9;22;-;40;28;57;Jan;Švrèek;Svrcek J.;17. 1. 2024;
+Jan Závora;10081997;MBL;BK Mladá Boleslav;2023 / 2024;útoèník;21;24;1;1;6;3;28;1;24;-;1;1;2;3;20;1;18;48;46;18;42;39;89;-;Jan;Závora;Zavora J.;17. 1. 2024;
+Jani Lajunen;40;SPA;HC Sparta Praha;2023 / 2024;útoèník;33;29;13;42;45;43;20;45;36;14;70;56;41;96;70;23;74;96;95;35;83;4;18;92;Jani;Lajunen;Lajunen J.;17. 1. 2024;
+Janis Jaks;10083186;LIT;HC VERVA Litvínov;2023 / 2024;obránce;28;26;14;75;69;66;55;64;73;47;43;60;50;66;68;1;37;35;40;52;-;8;47;-;Janis;Jaks;Jaks J.;17. 1. 2024;
+Jaromír Pérez;10095907;LIB;Bílí Tygøi Liberec;2023 / 2024;útoèník;18;32;7;34;18;48;52;38;89;-;32;21;33;76;60;35;11;55;54;34;24;59;13;-;Jaromír;Pérez;Perez Lisa J.;17. 1. 2024;
+Jaromír Pytlík;50181;KLA;Rytíøi Kladno;2023 / 2024;útoèník;22;32;11;40;61;29;45;31;52;41;28;16;28;7;46;52;61;80;78;98;40;63;61;27;Jaromír;Pytlík;Pytlik J.;17. 1. 2024;
+Jaroslav Vlach;11825;LIB;Bílí Tygøi Liberec;2023 / 2024;útoèník;31;36;17;60;21;81;89;58;38;43;13;34;31;35;16;5;5;19;20;69;40;95;3;95;Jaroslav;Vlach;Vlach J.;17. 1. 2024;
+Jayce Hawryluk;33;LIB;Bílí Tygøi Liberec;2023 / 2024;útoèník;27;23;12;85;88;74;42;95;82;24;77;38;26;98;69;66;98;83;87;71;19;75;28;-;Jayce;Hawryluk;Hawryluk J.;17. 1. 2024;
+Jérémie Ouellet-Blain;317639;MHK;Mountfield HK;2023 / 2024;obránce;31;33;22;62;43;64;63;68;30;91;68;43;76;78;37;27;46;53;44;71;-;86;43;15;Jérémie;Ouellet-Blain;Ouellet-Blain J.;17. 1. 2024;
+Jindøich Abdul;14203;LIT;HC VERVA Litvínov;2023 / 2024;útoèník;27;34;28;97;96;96;86;98;73;40;97;96;87;98;93;90;87;24;27;22;36;16;76;-;Jindøich;Abdul;Abdul J.;17. 1. 2024;
+Jiøí Èernoch;15234;KVA;HC Energie Karlovy Vary;2023 / 2024;útoèník;27;32;14;47;62;38;33;54;59;49;25;47;31;76;33;12;27;18;18;22;21;36;27;98;Jiøí;Èernoch;Cernoch J.;17. 1. 2024;
+Jiøí Ondrušek;5430;OLO;HC Olomouc;2023 / 2024;obránce;37;34;16;30;45;45;36;43;50;55;60;87;55;45;69;26;64;22;30;23;-;99;45;63;Jiøí;Ondrušek;Ondrusek J.;17. 1. 2024;
+Jiøí Ticháèek;10081972;KLA;Rytíøi Kladno;2023 / 2024;obránce;20;32;30;91;89;93;95;52;80;99;88;84;88;11;93;96;74;95;99;95;-;46;44;12;Jiøí;Ticháèek;Tichacek J.;17. 1. 2024;
+Joachim Rohdin;58;MBL;BK Mladá Boleslav;2023 / 2024;útoèník;31;21;3;21;57;13;8;22;5;-;25;22;59;40;48;8;40;21;25;1;46;47;53;-;Joachim;Rohdin;Rohdin J.;17. 1. 2024;
+Jonáš Peterek;36801;VIT;HC Vítkovice RIDERA;2023 / 2024;útoèník;22;14;4;19;16;27;53;28;14;-;5;1;11;11;42;4;68;42;49;38;8;95;97;-;Jonáš;Peterek;Peterek J.;17. 1. 2024;
+Joona Huttula;5;KVA;HC Energie Karlovy Vary;2023 / 2024;obránce;26;32;2;35;86;17;47;16;92;-;30;6;66;22;15;55;63;76;83;81;-;30;58;-;Joona;Huttula;Huttula J.;17. 1. 2024;
+Jordann Perret;10079644;MHK;Mountfield HK;2023 / 2024;útoèník;29;32;14;20;19;26;32;45;60;52;70;25;75;45;62;79;91;57;57;42;29;11;43;10;Jordann;Perret;Perret J.;17. 1. 2024;
+Josef Koláèek;10079493;CEB;Banes Motor È. Budìjovice;2023 / 2024;útoèník;21;19;3;27;23;34;66;13;34;-;26;30;4;44;14;13;97;73;70;86;63;40;85;-;Josef;Koláèek;Kolacek J.;17. 1. 2024;
+Josh Kestner;38;SPA;HC Sparta Praha;2023 / 2024;útoèník;29;28;18;63;73;54;29;78;95;84;94;98;97;92;89;95;73;52;48;13;17;1;49;-;Josh;Kestner;Kestner J.;17. 1. 2024;
+Juhamatti Aaltonen;28;MBL;BK Mladá Boleslav;2023 / 2024;útoèník;38;25;16;41;73;24;17;52;3;92;24;53;12;64;23;30;17;31;30;80;27;12;71;-;Juhamatti;Aaltonen;Aaltonen J.;17. 1. 2024;
+Juraj Mikuš;47341;VIT;HC Vítkovice RIDERA;2023 / 2024;obránce;34;31;10;61;79;60;1;70;37;-;20;55;27;27;50;29;50;98;98;15;-;41;61;39;Juraj;Mikuš;Mikus J.;17. 1. 2024;
+Karel Plášek;31831;OLO;HC Olomouc;2023 / 2024;útoèník;23;15;6;10;15;17;30;19;27;51;14;8;18;3;17;7;81;7;10;88;44;32;87;-;Karel;Plášek;Plasek K.;17. 1. 2024;
+Kelly Klíma;10097779;LIB;Bílí Tygøi Liberec;2023 / 2024;útoèník;26;35;11;38;16;52;46;55;76;27;77;21;74;56;90;83;85;74;76;66;7;33;6;88;Kelly;Klíma;Klima Kl.;17. 1. 2024;
+Kevin Czuczman;31;LIT;HC VERVA Litvínov;2023 / 2024;obránce;32;34;4;49;72;34;4;67;76;-;48;10;80;31;74;53;70;94;96;32;-;75;25;70;Kevin;Czuczman;Czuczman K.;17. 1. 2024;
+Kristaps Zile;5607414;LIT;HC VERVA Litvínov;2023 / 2024;obránce;25;34;6;16;5;33;30;40;68;20;6;11;25;11;22;45;1;44;50;25;-;97;29;22;Kristaps;Zile;Zile K.;17. 1. 2024;
+Kristián Pospíšil;24;KOM;HC Kometa Brno;2023 / 2024;útoèník;27;29;19;88;92;75;73;66;68;45;98;91;85;87;96;98;92;39;35;51;78;34;1;-;Kristián;Pospíšil;Pospisil K.;17. 1. 2024;
+Kryštof Hrabík;18923;PLZ;HC Škoda Plzeò;2023 / 2024;útoèník;24;31;5;7;8;13;23;9;1;35;16;8;6;48;38;28;41;8;8;19;30;80;24;87;Kryštof;Hrabík;Hrabik K.;17. 1. 2024;
+Liam Kirk;39;LIT;HC VERVA Litvínov;2023 / 2024;útoèník;23;34;21;88;96;76;77;42;83;61;95;87;96;82;77;71;78;27;31;61;84;39;41;-;Liam;Kirk;Kirk L.;17. 1. 2024;
+Libor Hudáèek;5370635;TRI;HC Oceláøi Tøinec;2023 / 2024;útoèník;32;18;15;98;98;99;95;97;81;-;76;97;84;85;25;74;2;35;36;24;93;75;74;-;Libor;Hudáèek;Hudacek L.;17. 1. 2024;
+Lukas Zetterberg;55;KVA;HC Energie Karlovy Vary;2023 / 2024;útoèník;26;25;9;37;46;28;27;60;13;47;21;20;16;79;13;44;6;90;93;1;54;56;79;-;Lukas;Zetterberg;Zetterberg L.;17. 1. 2024;
+Lukáš Andìl;15078;OLO;HC Olomouc;2023 / 2024;útoèník;25;26;7;19;7;33;6;90;32;-;10;28;3;16;12;14;69;22;24;74;23;98;80;-;Lukáš;Andìl;Andel L.;17. 1. 2024;
+Lukáš Cingel;19881;KOM;HC Kometa Brno;2023 / 2024;útoèník;31;33;19;61;65;51;47;67;45;77;33;6;28;57;28;67;44;65;60;61;13;29;69;6;Lukáš;Cingel;Cingel L.;17. 1. 2024;
+Lukáš Derner;6949;LIB;Bílí Tygøi Liberec;2023 / 2024;obránce;39;34;2;8;9;10;17;13;99;-;11;2;64;3;57;1;59;19;26;49;-;56;11;29;Lukáš;Derner;Derner L.;17. 1. 2024;
+Lukáš Kaòák;15225;KOM;HC Kometa Brno;2023 / 2024;obránce;26;22;4;71;71;67;64;32;26;-;54;70;12;99;8;92;42;33;37;28;-;25;93;-;Lukáš;Kaòák;Kanak L.;17. 1. 2024;
+Lukáš Klimek;8483;OLO;HC Olomouc;2023 / 2024;útoèník;36;29;4;11;30;10;14;18;59;-;34;51;64;22;61;34;10;94;98;47;60;96;48;34;Lukáš;Klimek;Klimek L.;17. 1. 2024;
+Lukáš Kováø;11621;VIT;HC Vítkovice RIDERA;2023 / 2024;obránce;31;24;3;43;35;53;88;26;48;-;11;17;9;30;11;40;27;5;6;43;-;67;67;95;Lukáš;Kováø;Kovar L.;17. 1. 2024;
+Lukáš Kucsera;11200;OLO;HC Olomouc;2023 / 2024;útoèník;32;17;8;65;35;88;68;66;70;-;18;45;33;66;10;8;13;60;70;1;57;7;97;-;Lukáš;Kucsera;Kucsera L.;17. 1. 2024;
+Lukáš Mareš;20921;OLO;HC Olomouc;2023 / 2024;obránce;24;15;1;11;14;16;26;23;1;-;9;12;30;6;20;72;34;2;3;10;-;32;83;-;Lukáš;Mareš;Mares L.;17. 1. 2024;
+Lukáš Nahodil;9949;OLO;HC Olomouc;2023 / 2024;útoèník;35;30;12;46;63;37;34;48;22;54;78;74;71;52;51;42;85;29;38;75;90;2;21;-;Lukáš;Nahodil;Nahodil L.;17. 1. 2024;
+Lukáš Pech;1099;CEB;Banes Motor È. Budìjovice;2023 / 2024;útoèník;39;13;3;26;21;40;7;68;98;2;36;32;8;99;12;54;31;17;19;76;21;6;84;-;Lukáš;Pech;Pech L.;17. 1. 2024;
+Lukáš Pulpán;7136;KVA;HC Energie Karlovy Vary;2023 / 2024;obránce;38;21;1;11;28;12;14;15;88;-;12;21;48;58;31;1;30;12;14;3;-;11;60;36;Lukáš;Pulpán;Pulpan L.;17. 1. 2024;
+Lukáš Radil;10440;PCE;HC Dynamo Pardubice;2023 / 2024;útoèník;33;32;29;82;46;95;99;37;16;79;87;80;81;78;98;97;25;23;18;69;4;31;75;-;Lukáš;Radil;Radil L.;17. 1. 2024;
+Lukáš Sedlák;12978;PCE;HC Dynamo Pardubice;2023 / 2024;útoèník;30;30;29;95;95;90;93;76;99;97;99;88;93;84;80;94;96;85;76;96;62;53;17;-;Lukáš;Sedlák;Sedlak L.;17. 1. 2024;
+Lukáš Válek;14465;LIT;HC VERVA Litvínov;2023 / 2024;útoèník;29;27;12;83;61;90;96;49;31;22;60;26;52;48;64;61;57;1;3;94;56;23;81;-;Lukáš;Válek;Valek L.;17. 1. 2024;
+Lukáš Vopelka;14879;CEB;Banes Motor È. Budìjovice;2023 / 2024;útoèník;27;19;2;9;12;18;26;16;88;-;42;78;39;59;16;16;32;98;98;64;96;66;9;-;Lukáš;Vopelka;Vopelka L.;17. 1. 2024;
+Marcel Barinka;38171;VIT;HC Vítkovice RIDERA;2023 / 2024;útoèník;22;14;11;84;76;89;97;27;7;-;13;21;44;33;5;1;14;31;33;81;26;60;97;-;Marcel;Barinka;Barinka M.;17. 1. 2024;
+Marek Baránek;13911;LIT;HC VERVA Litvínov;2023 / 2024;obránce;28;31;13;63;84;35;50;38;22;58;32;52;40;46;55;31;19;4;2;86;-;59;26;2;Marek;Baránek;Baranek M.;17. 1. 2024;
+Marek Ïaloga;18160;KOM;HC Kometa Brno;2023 / 2024;obránce;34;32;12;90;91;89;38;98;51;-;94;32;96;38;99;97;99;30;28;89;-;33;88;1;Marek;Ïaloga;Daloga M.;17. 1. 2024;
+Marek Kalus;12936;VIT;HC Vítkovice RIDERA;2023 / 2024;útoèník;30;29;17;44;83;22;15;26;46;52;69;59;58;32;52;69;75;73;74;82;88;94;38;18;Marek;Kalus;Kalus M.;17. 1. 2024;
+Marek Zachar;17902;MHK;Mountfield HK;2023 / 2024;útoèník;25;23;3;8;17;11;19;8;90;-;7;11;30;6;43;43;1;16;12;17;7;97;82;76;Marek;Zachar;Zachar M.;17. 1. 2024;
+Marian Adámek;15156;TRI;HC Oceláøi Tøinec;2023 / 2024;obránce;26;30;7;65;17;79;78;78;86;-;50;86;68;70;34;1;14;77;71;50;-;38;57;-;Marian;Adámek;Adamek M.;17. 1. 2024;
+Mario Grman;10083232;VIT;HC Vítkovice RIDERA;2023 / 2024;obránce;26;29;3;24;40;24;50;34;54;-;40;45;5;77;70;57;17;92;91;70;-;6;20;44;Mario;Grman;Grman M.;17. 1. 2024;
+Marko Daòo;16023;TRI;HC Oceláøi Tøinec;2023 / 2024;útoèník;28;18;19;99;99;98;95;96;79;80;94;85;97;67;67;98;47;70;66;93;97;1;26;-;Marko;Daòo;Dano M.;17. 1. 2024;
+Martin Beránek;39381;CEB;Banes Motor È. Budìjovice;2023 / 2024;útoèník;22;31;12;62;75;56;48;40;72;-;45;39;79;19;55;46;62;41;34;9;61;88;50;55;Martin;Beránek;Beranek M.;17. 1. 2024;
+Martin Buèko;10082096;PCE;HC Dynamo Pardubice;2023 / 2024;obránce;23;20;7;87;63;95;27;99;94;-;72;99;73;81;30;1;24;9;8;75;-;16;89;-;Martin;Buèko;Bucko M.;17. 1. 2024;
+Martin Faško-Rudáš;10079542;LIB;Bílí Tygøi Liberec;2023 / 2024;útoèník;23;32;15;73;78;65;57;50;71;36;38;8;50;41;84;56;51;5;7;39;5;8;59;60;Martin;Faško-Rudáš;Fasko-Rudas M.;17. 1. 2024;
+Martin Hanzl;13089;CEB;Banes Motor È. Budìjovice;2023 / 2024;útoèník;29;18;4;24;44;18;31;14;23;21;62;66;47;74;34;36;71;42;46;28;94;38;73;-;Martin;Hanzl;Hanzl M.;17. 1. 2024;
+Martin Havelka;17112;LIT;HC VERVA Litvínov;2023 / 2024;útoèník;25;33;2;4;1;8;10;35;93;-;2;2;1;18;1;9;20;90;91;87;72;31;24;94;Martin;Havelka;Havelka M.;17. 1. 2024;
+Martin Kaut;21531;PCE;HC Dynamo Pardubice;2023 / 2024;útoèník;23;24;22;95;81;94;97;84;18;97;85;99;98;24;94;59;61;59;52;68;70;15;30;23;Martin;Kaut;Kaut M.;17. 1. 2024;
+Martin Kohout;14193;KOM;HC Kometa Brno;2023 / 2024;útoèník;28;24;3;26;51;16;10;25;75;-;95;91;78;81;84;94;37;50;45;90;96;49;46;-;Martin;Kohout;Kohout M.;17. 1. 2024;
+Martin Marinèin;16247;TRI;HC Oceláøi Tøinec;2023 / 2024;obránce;31;34;14;85;97;70;4;97;33;6;82;91;72;96;46;24;21;60;56;87;-;15;69;65;Martin;Marinèin;Marincin M.;17. 1. 2024;
+Martin Plánìk;10211;MHK;Mountfield HK;2023 / 2024;obránce;32;33;7;54;42;62;39;80;56;-;53;64;43;79;39;28;51;83;82;48;-;64;74;81;Martin;Plánìk;Planek M.;17. 1. 2024;
+Martin Procházka;13766;KLA;Rytíøi Kladno;2023 / 2024;útoèník;29;32;12;75;53;82;77;70;66;10;34;40;38;21;32;26;95;1;1;46;35;19;39;-;Martin;Procházka;Prochazka M.;17. 1. 2024;
+Martin Rùièka;6360;TRI;HC Oceláøi Tøinec;2023 / 2024;útoèník;37;32;32;86;85;80;71;73;17;85;61;90;74;65;8;76;5;36;39;33;76;40;56;-;Martin;Rùièka;Ruzicka M.;17. 1. 2024;
+Martin Zaoviè;6886;KOM;HC Kometa Brno;2023 / 2024;útoèník;38;33;16;69;39;79;72;77;10;12;40;35;51;69;6;89;3;34;38;57;36;30;34;26;Martin;Zaoviè;Zatovic M.;17. 1. 2024;
+Matìj Chalupa;18941;MHK;Mountfield HK;2023 / 2024;útoèník;25;23;5;46;37;50;17;83;51;-;54;70;65;8;56;61;53;20;16;77;73;99;88;-;Matìj;Chalupa;Chalupa M.;17. 1. 2024;
+Matej Pauloviè;2491895;PCE;HC Dynamo Pardubice;2023 / 2024;útoèník;29;28;12;55;24;70;74;69;20;-;56;35;57;89;49;67;8;77;73;39;45;69;84;39;Matej;Pauloviè;Paulovic M.;17. 1. 2024;
+Matìj Støíteskı;9447;KVA;HC Energie Karlovy Vary;2023 / 2024;obránce;32;32;6;19;26;27;66;14;10;12;30;11;11;28;48;77;43;54;59;90;-;76;35;84;Matìj;Støíteskı;Stritesky M.;17. 1. 2024;
+Matìj Toman;39351;CEB;Banes Motor È. Budìjovice;2023 / 2024;útoèník;23;28;5;13;13;22;46;20;70;-;29;36;7;49;31;41;64;82;84;56;48;62;72;62;Matìj;Toman;Toman M.;17. 1. 2024;
+Matouš Menšík;10082161;OLO;HC Olomouc;2023 / 2024;útoèník;20;17;1;6;11;7;39;1;1;-;27;26;10;29;83;46;72;66;75;1;45;93;10;-;Matouš;Menšík;Mensik M.;17. 1. 2024;
+Matti Järvinen;34;MBL;BK Mladá Boleslav;2023 / 2024;útoèník;33;29;17;14;36;10;11;39;10;99;11;18;15;46;9;29;4;58;62;54;43;19;28;2;Matti;Järvinen;Jarvinen M.;17. 1. 2024;
+Matúš Sukel´;2491887;LIT;HC VERVA Litvínov;2023 / 2024;útoèník;27;11;8;97;97;97;87;72;8;30;53;71;36;95;65;5;53;60;68;1;85;73;36;93;Matúš;Sukel´;Sukel M.;17. 1. 2024;
+Michael Frolík;8758;KLA;Rytíøi Kladno;2023 / 2024;útoèník;35;19;4;33;69;19;12;34;26;16;57;76;60;36;48;34;82;79;80;85;33;10;92;-;Michael;Frolík;Frolik M.;17. 1. 2024;
+Michal Birner;7961;LIB;Bílí Tygøi Liberec;2023 / 2024;útoèník;37;29;9;25;25;30;41;32;49;12;48;32;25;74;50;70;58;88;90;65;2;3;88;-;Michal;Birner;Birner M.;17. 1. 2024;
+Michal Bulíø;11304;LIB;Bílí Tygøi Liberec;2023 / 2024;útoèník;32;32;16;48;28;62;52;48;50;42;80;41;76;73;87;81;35;95;96;95;18;8;62;-;Michal;Bulíø;Bulir M.;17. 1. 2024;
+Michal Gulaši;7926;CEB;Banes Motor È. Budìjovice;2023 / 2024;obránce;37;31;1;5;4;9;19;12;27;-;4;7;4;9;5;56;13;13;11;26;-;84;31;91;Michal;Gulaši;Gulasi M.;17. 1. 2024;
+Michal Gut;10077703;LIT;HC VERVA Litvínov;2023 / 2024;útoèník;21;25;4;24;3;49;76;11;74;-;6;5;8;15;30;3;34;30;40;49;51;84;12;21;Michal;Gut;Gut M.;17. 1. 2024;
+Michal Houdek;51951;PLZ;HC Škoda Plzeò;2023 / 2024;obránce;23;26;5;53;11;78;53;85;74;-;55;54;54;44;33;1;92;58;61;89;-;78;27;37;Michal;Houdek;Houdek M.;17. 1. 2024;
+Michal Hrádek;4132419;PCE;HC Dynamo Pardubice;2023 / 2024;obránce;21;21;3;46;70;31;17;62;1;-;13;62;34;67;21;1;4;52;39;63;-;74;70;-;Michal;Hrádek;Hradek M.;17. 1. 2024;
+Michal Ivan;10096585;LIB;Bílí Tygøi Liberec;2023 / 2024;obránce;24;35;10;83;58;77;90;50;47;-;81;16;97;37;90;83;84;74;79;47;-;44;90;86;Michal;Ivan;Ivan M.;17. 1. 2024;
+Michal Kempnı;13000;SPA;HC Sparta Praha;2023 / 2024;obránce;33;34;24;97;80;96;93;93;63;80;77;79;87;29;83;49;91;27;23;7;-;48;59;68;Michal;Kempnı;Kempny M.;17. 1. 2024;
+Michal Kunc;30611;OLO;HC Olomouc;2023 / 2024;útoèník;22;33;17;59;31;74;75;73;19;13;33;39;46;10;88;32;48;8;10;42;31;62;62;90;Michal;Kunc;Kunc M.;17. 1. 2024;
+Michal Moravèík;14253;SPA;HC Sparta Praha;2023 / 2024;obránce;29;31;7;82;57;72;72;74;75;-;64;93;53;68;58;1;96;96;94;40;-;35;23;60;Michal;Moravèík;Moravcik M.;17. 1. 2024;
+Michal Plutnar;13276;KVA;HC Energie Karlovy Vary;2023 / 2024;obránce;29;33;13;68;78;58;31;73;62;50;27;37;21;17;59;42;66;30;36;88;-;52;22;43;Michal;Plutnar;Plutnar M.;17. 1. 2024;
+Michal Øepík;8701;SPA;HC Sparta Praha;2023 / 2024;útoèník;35;32;27;74;50;83;55;80;38;83;89;96;85;80;98;96;32;91;88;8;57;52;35;-;Michal;Øepík;Repik M.;17. 1. 2024;
+Mikuláš Hovorka;10082044;CEB;Banes Motor È. Budìjovice;2023 / 2024;obránce;22;33;12;89;89;85;83;66;17;28;87;97;63;65;72;44;87;31;32;69;-;42;14;75;Mikuláš;Hovorka;Hovorka M.;17. 1. 2024;
+Milan Doudera;12819;CEB;Banes Motor È. Budìjovice;2023 / 2024;obránce;30;28;11;73;30;90;68;83;70;-;76;72;45;48;80;84;70;56;52;30;-;89;86;32;Milan;Doudera;Doudera M.;17. 1. 2024;
+Milan Gulaš;7951;CEB;Banes Motor È. Budìjovice;2023 / 2024;útoèník;38;31;22;91;91;84;74;80;43;76;90;81;83;63;57;85;84;47;49;87;76;81;54;-;Milan;Gulaš;Gulas M.;17. 1. 2024;
+Miloš Roman;18964;TRI;HC Oceláøi Tøinec;2023 / 2024;útoèník;24;34;11;16;6;30;43;32;44;48;17;24;35;28;4;10;6;93;89;82;95;76;67;46;Miloš;Roman;Roman M.;17. 1. 2024;
+Miroslav Forman;10560;SPA;HC Sparta Praha;2023 / 2024;útoèník;32;28;15;81;59;85;82;59;56;-;81;78;84;97;82;80;16;80;77;12;14;24;50;81;Miroslav;Forman;Forman M.;17. 1. 2024;
+Miroslav Indrák;14240;PLZ;HC Škoda Plzeò;2023 / 2024;útoèník;27;31;13;81;93;66;24;89;79;26;62;66;89;54;18;18;68;97;97;59;80;41;31;-;Miroslav;Indrák;Indrak M.;17. 1. 2024;
+Nicolas Hlava;13667;LIT;HC VERVA Litvínov;2023 / 2024;útoèník;29;34;22;83;87;72;44;82;57;28;84;82;80;68;68;88;24;20;26;53;99;59;67;-;Nicolas;Hlava;Hlava N.;17. 1. 2024;
+Oliver Okuliar;10079544;MHK;Mountfield HK;2023 / 2024;útoèník;23;34;28;94;89;91;98;68;97;82;91;91;82;70;79;89;52;63;62;52;97;34;2;7;Oliver;Okuliar;Okuliar O.;17. 1. 2024;
+Ondøej Beránek;14041;KVA;HC Energie Karlovy Vary;2023 / 2024;útoèník;28;30;15;49;65;42;70;12;64;39;30;50;88;5;31;73;15;14;17;10;9;16;7;97;Ondøej;Beránek;Beranek O.;17. 1. 2024;
+Ondøej Bláha;31281;KLA;Rytíøi Kladno;2023 / 2024;útoèník;23;28;7;52;20;77;80;53;74;-;9;4;69;2;4;41;1;3;6;67;3;79;70;85;Ondøej;Bláha;Blaha O.;17. 1. 2024;
+Ondøej Dlapa;11274;KVA;HC Energie Karlovy Vary;2023 / 2024;obránce;32;26;1;13;27;11;25;21;66;-;1;3;1;13;11;1;15;29;29;46;-;23;9;33;Ondøej;Dlapa;Dlapa O.;17. 1. 2024;
+Ondøej Jurèík;11273;LIT;HC VERVA Litvínov;2023 / 2024;útoèník;31;28;6;17;2;33;61;33;48;-;24;23;22;35;35;33;12;47;55;96;79;44;66;72;Ondøej;Jurèík;Jurcik O.;17. 1. 2024;
+Ondøej Kachyòa;18507;CEB;Banes Motor È. Budìjovice;2023 / 2024;obránce;25;21;7;72;16;92;89;88;72;-;35;40;59;10;84;1;73;78;75;24;-;53;17;-;Ondøej;Kachyòa;Kachyna O.;17. 1. 2024;
+Ondøej Kaše;37;LIT;HC VERVA Litvínov;2023 / 2024;útoèník;27;31;32;96;91;93;91;93;76;63;93;91;93;61;99;82;96;79;85;1;82;50;60;15;Ondøej;Kaše;Kase O.;17. 1. 2024;
+Ondøej Matıs;29371;PLZ;HC Škoda Plzeò;2023 / 2024;útoèník;24;30;10;68;67;64;85;43;53;-;59;60;22;80;76;21;99;32;31;34;38;13;74;-;Ondøej;Matıs;Matys O.;17. 1. 2024;
+Ondøej Mikliš;14071;SPA;HC Sparta Praha;2023 / 2024;obránce;27;30;5;45;36;52;45;51;50;-;45;90;60;84;27;1;38;88;85;16;-;21;11;50;Ondøej;Mikliš;Miklis O.;17. 1. 2024;
+Ondøej Najman;17536;SPA;HC Sparta Praha;2023 / 2024;útoèník;25;32;10;49;60;39;34;51;6;3;50;65;44;97;39;7;59;75;72;45;32;66;63;4;Ondøej;Najman;Najman O.;17. 1. 2024;
+Ondøej Procházka;17217;KVA;HC Energie Karlovy Vary;2023 / 2024;útoèník;26;33;16;72;56;77;71;74;68;93;56;41;70;40;42;76;54;11;11;60;35;65;34;36;Ondøej;Procházka;Prochazka O.;17. 1. 2024;
+Ondøej Roman;8810;MBL;BK Mladá Boleslav;2023 / 2024;útoèník;35;31;10;20;52;14;11;29;7;21;3;6;17;12;2;21;39;5;5;30;31;77;68;-;Ondøej;Roman;Roman O.;17. 1. 2024;
+Ondøej Slováèek;12827;KLA;Rytíøi Kladno;2023 / 2024;obránce;29;32;4;14;19;21;9;48;19;-;63;28;8;72;96;30;94;15;17;59;-;70;12;56;Ondøej;Slováèek;Slovacek O.;17. 1. 2024;
+Ondøej Vála;17809;PCE;HC Dynamo Pardubice;2023 / 2024;obránce;25;28;11;81;13;98;98;79;28;-;41;89;38;71;18;34;32;51;41;50;-;93;34;85;Ondøej;Vála;Vala O.;17. 1. 2024;
+Oscar Flynn;29091;LIB;Bílí Tygøi Liberec;2023 / 2024;útoèník;24;29;29;98;97;97;88;94;91;61;90;87;99;83;82;62;70;43;50;62;48;22;42;-;Oscar;Flynn;Flynn O.;17. 1. 2024;
+Patrik Demel;14369;LIT;HC VERVA Litvínov;2023 / 2024;obránce;27;32;6;20;12;40;35;28;24;-;70;12;91;15;85;80;69;64;66;33;-;51;21;71;Patrik;Demel;Demel P.;17. 1. 2024;
+Patrik Hrehorèák;32581;TRI;HC Oceláøi Tøinec;2023 / 2024;útoèník;24;34;10;30;8;53;21;63;67;-;59;57;20;53;66;84;34;98;95;78;81;70;66;64;Patrik;Hrehorèák;Hrehorcak P.;17. 1. 2024;
+Patrik Marcel;13639;MHK;Mountfield HK;2023 / 2024;obránce;29;30;0;3;8;1;22;1;25;-;5;5;11;36;9;1;5;11;10;58;-;29;1;-;Patrik;Marcel;Marcel P.;17. 1. 2024;
+Patrik Miškáø;15275;MHK;Mountfield HK;2023 / 2024;útoèník;27;28;14;48;74;36;6;62;3;74;71;62;63;70;34;72;42;44;40;48;86;72;47;66;Patrik;Miškáø;Miskar P.;17. 1. 2024;
+Patrik Poulíèek;15476;PCE;HC Dynamo Pardubice;2023 / 2024;útoèník;30;29;13;64;41;68;94;33;96;7;69;74;73;47;73;31;88;87;79;14;66;63;38;69;Patrik;Poulíèek;Poulicek P.;17. 1. 2024;
+Patrik Zdráhal;14150;VIT;HC Vítkovice RIDERA;2023 / 2024;útoèník;28;12;7;75;98;54;4;92;87;-;84;86;67;75;89;93;55;18;21;28;20;13;68;-;Patrik;Zdráhal;Zdrahal P.;17. 1. 2024;
+Pavel Kousal;18669;SPA;HC Sparta Praha;2023 / 2024;útoèník;24;33;22;62;66;59;54;44;87;71;91;93;98;95;72;60;79;48;44;37;33;41;55;-;Pavel;Kousal;Kousal P.;17. 1. 2024;
+Pavel Musil;12569;OLO;HC Olomouc;2023 / 2024;útoèník;30;25;2;10;50;2;1;6;12;44;67;68;46;68;69;58;67;81;82;15;73;57;35;-;Pavel;Musil;Musil P.;17. 1. 2024;
+Pavel Pıcha;14920;CEB;Banes Motor È. Budìjovice;2023 / 2024;obránce;27;32;12;36;32;50;75;27;18;83;16;25;32;14;45;30;58;75;72;34;-;92;63;46;Pavel;Pıcha;Pycha P.;17. 1. 2024;
+Pavol Skalickı;2491888;MBL;BK Mladá Boleslav;2023 / 2024;útoèník;28;34;12;32;82;12;12;10;21;88;32;24;45;38;53;37;42;97;96;21;55;21;81;73;Pavol;Skalickı;Skalicky P.;17. 1. 2024;
+Pawel Zygmunt;10096884;LIT;HC VERVA Litvínov;2023 / 2024;útoèník;23;19;1;2;3;8;36;1;35;-;31;31;21;4;93;24;63;67;71;73;79;77;31;29;Pawel;Zygmunt;Zygmunt P.;17. 1. 2024;
+Peter Èerešòák;16240;PCE;HC Dynamo Pardubice;2023 / 2024;obránce;30;32;25;94;82;88;69;94;9;96;69;96;77;94;28;1;55;99;95;56;-;79;70;30;Peter;Èerešòák;Ceresnak P.;17. 1. 2024;
+Peter Krieger;7;VIT;HC Vítkovice RIDERA;2023 / 2024;útoèník;30;31;13;21;49;15;24;19;93;48;41;42;27;75;26;48;48;49;55;20;68;57;39;-;Peter;Krieger;Krieger P.;17. 1. 2024;
+Peter Mueller;316216;VIT;HC Vítkovice RIDERA;2023 / 2024;útoèník;35;17;13;27;34;25;49;25;11;94;65;82;17;71;62;79;65;95;97;79;25;36;83;-;Peter;Mueller;Mueller P.;17. 1. 2024;
+Petr Fridrich;37111;VIT;HC Vítkovice RIDERA;2023 / 2024;útoèník;23;31;9;55;57;55;49;62;81;-;60;12;80;37;56;75;69;69;67;57;37;47;70;86;Petr;Fridrich;Fridrich P.;17. 1. 2024;
+Petr Gewiese;12268;MBL;BK Mladá Boleslav;2023 / 2024;obránce;30;34;3;21;60;15;61;1;84;-;36;68;10;30;65;75;31;59;67;14;-;57;46;28;Petr;Gewiese;Gewiese P.;17. 1. 2024;
+Petr Hauser;10083033;SPA;HC Sparta Praha;2023 / 2024;útoèník;19;23;4;23;5;45;4;93;65;-;39;61;66;36;65;16;77;30;25;1;12;50;58;-;Petr;Hauser;Hauser P.;17. 1. 2024;
+Petr Holík;12321;KOM;HC Kometa Brno;2023 / 2024;útoèník;31;29;11;59;68;49;41;56;4;4;67;71;67;94;54;83;11;49;48;12;26;28;94;-;Petr;Holík;Holik P.;17. 1. 2024;
+Petr Chlán;31051;VIT;HC Vítkovice RIDERA;2023 / 2024;útoèník;24;24;8;25;39;20;42;18;29;75;21;13;53;7;27;14;65;50;53;80;8;68;20;63;Petr;Chlán;Chlan P.;17. 1. 2024;
+Petr Kalina;17225;MHK;Mountfield HK;2023 / 2024;obránce;26;34;4;25;39;30;41;33;11;-;23;26;37;34;16;85;30;80;76;54;-;94;62;78;Petr;Kalina;Kalina P.;17. 1. 2024;
+Petr Koblasa;13233;LIT;HC VERVA Litvínov;2023 / 2024;útoèník;29;34;24;54;32;60;83;31;25;70;55;62;91;69;45;32;46;61;69;20;6;88;95;-;Petr;Koblasa;Koblasa P.;17. 1. 2024;
+Petr Straka;11296;PLZ;HC Škoda Plzeò;2023 / 2024;útoèník;31;29;5;36;14;55;22;87;39;-;51;46;24;32;57;68;63;11;13;81;87;33;55;84;Petr;Straka;Straka P.;17. 1. 2024;
+Petr Vrána;2182;TRI;HC Oceláøi Tøinec;2023 / 2024;útoèník;38;34;11;28;18;38;22;54;31;15;20;28;6;23;36;47;43;45;41;25;62;14;32;70;Petr;Vrána;Vrana P.;17. 1. 2024;
+Petr Zámorskı;12347;PLZ;HC Škoda Plzeò;2023 / 2024;obránce;31;32;26;95;87;91;97;77;8;75;89;92;29;87;86;81;98;49;51;5;-;36;72;61;Petr;Zámorskı;Zamorsky P.;17. 1. 2024;
+Radek Jeøábek;17234;VIT;HC Vítkovice RIDERA;2023 / 2024;obránce;25;24;1;15;48;14;3;30;77;-;26;18;94;23;17;47;29;63;70;2;-;69;76;-;Radek;Jeøábek;Jerabek R.;17. 1. 2024;
+Radek Kuèeøík;35491;KOM;HC Kometa Brno;2023 / 2024;obránce;22;33;6;31;24;44;85;11;91;-;79;39;81;33;64;82;83;65;58;42;-;89;30;40;Radek;Kuèeøík;Kucerik R.;17. 1. 2024;
+Radek Muík;1055795;SPA;HC Sparta Praha;2023 / 2024;útoèník;22;18;2;3;4;3;16;20;11;-;10;7;1;45;24;49;12;4;3;35;1;91;83;-;Radek;Muík;Muzik R.;17. 1. 2024;
+Radek Pilaø;14881;MHK;Mountfield HK;2023 / 2024;útoèník;27;26;2;5;10;9;14;7;12;-;6;4;27;9;10;36;55;72;65;1;12;82;48;22;Radek;Pilaø;Pilar R.;17. 1. 2024;
+Radek Smoleòák;6731;KLA;Rytíøi Kladno;2023 / 2024;útoèník;36;26;16;73;79;63;91;24;78;86;22;31;42;62;3;48;8;25;22;11;30;11;7;-;Radek;Smoleòák;Smolenak R.;17. 1. 2024;
+Radim Šalda;19035;LIT;HC VERVA Litvínov;2023 / 2024;obránce;24;33;2;42;67;28;56;25;79;-;18;22;47;7;43;38;22;41;48;98;-;1;18;47;Radim;Šalda;Salda R.;17. 1. 2024;
+Radovan Pavlík;16940;MHK;Mountfield HK;2023 / 2024;útoèník;25;25;5;18;52;6;1;27;25;-;82;77;42;56;67;92;91;84;83;62;74;84;11;35;Radovan;Pavlík;Pavlik R.;17. 1. 2024;
+Ralfs Freibergs;10079557;MHK;Mountfield HK;2023 / 2024;obránce;32;34;6;37;44;46;34;63;58;4;50;41;89;50;52;70;11;67;62;29;-;22;39;93;Ralfs;Freibergs;Freibergs R.;17. 1. 2024;
+Rastislav Dej;10666;VIT;HC Vítkovice RIDERA;2023 / 2024;útoèník;34;27;5;54;70;48;58;30;5;-;8;15;41;1;39;6;13;54;56;40;34;83;45;24;Rastislav;Dej;Dej R.;17. 1. 2024;
+Rhett Holland;10083253;KOM;HC Kometa Brno;2023 / 2024;obránce;29;31;2;9;7;13;10;17;96;-;67;49;49;93;10;35;54;62;53;72;-;87;10;58;Rhett;Holland;Holland R.;17. 1. 2024;
+Richard Jarùšek;11188;KLA;Rytíøi Kladno;2023 / 2024;útoèník;32;32;8;45;60;36;3;91;94;8;42;20;29;20;37;64;93;62;66;67;66;21;44;-;Richard;Jarùšek;Jarusek R.;17. 1. 2024;
+Richard Nedomlel;13220;TRI;HC Oceláøi Tøinec;2023 / 2024;obránce;30;34;1;6;1;11;19;24;15;-;2;14;1;5;13;1;7;34;30;68;-;61;51;35;Richard;Nedomlel;Nedomlel R.;17. 1. 2024;
+Richard Pánik;46;TRI;HC Oceláøi Tøinec;2023 / 2024;útoèník;32;34;21;76;59;79;84;47;63;29;76;83;83;18;96;93;52;9;5;1;87;10;14;-;Richard;Pánik;Panik R.;17. 1. 2024;
+Robert Kousal;10438;PCE;HC Dynamo Pardubice;2023 / 2024;útoèník;32;32;28;80;41;95;53;97;32;26;85;85;95;71;74;77;38;28;19;68;22;28;52;-;Robert;Kousal;Kousal R.;17. 1. 2024;
+Róbert Lantoši;23941;MBL;BK Mladá Boleslav;2023 / 2024;útoèník;27;34;29;80;95;60;81;46;45;98;88;88;62;91;95;66;87;51;51;44;52;58;56;-;Róbert;Lantoši;Lantosi R.;17. 1. 2024;
+Robert Øíèka;10315;PCE;HC Dynamo Pardubice;2023 / 2024;útoèník;34;32;19;39;20;40;63;57;73;90;44;58;68;6;44;53;33;71;58;98;50;51;49;-;Robert;Øíèka;Ricka R.;17. 1. 2024;
+Roberts Bukarts;5919098;VIT;HC Vítkovice RIDERA;2023 / 2024;útoèník;33;30;12;29;30;31;80;1;52;19;43;53;57;60;28;22;19;56;60;92;59;26;41;-;Roberts;Bukarts;Bukarts R.;17. 1. 2024;
+Rok Macuh;53281;OLO;HC Olomouc;2023 / 2024;útoèník;26;32;22;90;77;92;84;88;98;59;75;84;43;82;66;30;76;53;57;91;47;91;3;65;Rok;Macuh;Macuh R.;17. 1. 2024;
+Roman Horák;10339;SPA;HC Sparta Praha;2023 / 2024;útoèník;32;34;28;89;85;83;60;87;33;75;79;77;89;94;60;18;60;54;47;49;47;38;96;-;Roman;Horák;Horak R.;17. 1. 2024;
+Roman Vráblík;10250;CEB;Banes Motor È. Budìjovice;2023 / 2024;obránce;33;25;4;51;90;29;13;30;61;-;34;37;33;19;70;39;48;69;69;38;-;20;41;25;Roman;Vráblík;Vrablik R.;17. 1. 2024;
+Ronald Knot;13592;LIB;Bílí Tygøi Liberec;2023 / 2024;obránce;29;28;13;58;20;71;89;29;41;17;83;24;95;61;88;58;79;91;90;55;-;70;95;88;Ronald;Knot;Knot R.;17. 1. 2024;
+Sebastian Malát;10079113;MBL;BK Mladá Boleslav;2023 / 2024;útoèník;21;27;7;34;27;41;62;41;80;-;35;34;7;4;81;59;73;52;53;83;60;90;16;-;Sebastian;Malát;Malat S.;17. 1. 2024;
+Silvester Kusko;14492;OLO;HC Olomouc;2023 / 2024;útoèník;28;31;7;11;42;6;37;1;53;16;12;17;13;38;17;17;35;59;68;31;44;70;40;3;Silvester;Kusko;Kusko S.;17. 1. 2024;
+Steve Moses;43;KOM;HC Kometa Brno;2023 / 2024;útoèník;34;33;22;69;64;61;88;36;83;87;80;36;92;33;90;78;83;36;35;89;11;42;77;-;Steve;Moses;Moses S.;17. 1. 2024;
+Stuart Percy;10099422;VIT;HC Vítkovice RIDERA;2023 / 2024;obránce;30;28;16;39;66;41;21;61;67;72;70;51;46;91;53;33;44;50;57;82;-;11;68;-;Stuart;Percy;Percy S.;17. 1. 2024;
+T.J. Melancon;10099298;LIB;Bílí Tygøi Liberec;2023 / 2024;obránce;27;34;21;93;75;94;96;84;89;66;99;50;98;95;79;94;75;16;22;78;-;5;96;-;T.J.;Melancon;Melancon T.;17. 1. 2024;
+Tadeáš Hejda;17092;KLA;Rytíøi Kladno;2023 / 2024;obránce;26;32;7;48;34;54;71;54;23;-;8;9;13;39;29;1;33;37;42;53;-;16;37;51;Tadeáš;Hejda;Hejda T.;17. 1. 2024;
+Tim Söderlund;25;PLZ;HC Škoda Plzeò;2023 / 2024;útoèník;26;32;24;89;84;84;85;83;85;68;65;49;35;57;71;56;89;76;83;50;67;17;79;49;Tim;Söderlund;Soderlund T.;17. 1. 2024;
+Tomáš Bartejs;12172;KVA;HC Energie Karlovy Vary;2023 / 2024;obránce;31;13;4;32;15;70;23;95;69;-;73;19;22;90;60;63;97;79;86;17;-;98;16;-;Tomáš;Bartejs;Bartejs T.;17. 1. 2024;
+Tomáš Èernı;15644;OLO;HC Olomouc;2023 / 2024;obránce;25;25;1;4;11;1;28;1;40;-;25;59;16;18;38;71;12;70;73;67;-;30;56;26;Tomáš;Èernı;Cerny T.;17. 1. 2024;
+Tomáš Dujsík;12883;PLZ;HC Škoda Plzeò;2023 / 2024;obránce;31;29;5;44;55;42;74;19;29;-;37;75;6;43;78;36;50;89;89;45;-;34;49;18;Tomáš;Dujsík;Dujsik T.;17. 1. 2024;
+Tomáš Dvoøák;14026;PCE;HC Dynamo Pardubice;2023 / 2024;obránce;28;31;8;76;83;63;7;91;36;-;22;74;17;53;7;25;60;42;31;61;-;64;80;82;Tomáš;Dvoøák;Dvorak T.;17. 1. 2024;
+Tomáš Filippi;11957;LIB;Bílí Tygøi Liberec;2023 / 2024;útoèník;31;36;39;93;82;93;81;91;49;73;58;84;21;91;78;49;49;14;20;16;22;61;29;16;Tomáš;Filippi;Filippi T.;17. 1. 2024;
+Tomáš Foøt;12283;MBL;BK Mladá Boleslav;2023 / 2024;útoèník;31;28;13;51;90;24;61;14;94;88;74;68;62;61;58;25;83;91;91;76;90;71;75;77;Tomáš;Foøt;Fort T.;17. 1. 2024;
+Tomáš Galvas;10097211;LIB;Bílí Tygøi Liberec;2023 / 2024;obránce;17;19;4;96;95;87;67;82;38;-;92;50;99;75;89;98;71;73;80;11;-;91;89;-;Tomáš;Galvas;Galvas T.;17. 1. 2024;
+Tomáš Havlín;14798;KVA;HC Energie Karlovy Vary;2023 / 2024;obránce;27;26;2;34;68;26;80;1;78;-;74;30;75;42;54;66;85;20;25;83;-;2;19;89;Tomáš;Havlín;Havlin T.;17. 1. 2024;
+Tomáš Hyka;12581;PCE;HC Dynamo Pardubice;2023 / 2024;útoèník;30;31;26;91;80;85;76;89;91;78;97;93;82;93;88;95;80;66;59;54;83;55;65;-;Tomáš;Hyka;Hyka T.;17. 1. 2024;
+Tomáš Chlubna;9417638;CEB;Banes Motor È. Budìjovice;2023 / 2024;útoèník;21;26;3;15;24;17;2;61;24;-;45;36;73;39;10;62;28;33;32;89;41;65;89;-;Tomáš;Chlubna;Chlubna T.;17. 1. 2024;
+Tomáš Kundrátek;9580;TRI;HC Oceláøi Tøinec;2023 / 2024;obránce;33;33;13;69;25;75;87;71;11;36;75;41;39;88;50;48;52;17;13;80;-;71;48;-;Tomáš;Kundrátek;Kundratek T.;17. 1. 2024;
+Tomáš Marcinko;47331;KOM;HC Kometa Brno;2023 / 2024;útoèník;35;32;13;47;53;39;48;35;48;5;28;38;23;49;19;51;6;56;50;90;55;94;8;30;Tomáš;Marcinko;Marcinko T.;17. 1. 2024;
+Tomáš Mertl;7953;PLZ;HC Škoda Plzeò;2023 / 2024;útoèník;37;23;8;70;69;71;83;23;4;3;36;47;68;13;52;38;47;78;81;14;69;24;22;31;Tomáš;Mertl;Mertl T.;17. 1. 2024;
+Tomáš Pavelka;12962;MHK;Mountfield HK;2023 / 2024;obránce;30;33;18;88;88;68;86;56;16;88;95;65;85;74;73;93;95;40;34;60;-;45;81;42;Tomáš;Pavelka;Pavelka T.;17. 1. 2024;
+Tomáš Plekanec;2077;KLA;Rytíøi Kladno;2023 / 2024;útoèník;40;9;4;5;26;1;13;1;77;65;15;16;19;16;6;39;46;82;87;99;1;93;1;57;Tomáš;Plekanec;Plekanec T.;17. 1. 2024;
+Tomáš Rachùnek;10470;KVA;HC Energie Karlovy Vary;2023 / 2024;útoèník;32;31;21;78;74;68;79;61;14;43;81;81;26;89;71;87;90;15;14;36;41;5;90;-;Tomáš;Rachùnek;Rachunek T.;17. 1. 2024;
+Tomáš Redlich;13325;KVA;HC Energie Karlovy Vary;2023 / 2024;útoèník;30;33;8;17;13;27;31;50;41;-;18;7;16;26;18;55;77;99;99;30;4;55;80;11;Tomáš;Redlich;Redlich T.;17. 1. 2024;
+Tomáš Šmerha;17440;MBL;BK Mladá Boleslav;2023 / 2024;útoèník;25;22;2;18;54;11;16;8;85;-;49;46;48;53;63;52;50;46;45;70;11;64;51;-;Tomáš;Šmerha;Smerha T.;17. 1. 2024;
+Tomáš Vincour;9904;KOM;HC Kometa Brno;2023 / 2024;útoèník;32;21;11;85;56;89;93;76;66;89;27;10;11;55;13;88;22;44;42;83;28;87;10;-;Tomáš;Vincour;Vincour T.;17. 1. 2024;
+Tomáš Vondráèek;10860;VIT;HC Vítkovice RIDERA;2023 / 2024;útoèník;32;26;5;58;83;44;47;26;86;-;55;79;96;30;41;26;30;10;1;32;98;89;63;-;Tomáš;Vondráèek;Vondracek T.;17. 1. 2024;
+Tomáš Zohorna;9032;PCE;HC Dynamo Pardubice;2023 / 2024;útoèník;35;31;21;76;34;91;50;98;56;6;54;54;13;90;38;19;95;19;14;53;75;18;37;38;Tomáš;Zohorna;Zohorna T.;17. 1. 2024;
+Václav Veber;31901;KLA;Rytíøi Kladno;2023 / 2024;obránce;24;30;2;22;53;19;46;18;30;-;28;22;51;4;47;74;35;18;20;31;-;43;91;4;Václav;Veber;Veber V.;17. 1. 2024;
+Valentin Claireaux;10097120;VIT;HC Vítkovice RIDERA;2023 / 2024;útoèník;32;19;3;30;48;21;20;34;6;-;20;19;55;14;41;35;40;7;8;1;17;68;90;-;Valentin;Claireaux;Claireaux V.;17. 1. 2024;
+Viliam Èacho;30;TRI;HC Oceláøi Tøinec;2023 / 2024;útoèník;24;34;11;50;19;69;56;85;77;-;71;51;40;50;74;87;33;40;32;88;94;46;8;1;Viliam;Èacho;Cacho V.;17. 1. 2024;
+Vít Jiskra;3087341;KVA;HC Energie Karlovy Vary;2023 / 2024;útoèník;22;33;15;43;33;47;67;38;69;34;16;13;25;13;53;15;62;87;86;26;42;67;91;52;Vít;Jiskra;Jiskra V.;17. 1. 2024;
+Vladimír Draveckı;53425;TRI;HC Oceláøi Tøinec;2023 / 2024;útoèník;38;34;4;8;4;16;25;15;42;-;4;17;5;25;3;2;26;46;36;91;10;49;15;37;Vladimír;Draveckı;Dravecky V.;17. 1. 2024;
+Vladimír Sobotka;7271;SPA;HC Sparta Praha;2023 / 2024;útoèník;36;26;18;60;33;71;79;41;26;50;61;63;52;55;75;68;30;67;61;63;32;83;33;-;Vladimír;Sobotka;Sobotka V.;17. 1. 2024;
+Vojtìch Budík;17410;LIB;Bílí Tygøi Liberec;2023 / 2024;obránce;26;32;12;86;61;86;65;89;64;9;78;30;50;63;87;78;82;6;5;65;-;58;54;-;Vojtìch;Budík;Budik V.;17. 1. 2024;
+Vojtìch Mozík;12817;SPA;HC Sparta Praha;2023 / 2024;obránce;30;25;5;70;76;48;59;50;35;-;62;75;83;59;32;67;10;82;77;35;-;26;8;16;Vojtìch;Mozík;Mozik V.;17. 1. 2024;
+Willie Raskob;11;VIT;HC Vítkovice RIDERA;2023 / 2024;obránce;28;30;15;98;98;99;77;86;65;15;90;85;74;98;81;69;55;32;35;37;-;73;97;-;Willie;Raskob;Raskob W.;17. 1. 2024;
+Yohann Auvitu;60;VIT;HC Vítkovice RIDERA;2023 / 2024;obránce;34;14;6;41;46;43;70;36;90;64;24;34;70;16;42;54;25;8;12;4;-;80;55;-;Yohann;Auvitu;Auvitu Y.;17. 1. 2024;
+Zach Osburn;45;KOM;HC Kometa Brno;2023 / 2024;obránce;26;34;13;33;18;49;82;42;45;39;98;94;89;60;98;60;81;25;19;93;-;49;32;-;Zach;Osburn;Osburn Z.;17. 1. 2024;
+Zdenìk Okál;10466;KOM;HC Kometa Brno;2023 / 2024;útoèník;33;32;7;28;5;45;65;36;95;-;47;27;54;31;47;90;26;94;90;55;49;81;16;28;Zdenìk;Okál;Okal Z.;17. 1. 2024;
+Adam Brízgala;17213;KLA;Rytíøi Kladno;2023 / 2024;brankáø;25;21;;58;58;52;78;55;71;;61;61;55;88;55;63;;71;71;56;63;58;93;;Adam;Brízgala;Brizgala A.;17. 1. 2024;
+Branislav Konrád;32651;OLO;HC Olomouc;2023 / 2024;brankáø;35;23;;89;89;94;97;71;85;;96;96;88;89;83;96;;61;61;91;93;56;50;;Branislav;Konrád;Konrad B.;17. 1. 2024;
+Daniel Král;10078861;LIB;Bílí Tygøi Liberec;2023 / 2024;brankáø;20;25;;75;75;97;83;67;66;;85;85;91;80;80;72;;67;67;97;89;67;58;;Daniel;Král;Kral D.;17. 1. 2024;
+Dávid Hrenák;3;LIB;Bílí Tygøi Liberec;2023 / 2024;brankáø;25;9;;66;66;93;82;63;69;;91;91;89;77;89;78;;52;52;94;66;55;55;;Dávid;Hrenák;Hrenak D.;17. 1. 2024;
+Dominik Frodl;15316;KVA;HC Energie Karlovy Vary;2023 / 2024;brankáø;27;32;;99;99;63;99;99;67;;97;97;58;97;96;80;;85;85;64;82;96;53;;Dominik;Frodl;Frodl D.;17. 1. 2024;
+Dominik Furch;10449;KOM;HC Kometa Brno;2023 / 2024;brankáø;33;19;;85;85;58;71;89;80;;80;80;59;74;78;77;;82;82;69;71;82;82;;Dominik;Furch;Furch D.;17. 1. 2024;
+Dominik Hrachovina;13641;CEB;Banes Motor È. Budìjovice;2023 / 2024;brankáø;29;27;;74;74;61;80;52;91;;53;53;53;58;50;94;;97;97;83;97;94;88;;Dominik;Hrachovina;Hrachovina D.;17. 1. 2024;
+Dominik Pavlát;18455;PLZ;HC Škoda Plzeò;2023 / 2024;brankáø;23;21;;97;97;67;64;96;94;;93;93;67;66;99;83;;93;93;77;77;66;99;;Dominik;Pavlát;Pavlat D.;17. 1. 2024;
+Eetu Laurikainen;4;MHK;Mountfield HK;2023 / 2024;brankáø;30;4;;59;59;75;75;64;64;;69;69;77;86;61;66;;72;72;66;67;93;61;;Eetu;Laurikainen;Laurikainen E.;17. 1. 2024;
+Filip Novotnı;11407;MBL;BK Mladá Boleslav;2023 / 2024;brankáø;32;20;;55;55;88;89;58;58;;71;71;97;94;66;52;;53;53;59;56;52;85;;Filip;Novotnı;Novotny F.;17. 1. 2024;
+Henri Kiviaho;318342;MHK;Mountfield HK;2023 / 2024;brankáø;29;5;;78;78;77;67;82;75;;72;72;74;67;67;75;;83;83;74;72;88;75;;Henri;Kiviaho;Kiviaho H.;17. 1. 2024;
+Jakub Kováø;1;SPA;HC Sparta Praha;2023 / 2024;brankáø;35;22;;82;82;64;66;94;72;;56;56;66;69;64;67;;88;88;72;74;99;69;;Jakub;Kováø;Kovar J.;17. 1. 2024;
+Jakub Sedláèek;9869;OLO;HC Olomouc;2023 / 2024;brankáø;33;15;;56;56;55;61;91;53;;63;63;63;82;82;55;;66;66;53;55;85;74;;Jakub;Sedláèek;Sedlacek J.;17. 1. 2024;
+Jan Kavan;10093587;KOM;HC Kometa Brno;2023 / 2024;brankáø;18;7;;72;72;69;52;85;86;;83;83;82;72;94;69;;69;69;55;53;72;94;;Jan;Kavan;Kavan J.;17. 1. 2024;
+Jan Lukáš;11905;MHK;Mountfield HK;2023 / 2024;brankáø;30;14;;83;83;82;74;74;88;;58;58;64;50;74;82;;89;89;96;94;71;83;;Jan;Lukáš;Lukas J.;17. 1. 2024;
+Jan Rùièka;15662;MBL;BK Mladá Boleslav;2023 / 2024;brankáø;26;19;;63;63;50;53;53;96;;77;77;50;61;53;99;;50;50;82;58;53;66;;Jan;Rùièka;Ruzicka J.;17. 1. 2024;
+Jan Strmeò;11556;CEB;Banes Motor È. Budìjovice;2023 / 2024;brankáø;31;11;;80;80;85;86;86;56;;88;88;85;93;91;58;;74;74;71;80;69;67;;Jan;Strmeò;Strmen J.;17. 1. 2024;
+Josef Koøenáø;18658;SPA;HC Sparta Praha;2023 / 2024;brankáø;25;16;;86;86;86;88;80;74;;82;82;86;83;77;71;;86;86;75;88;74;72;;Josef;Koøenáø;Korenar J.;17. 1. 2024;
+Landon Bow;10084498;KLA;Rytíøi Kladno;2023 / 2024;brankáø;28;17;;52;52;53;50;69;52;;52;52;69;52;85;53;;64;64;50;64;64;78;;Landon;Bow;Bow L.;17. 1. 2024;
+Lukáš Klimeš;13132;VIT;HC Vítkovice RIDERA;2023 / 2024;brankáø;29;21;;94;94;83;77;78;97;;94;94;83;55;93;97;;91;91;93;99;59;91;;Lukáš;Klimeš;Klimes L.;17. 1. 2024;
+Lukáš Paøík;3331756;LIB;Bílí Tygøi Liberec;2023 / 2024;brankáø;22;8;;77;77;66;56;88;82;;78;78;61;53;86;88;;80;80;78;78;77;80;;Lukáš;Paøík;Parik L.;17. 1. 2024;
+Marek Mazanec;10249;TRI;HC Oceláøi Tøinec;2023 / 2024;brankáø;32;24;;88;88;89;91;93;63;;74;74;93;85;69;61;;94;94;80;85;97;71;;Marek;Mazanec;Mazanec M.;17. 1. 2024;
+Matìj Machovskı;12013;VIT;HC Vítkovice RIDERA;2023 / 2024;brankáø;30;16;;53;53;96;59;72;59;;75;75;94;63;88;64;;59;59;86;83;63;52;;Matìj;Machovskı;Machovsky M.;17. 1. 2024;
+Matej Tomek;40031;LIT;HC VERVA Litvínov;2023 / 2024;brankáø;26;26;;91;91;71;69;77;99;;66;66;52;59;63;86;;96;96;99;86;89;97;;Matej;Tomek;Tomek M.;17. 1. 2024;
+Milan Klouèek;18731;PCE;HC Dynamo Pardubice;2023 / 2024;brankáø;25;8;;64;64;91;96;56;55;;59;59;96;96;52;56;;78;78;67;69;78;77;;Milan;Klouèek;Kloucek M.;17. 1. 2024;
+Ondøej Kacetl;10362;TRI;HC Oceláøi Tøinec;2023 / 2024;brankáø;32;13;;61;61;72;72;66;61;;55;55;71;78;58;59;;77;77;63;75;80;64;;Ondøej;Kacetl;Kacetl O.;17. 1. 2024;
+Patrik Bartošák;12834;MHK;Mountfield HK;2023 / 2024;brankáø;30;17;;93;93;74;85;83;89;;67;67;78;71;72;74;;99;99;61;96;91;96;;Patrik;Bartošák;Bartosak P.;17. 1. 2024;
+Roman Will;10989;PCE;HC Dynamo Pardubice;2023 / 2024;brankáø;31;27;;71;71;59;63;75;77;;89;89;80;75;71;91;;56;56;52;52;83;56;;Roman;Will;Will R.;17. 1. 2024;
+Samuel Hlavaj;2;PLZ;HC Škoda Plzeò;2023 / 2024;brankáø;22;16;;67;67;78;94;50;83;;86;86;72;91;59;85;;58;58;89;91;50;86;;Samuel;Hlavaj;Hlavaj S.;17. 1. 2024;
+Šimon Zajíèek;3084138;LIT;HC VERVA Litvínov;2023 / 2024;brankáø;22;12;;96;96;99;93;97;78;;99;99;99;99;97;89;;63;63;85;50;86;59;;Šimon;Zajíèek;Zajicek S.;17. 1. 2024;
+Štìpán Lukeš;15242;KOM;HC Kometa Brno;2023 / 2024;brankáø;27;12;;50;50;80;55;61;50;;50;50;75;56;75;50;;55;55;88;59;61;63;;Štìpán;Lukeš;Lukes S.;17. 1. 2024;
+Vladislav Habal;10380;KVA;HC Energie Karlovy Vary;2023 / 2024;brankáø;32;4;;69;69;56;58;59;93;;64;64;56;64;56;93;;75;75;58;61;75;89;;Vladislav;Habal;Habal V.;17. 1. 2024;
