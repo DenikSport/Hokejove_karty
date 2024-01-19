@@ -230,7 +230,6 @@ value_x_position = 600 * scale_factor  # Nastavení X pozice hodnoty
 pie_outer_radius = 25 * scale_factor
 pie_inner_radius = 20 * scale_factor
 
-str(int(Body))
 logo_padding = 160  * scale_factor
 
 draw.rectangle([10 * scale_factor, 10 * scale_factor, 500*scale_factor, 90 * scale_factor], fill="#5d5758")
