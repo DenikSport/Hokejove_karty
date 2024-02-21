@@ -322,7 +322,7 @@ for category, stats in stats_data.items():
 
     # Vypočet x-ové a y-ové pozice pro vycentrování textu
     category_scores_text_x = pie_center[0] - (category_scores_text_width / 2)
-    category_scores_text_y = pie_center[1] - (category_scores_text_height / 2) - 25
+    category_scores_text_y = pie_center[1] - (category_scores_text_height / 2) - 15
 
     # Vykreslení textu
     draw.text((category_scores_text_x, category_scores_text_y), category_scores_text, fill="white", font=font_value_bold)
