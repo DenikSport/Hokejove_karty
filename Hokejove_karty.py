@@ -8,16 +8,6 @@ import PIL
 import numpy as np
 import streamlit.components.v1 as components
 
-logo_path = 'Loga'
-
-# Vypsání obsahu složky 'TELH_Logos'
-try:
-    logos_list = os.listdir(logo_path)
-    st.text(f"Obsah složky {logo_path}:")
-    st.write(logos_list)
-except Exception as e:
-    st.error(f"Chyba při výpisu obsahu složky: {e}")
-
 fonts_directory = '/mount/src/hokejove_karty/Fonts'
 st.markdown("""
     <style>
