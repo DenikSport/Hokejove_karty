@@ -7,7 +7,7 @@ import os
 import PIL
 import numpy as np
 import streamlit.components.v1 as components
-import io
+import 
 
 fonts_directory = '/mount/src/hokejove_karty/Fonts'
 st.markdown("""
@@ -19,7 +19,7 @@ st.markdown("""
     """, unsafe_allow_html=True)
 
 
-@st.cache_data(ttl=24*60*60)
+#@st.cache_data(ttl=24*60*60)
 def load_data():
     df = pd.read_csv("https://raw.githubusercontent.com/DenikSport/Hokejove_karty/main/Database.csv", encoding='windows-1250', sep=';')
     
@@ -293,7 +293,8 @@ for category, stats in stats_data.items():
         draw.rectangle([bar_x_start, y_offset, bar_x_end, y_offset + bar_height], fill=get_color(value))
 
         # Zarovnání a vykreslení textu hodnoty
-        value_text_size = font_value_bold.getsize(value_text)
+        text_x, text_y, text_width, text_height = draw.textbbox((0, 0), value_text, font=font_value_bold)
+        value_text_size = (text_width - text_x, text_height - text_y)
         value_text_x = value_x_position - (value_text_size[0] / 2)
         value_text_y = y_offset + (bar_height - value_text_size[1]) / 2 - 25
         draw.text((value_text_x, value_text_y), value_text, fill="white", font=font_value_bold)
