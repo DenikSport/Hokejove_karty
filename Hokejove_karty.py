@@ -355,20 +355,3 @@ y = 10 * scale_factor
 image.paste(logo, (x, y), logo)
 
 st.image(image)
-
-# Připravte obrázek pro stažení
-buffered = io.BytesIO()
-image.save(buffered, format="PNG")
-img_data = buffered.getvalue()
-file_name = f"Hokejová karta - {selected_player}.png"
-
-col1, col2, col3 = st.columns([1.5,1,1.5])
-
-# Vycentrování tlačítka pro stažení ve středním sloupci
-#with col2:
-#    st.download_button(
-#        label="Stáhnout kartu hráče",
-#        data=img_data,
-#        file_name=file_name,
-#        mime="image/png"
-#    )
