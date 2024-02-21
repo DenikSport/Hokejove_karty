@@ -297,7 +297,7 @@ for category, stats in stats_data.items():
         text_x, text_y, text_width, text_height = draw.textbbox((0, 0), value_text, font=font_value_bold)
         value_text_size = (text_width - text_x, text_height - text_y)
         value_text_x = value_x_position - (value_text_size[0] / 2)
-        value_text_y = y_offset + (bar_height - value_text_size[1]) / 2 - 25
+        value_text_y = y_offset + (bar_height - value_text_size[1]) / 2 - 10
         draw.text((value_text_x, value_text_y), value_text, fill="white", font=font_value_bold)
         
         y_offset += bar_height + (4 * scale_factor)
