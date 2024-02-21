@@ -348,7 +348,7 @@ logo_image = Image.open(logo_full_path)
 logo_image = logo_image.resize((175 * scale_factor, 80 * scale_factor))
 
 # Určení pozice, kam chceme logo vložit
-x = 460 * scale_factor
+x = 20 * scale_factor
 y = 10 * scale_factor
 # Vložení loga do obrázku
 image.paste(logo_image, (x, y), logo_image)
