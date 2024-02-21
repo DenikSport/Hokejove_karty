@@ -330,12 +330,18 @@ for category, stats in stats_data.items():
 
 
 
-# Vytvoření cesty k logu
-logo_url = f"https://raw.githubusercontent.com/DenikSport/Hokejove_karty/main/TELH%20Logos/TELH%20Logos/{Logo}.png"
+logo_name = f"{Logo}.png"
 
-# Načtení loga z internetu
-response = requests.get(logo_url)
-logo = Image.open(BytesIO(response.content))
+# Relativní cesta k souboru v rámci vašeho Streamlit projektu
+# Předpokládá se, že logo je uloženo ve složce 'TELH Logos' uvnitř adresáře 'hokejove_karty'
+# Zde se ujistěte, že používáte správný název složky - 'TELH Logos' namísto 'TELH%20Logos'
+logo_path = '/mount/src/hokejove_karty/Loga/'
+
+# Plná cesta k souboru loga
+logo_full_path = os.path.join(logo_path, logo_name)
+
+# Načtení loga pomocí PIL
+logo_image = Image.open(logo_full_path)
 
 # Přizpůsobení velikosti loga, pokud je to potřeba
 logo = logo.resize((70 * scale_factor, 70 * scale_factor))
