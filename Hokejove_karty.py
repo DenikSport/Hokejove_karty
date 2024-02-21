@@ -312,7 +312,10 @@ for category, stats in stats_data.items():
     draw.pieslice([pie_center[0] - pie_inner_radius, pie_center[1] - pie_inner_radius, pie_center[0] + pie_inner_radius, pie_center[1] + pie_inner_radius], start=-90, end=270, fill="#2a2a2c")
 
     category_scores_text = f"{category_scores[category]}"  # Použití správné proměnné
-    category_scores_text_size = font_value_bold.getsize(category_scores_text)  # Získání rozměrů textu
+    text_x, text_y, text_width, text_height = draw.textbbox((0, 0), category_scores_text, font=font_value_bold)
+    # Vypočítáme šířku a výšku textu
+    category_scores_text_width = text_width - text_x
+    category_scores_text_height = text_height - text_y
     category_scores_text_x = pie_center[0] - (category_scores_text_size[0] / 2)
     category_scores_text_y = pie_center[1] - (category_scores_text_size[1] / 2) - 25
     draw.text((category_scores_text_x, category_scores_text_y), category_scores_text, fill="white", font=font_value_bold)
