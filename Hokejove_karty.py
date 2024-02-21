@@ -362,6 +362,6 @@ logo = logo.resize((175 * scale_factor, 80 * scale_factor))
 x = 460 * scale_factor
 y = 10 * scale_factor
 # Vložení loga do obrázku
-image.paste(logo, (x, y), logo)
+#image.paste(logo, (x, y), logo)
 
 st.image(image)
