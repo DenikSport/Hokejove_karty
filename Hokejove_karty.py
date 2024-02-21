@@ -359,7 +359,7 @@ image.paste(logo_image, (x, y), logo_image)
 logo_name2 = f"Isport.png"
 
 # Cesta k složce s logy
-logo_path2 = 'Loga'
+logo_path = 'Loga'
 
 # Plná cesta k souboru loga
 logo_full_path2 = os.path.join(logo_path2, logo_name2)
@@ -369,7 +369,7 @@ logo_image2 = Image.open(logo_full_path2)
 logo_image2 = logo_image.resize((175 * scale_factor, 80 * scale_factor))
 
 # Určení pozice, kam chceme logo vložit
-x = 20 * scale_factor
+x = 460 * scale_factor
 y = 10 * scale_factor
 # Vložení loga do obrázku
 image.paste(logo_image2, (x, y), logo_image2)
