@@ -362,7 +362,7 @@ logo_name2 = f"Isport.png"
 logo_path = 'Loga'
 
 # Plná cesta k souboru loga
-logo_full_path2 = os.path.join(logo_path2, logo_name2)
+logo_full_path2 = os.path.join(logo_path, logo_name2)
 
 # Načtení loga pomocí PIL a zobrazení ve Streamlitu
 logo_image2 = Image.open(logo_full_path2)
