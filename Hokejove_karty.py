@@ -356,19 +356,23 @@ image.paste(logo_image, (x, y), logo_image)
 
 
 # Vytvoření cesty k logu
-logo_url = f"https://raw.githubusercontent.com/DenikSport/Hokejove_karty/main/TELH%20Logos/TELH%20Logos/Isport logo.png"
+logo_name2 = f"Isport.png"
 
-# Načtení loga z internetu
-response = requests.get(logo_url)
-logo = Image.open(BytesIO(response.content))
+# Cesta k složce s logy
+logo_path2 = 'Loga'
 
-# Přizpůsobení velikosti loga, pokud je to potřeba
-logo = logo.resize((175 * scale_factor, 80 * scale_factor))
+# Plná cesta k souboru loga
+logo_full_path2 = os.path.join(logo_path2, logo_name2)
+
+# Načtení loga pomocí PIL a zobrazení ve Streamlitu
+logo_image2 = Image.open(logo_full_path2)
+logo_image2 = logo_image.resize((175 * scale_factor, 80 * scale_factor))
 
 # Určení pozice, kam chceme logo vložit
-x = 460 * scale_factor
+x = 20 * scale_factor
 y = 10 * scale_factor
 # Vložení loga do obrázku
-image.paste(logo, (x, y), logo)
+image.paste(logo_image2, (x, y), logo_image2)
+
 
 st.image(image)
