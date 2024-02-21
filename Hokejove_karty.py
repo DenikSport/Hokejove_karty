@@ -313,9 +313,7 @@ for category, stats in stats_data.items():
     draw.pieslice([pie_center[0] - pie_outer_radius, pie_center[1] - pie_outer_radius, pie_center[0] + pie_outer_radius, pie_center[1] + pie_outer_radius], start=(-90 + (values[0] / 100) * 360), end=270, fill=colors[1])
     draw.pieslice([pie_center[0] - pie_inner_radius, pie_center[1] - pie_inner_radius, pie_center[0] + pie_inner_radius, pie_center[1] + pie_inner_radius], start=-90, end=270, fill="#2a2a2c")
 
-    category_scores_text = f"{category_scores[category]}"  # Použití správné proměnné
-    text_x, text_y, text_width, text_height = draw.textbbox((0, 0), category_scores_text, font=font_value_bold)
-    # Vypočítáme šířku a výšku textu
+    category_scores_text = f"{category_scores[category]}"
     text_bbox = draw.textbbox((0, 0), category_scores_text, font=font_value_bold)
 
     # Vypočet šířky a výšky textu
