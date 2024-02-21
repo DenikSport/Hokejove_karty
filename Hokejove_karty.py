@@ -108,7 +108,7 @@ def extract_goalie_stats(data, player_name):
 
     # Extracting data for each category for a goalie
     off_data = [
-        ["Chycené góly na očekávání", player_data.iloc[0]['OFF IMPACT']],
+        ["Chycené góly nad očekávání", player_data.iloc[0]['OFF IMPACT']],
         ["Kontrola dorážek", player_data.iloc[0]['POINT PRODUCTION']],
         ["Vysoce nebezpečné střely", player_data.iloc[0]['SHOOTING']],
         ["Středně nebezpečné střely", player_data.iloc[0]['PASSING']],
@@ -116,7 +116,7 @@ def extract_goalie_stats(data, player_name):
     ]
 
     tra_data = [
-        ["Chycené góly na očekávání", player_data.iloc[0]['SHOT CONTRI']],
+        ["Chycené góly nad očekávání", player_data.iloc[0]['SHOT CONTRI']],
         ["Kontrola dorážek", player_data.iloc[0]['HD CHANCES']],
         ["Vysoce nebezpečné střely", player_data.iloc[0]['HD ASSISTS']],
         ["Středně nebezpečné střely", player_data.iloc[0]['CARRIES']],
@@ -124,7 +124,7 @@ def extract_goalie_stats(data, player_name):
     ]
 
     deff_data = [
-        ["Chycené góly na očekávání", player_data.iloc[0]['DEF IMPACT']],
+        ["Chycené góly nad očekávání", player_data.iloc[0]['DEF IMPACT']],
         ["Kontrola dorážek", player_data.iloc[0]['DENIALS']],
         ["Vysoce nebezpečné střely", player_data.iloc[0]['RECOVERIES']],
         ["Středně nebezpečné střely", player_data.iloc[0]['ROLE DIFF']],
