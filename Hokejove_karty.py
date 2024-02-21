@@ -345,7 +345,7 @@ logo_full_path = os.path.join(logo_path, logo_name)
 
 # Načtení loga pomocí PIL a zobrazení ve Streamlitu
 logo_image = Image.open(logo_full_path)
-logo_image = logo_image.resize((175 * scale_factor, 80 * scale_factor))
+logo_image = logo_image.resize((75 * scale_factor, 75 * scale_factor))
 
 # Určení pozice, kam chceme logo vložit
 x = 20 * scale_factor
