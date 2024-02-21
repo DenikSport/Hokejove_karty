@@ -322,7 +322,7 @@ for category, stats in stats_data.items():
 
     # Vypočet x-ové a y-ové pozice pro vycentrování textu
     category_scores_text_x = pie_center[0] - (category_scores_text_width / 2)
-    category_scores_text_y = pie_center[1] - (category_scores_text_height / 2)+60
+    category_scores_text_y = pie_center[1] - (category_scores_text_height / 2) - 70
 
     # Vykreslení textu
     draw.text((category_scores_text_x, category_scores_text_y), category_scores_text, fill="white", font=font_value_bold)
@@ -376,20 +376,3 @@ image.paste(logo_image2, (x, y), logo_image2)
 
 
 st.image(image)
-
-
-buffered = io.BytesIO()
-image.save(buffered, format="PNG")
-img_data = buffered.getvalue()
-file_name = f"Hokejová karta - {selected_player}.png"
-
-col1, col2, col3 = st.columns([1.5,1,1.5])
-
-# Vycentrování tlačítka pro stažení ve středním sloupci
-with col2:
-    st.download_button(
-        label="Stáhnout kartu hráče",
-        data=img_data,
-        file_name=file_name,
-        mime="image/png"
-    )
