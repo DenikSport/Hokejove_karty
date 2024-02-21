@@ -335,22 +335,17 @@ logo_name = f"{Logo}.png"
 # Relativní cesta k souboru v rámci vašeho Streamlit projektu
 # Předpokládá se, že logo je uloženo ve složce 'TELH Logos' uvnitř adresáře 'hokejove_karty'
 # Zde se ujistěte, že používáte správný název složky - 'TELH Logos' namísto 'TELH%20Logos'
-logo_path = '/mount/src/hokejove_karty/Loga/'
+logo_name = f"{Logo}.png"
+
+# Cesta k složce s logy
+logo_path = 'Loga'
 
 # Plná cesta k souboru loga
 logo_full_path = os.path.join(logo_path, logo_name)
 
-# Načtení loga pomocí PIL
+# Načtení loga pomocí PIL a zobrazení ve Streamlitu
 logo_image = Image.open(logo_full_path)
-
-# Přizpůsobení velikosti loga, pokud je to potřeba
-logo = logo.resize((70 * scale_factor, 70 * scale_factor))
-
-# Určení pozice, kam chceme logo vložit
-x = 20 * scale_factor
-y = 15 * scale_factor
-# Vložení loga do obrázku
-image.paste(logo, (x, y), logo)
+st.image(logo_image, caption='Logo')
 
 
 
