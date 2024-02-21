@@ -19,7 +19,7 @@ st.markdown("""
     """, unsafe_allow_html=True)
 
 
-@st.cache(ttl=24*60*60, allow_output_mutation=True)
+@st.cache_data(ttl=24*60*60, allow_output_mutation=True)
 def load_data():
     df = pd.read_csv("https://raw.githubusercontent.com/DenikSport/Hokejove_karty/main/Database.csv", encoding='windows-1250', sep=';')
     
