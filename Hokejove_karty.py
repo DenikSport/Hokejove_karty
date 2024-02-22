@@ -329,28 +329,30 @@ for category, stats in stats_data.items():
 
 
 
+def load_and_resize_logo(logo_name, size=(75, 75)):
+    # Cesta k složce s logy
+    logo_path = 'Loga'
+    
+    # Plná cesta k souboru loga
+    logo_full_path = os.path.join(logo_path, logo_name)
+    
+    # Načtení loga pomocí PIL
+    logo_image = Image.open(logo_full_path)
+    
+    # Změna velikosti obrázku
+    logo_image = logo_image.resize(size)
+    
+    return logo_image
+
 
 logo_name = f"{Logo}.png"
 
-# Relativní cesta k souboru v rámci vašeho Streamlit projektu
-# Předpokládá se, že logo je uloženo ve složce 'TELH Logos' uvnitř adresáře 'hokejove_karty'
-# Zde se ujistěte, že používáte správný název složky - 'TELH Logos' namísto 'TELH%20Logos'
-logo_name = f"{Logo}.png"
+logo_size = (75 * scale_factor, 75 * scale_factor)
+logo_image = load_and_resize_logo(logo_name, size=logo_size)
 
-# Cesta k složce s logy
-logo_path = 'Loga'
 
-# Plná cesta k souboru loga
-logo_full_path = os.path.join(logo_path, logo_name)
-
-# Načtení loga pomocí PIL a zobrazení ve Streamlitu
-logo_image = Image.open(logo_full_path)
-logo_image = logo_image.resize((75 * scale_factor, 75 * scale_factor))
-
-# Určení pozice, kam chceme logo vložit
 x = 20 * scale_factor
 y = 10 * scale_factor
-# Vložení loga do obrázku
 image.paste(logo_image, (x, y), logo_image)
 
 
