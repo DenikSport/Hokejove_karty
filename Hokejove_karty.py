@@ -206,7 +206,6 @@ font_statistic_bold = ImageFont.truetype('/mount/src/hokejove_karty/Fonts/Poppin
 font_pie_value_bold = ImageFont.truetype('/mount/src/hokejove_karty/Fonts/Poppins-Bold.ttf', 22 * scale_factor)
 font_value_bold = ImageFont.truetype('/mount/src/hokejove_karty/Fonts/Poppins-Bold.ttf', 22 * scale_factor)
 
-@st.cache
 def get_color(value):
     if pd.isna(value) or value == '-':
         return "#AAAAAA"  # Neutrální šedá
