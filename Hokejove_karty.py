@@ -19,7 +19,7 @@ st.markdown("""
     """, unsafe_allow_html=True)
 
 
-#@st.cache_data(ttl=24*60*60)
+@st.cache_data(ttl=60*60)
 def load_data():
     df = pd.read_csv("https://raw.githubusercontent.com/DenikSport/Hokejove_karty/main/Database.csv", encoding='windows-1250', sep=';')
     
@@ -49,7 +49,7 @@ def extract_stats(data, player_name):
 
     return stats_data, category_values
 
-
+@st.cache(ttl=60*60)
 def extract_player_stats(data, player_name):
     # Filter the data for the selected player
     player_data = data[data['Jméno'] == player_name]
@@ -101,6 +101,7 @@ def extract_player_stats(data, player_name):
 
     return stats_data, category_values
 
+@st.cache(ttl=60*60)
 def extract_goalie_stats(data, player_name):
     # Filter the data for the selected player
     player_data = data[data['Jméno'] == player_name]
@@ -204,7 +205,7 @@ font_statistic_bold = ImageFont.truetype('/mount/src/hokejove_karty/Fonts/Poppin
 font_pie_value_bold = ImageFont.truetype('/mount/src/hokejove_karty/Fonts/Poppins-Bold.ttf', 22 * scale_factor)
 font_value_bold = ImageFont.truetype('/mount/src/hokejove_karty/Fonts/Poppins-Bold.ttf', 22 * scale_factor)
 
-
+@st.cache
 def get_color(value):
     if pd.isna(value) or value == '-':
         return "#AAAAAA"  # Neutrální šedá
