@@ -1,12 +1,10 @@
 import streamlit as st
 import pandas as pd
 from PIL import Image, ImageDraw, ImageFont
-import requests
 from io import BytesIO
 import os
 import PIL
 import numpy as np
-import streamlit.components.v1 as components
 import io
 
 fonts_directory = '/mount/src/hokejove_karty/Fonts'
