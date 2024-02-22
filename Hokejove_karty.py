@@ -31,7 +31,7 @@ def load_data():
         df[column] = df[column].round(0).astype('Int64', errors='ignore')
     return df
 
-@st.cache_resource(ttl=60*60)
+@st.cache_resource(ttl=60*60,max_entries=100)
 def extract_stats(data, player_name):
     # Filter the data for the selected player
     player_data = data[data['Jméno'] == player_name]
@@ -50,7 +50,7 @@ def extract_stats(data, player_name):
 
     return stats_data, category_values
 
-@st.cache_resource(ttl=60*60)
+@st.cache_resource(ttl=60*60,max_entries=100)
 def extract_player_stats(data, player_name):
     # Filter the data for the selected player
     player_data = data[data['Jméno'] == player_name]
@@ -102,7 +102,7 @@ def extract_player_stats(data, player_name):
 
     return stats_data, category_values
 
-@st.cache_resource(ttl=60*60)
+@st.cache_resource(ttl=60*60,max_entries=100)
 def extract_goalie_stats(data, player_name):
     # Filter the data for the selected player
     player_data = data[data['Jméno'] == player_name]
