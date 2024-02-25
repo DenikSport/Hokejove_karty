@@ -3,12 +3,19 @@ import pandas as pd
 from PIL import Image
 import os
 
-# Načtení nahráného CSV souboru
-data = pd.read_csv('https://raw.githubusercontent.com/DenikSport/Hokejove_karty/main/List.csv', sep = ";")
 
-st.write(data)
-# Předpokládámdsfdsfe, že druhý sloupec s názvem klubu je již správně pojmenovaný jako "Nazev Tymu" ve vašem souboru
-# Pokud ne, prosím, upravte název sloupce podle vašeho souboru
+fonts_directory = '/mount/src/hokejove_karty/Fonts'
+st.markdown("""
+    <style>
+    .stApp {
+        background-color: #2a2a2c;
+    }
+    </style>
+    """, unsafe_allow_html=True)
+
+# Načtení nahráného CSV souboru
+@st.cache_data()
+data = pd.read_csv('https://raw.githubusercontent.com/DenikSport/Hokejove_karty/main/List.csv', sep = ";")
 
 # Vytvoření selectboxu pro kluby
 kluby = ['Všechny kluby'] + sorted(data['Tym'].unique().tolist())
@@ -28,8 +35,6 @@ selected_player = st.selectbox("Vyberte hráče:", player_list)
 player_data = data[data['Jmeno'] == selected_player].iloc[0]
 
 # Zobrazení informací o hráči a jeho obrázku
-st.write(f"Jméno: {player_data['Jmeno']}")
-st.write(f"Tým: {player_data['Tym']}")
 
 # Načtení a zobrazení obrázku hráče
 image_path = player_data['image_path']
