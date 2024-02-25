@@ -16,7 +16,7 @@ vybrany_klub = st.selectbox('Vyberte klub:', kluby)
 
 # Filtrování dat podle vybraného klubu
 if vybrany_klub != 'Všechny kluby':
-    data = data[data['Nazev Tymu'] == vybrany_klub]
+    data = data[data['Tym'] == vybrany_klub]
 
 # Vytvoření seznamu hráčů na základě filtrovaných dat
 player_list = pd.unique(data[['Jméno']].values.ravel())
