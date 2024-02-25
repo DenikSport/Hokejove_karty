@@ -4,7 +4,7 @@ from PIL import Image
 import os
 
 # Načtení nahráného CSV souboru
-data = pd.read_csv('https://raw.githubusercontent.com/DenikSport/Hokejove_karty/main/List.csv')
+data = pd.read_csv('https://raw.githubusercontent.com/DenikSport/Hokejove_karty/main/List.csv', sep = ";")
 
 st.write(data)
 # Předpokládámdsfdsfe, že druhý sloupec s názvem klubu je již správně pojmenovaný jako "Nazev Tymu" ve vašem souboru
