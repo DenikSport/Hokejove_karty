@@ -35,4 +35,4 @@ st.write(f"Tým: {player_data['Tym']}")
 image_path = player_data['image_path']
 if os.path.exists(image_path):
     image = Image.open(image_path)
-    st.image(image, caption=player_data['Jméno'])
+    st.image(image, caption=player_data['Jmeno'])
