@@ -28,7 +28,7 @@ selected_player = st.selectbox("Vyberte hráče:", player_list)
 player_data = data[data['Jmeno'] == selected_player].iloc[0]
 
 # Zobrazení informací o hráči a jeho obrázku
-st.write(f"Jméno: {player_data['Jméno']}")
+st.write(f"Jméno: {player_data['Jmeno']}")
 st.write(f"Tým: {player_data['Nazev Tymu']}")
 
 # Načtení a zobrazení obrázku hráče
