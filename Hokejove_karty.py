@@ -13,7 +13,6 @@ st.markdown("""
     """, unsafe_allow_html=True)
 
 # Načtení nahráného CSV souboru
-@st.cache_data(ttl=60*60)
 data = pd.read_csv('https://raw.githubusercontent.com/DenikSport/Hokejove_karty/main/List.csv', sep = ";")
 
 # Vytvoření selectboxu pro kluby
