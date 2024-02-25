@@ -11,7 +11,7 @@ st.write(data)
 # Pokud ne, prosím, upravte název sloupce podle vašeho souboru
 
 # Vytvoření selectboxu pro kluby
-kluby = ['Všechny kluby'] + sorted(data['Nazev Tymu'].unique().tolist())
+kluby = ['Všechny kluby'] + sorted(data['Tym'].unique().tolist())
 vybrany_klub = st.selectbox('Vyberte klub:', kluby)
 
 # Filtrování dat podle vybraného klubu
