@@ -17,7 +17,7 @@ data = pd.read_csv('https://raw.githubusercontent.com/DenikSport/Hokejove_karty/
 
 # Vytvoření selectboxu pro kluby
 kluby = ['Všechny kluby'] + sorted(data['Tym'].unique().tolist())
-vybrany_klub = st.selectbox('Vyberte klub:', kluby)
+vybrany_klub = st.selectbox('', kluby)
 
 # Filtrování dat podle vybraného klubu
 if vybrany_klub != 'Všechny kluby':
@@ -27,7 +27,7 @@ if vybrany_klub != 'Všechny kluby':
 player_list = pd.unique(data[['Jmeno']].values.ravel())
 
 # Vytvoření selectboxu pro hráče
-selected_player = st.selectbox("Vyberte hráče:", player_list)
+selected_player = st.selectbox("", player_list)
 
 # Získání dat pro vybraného hráče
 player_data = data[data['Jmeno'] == selected_player].iloc[0]
