@@ -19,13 +19,13 @@ if vybrany_klub != 'Všechny kluby':
     data = data[data['Tym'] == vybrany_klub]
 
 # Vytvoření seznamu hráčů na základě filtrovaných dat
-player_list = pd.unique(data[['Jméno']].values.ravel())
+player_list = pd.unique(data[['Jmeno']].values.ravel())
 
 # Vytvoření selectboxu pro hráče
 selected_player = st.selectbox("Vyberte hráče:", player_list)
 
 # Získání dat pro vybraného hráče
-player_data = data[data['Jméno'] == selected_player].iloc[0]
+player_data = data[data['Jmeno'] == selected_player].iloc[0]
 
 # Zobrazení informací o hráči a jeho obrázku
 st.write(f"Jméno: {player_data['Jméno']}")
