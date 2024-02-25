@@ -7,7 +7,7 @@ import os
 data = pd.read_csv('https://raw.githubusercontent.com/DenikSport/Hokejove_karty/main/List.csv')
 
 st.write(data)
-# Předpokládáme, že druhý sloupec s názvem klubu je již správně pojmenovaný jako "Nazev Tymu" ve vašem souboru
+# Předpokládámdsfdsfe, že druhý sloupec s názvem klubu je již správně pojmenovaný jako "Nazev Tymu" ve vašem souboru
 # Pokud ne, prosím, upravte název sloupce podle vašeho souboru
 
 # Vytvoření selectboxu pro kluby
