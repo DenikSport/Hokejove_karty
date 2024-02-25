@@ -4,7 +4,6 @@ from PIL import Image
 import os
 
 
-fonts_directory = '/mount/src/hokejove_karty/Fonts'
 st.markdown("""
     <style>
     .stApp {
