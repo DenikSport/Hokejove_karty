@@ -15,7 +15,7 @@ st.markdown("""
     }
     </style>
     """, unsafe_allow_html=True)
-st.set_option('browser.gatherUsageStats', False)
+
 
 
 @st.cache_data(ttl=60*60)
