@@ -15,7 +15,7 @@ st.markdown("""
 @st.cache_data(ttl=60*60)
 def load_data():
     data = pd.read_csv('https://raw.githubusercontent.com/DenikSport/Hokejove_karty/main/List.csv', sep=";", dtype={'Jmeno': 'str', 'Tym': 'str', 'image_path': 'str'})
-    return df
+    return data
 
 data = load_data()
 # Vytvoření selectboxu pro kluby
