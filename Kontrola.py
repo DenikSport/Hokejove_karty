@@ -15,7 +15,8 @@ st.markdown("""
 
 
 # Načtení nahráného CSV souboru
-data = pd.read_csv('https://raw.githubusercontent.com/DenikSport/Hokejove_karty/main/List.csv', sep = ";")
+data = pd.read_csv('https://raw.githubusercontent.com/DenikSport/Hokejove_karty/main/List.csv', sep=";", dtype={'Jmeno': 'str', 'Tym': 'str', 'image_path': 'str'})
+
 
 st.write(data)
 # Vytvoření selectboxu pro kluby
