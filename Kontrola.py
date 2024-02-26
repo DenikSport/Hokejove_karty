@@ -12,9 +12,12 @@ st.markdown("""
     </style>
     """, unsafe_allow_html=True)
 
+
+
 # Načtení nahráného CSV souboru
 data = pd.read_csv('https://raw.githubusercontent.com/DenikSport/Hokejove_karty/main/List.csv', sep = ";")
 
+st.write(data)
 # Vytvoření selectboxu pro kluby
 kluby = ['Všechny kluby'] + sorted(data['Tym'].unique().tolist())
 vybrany_klub = st.selectbox('', kluby)
