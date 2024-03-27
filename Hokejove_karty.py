@@ -331,11 +331,9 @@ for category, stats in stats_data.items():
     draw.text((category_scores_text_x, category_scores_text_y), category_scores_text, fill="white", font=font_value_bold)
 
 
+logo_path = os.path.join(current_dir, 'Loga')
 @st.cache_resource(show_spinner=False, hash_funcs={"PIL.Image.Image": lambda _: None})
 def load_and_resize_logo(logo_name, size=(75, 75)):
-    # Cesta k složce s logy
-    logo_path = 'Loga'
-    
     # Plná cesta k souboru loga
     logo_full_path = os.path.join(logo_path, logo_name)
     
