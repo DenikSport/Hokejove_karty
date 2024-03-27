@@ -12,7 +12,13 @@ import io
 current_dir = os.path.dirname(os.path.abspath(__file__))
 # Vytvoření cesty k adresáři s fonty relativně k umístění skriptu
 fonts_directory = os.path.join(current_dir, 'Fonts')
-
+st.markdown("""
+    <style>
+    .stApp {
+        background-color: #2a2a2c;
+    }
+    </style>
+    """, unsafe_allow_html=True)
 
 @st.cache_data(ttl=60*60)
 def load_data():
