@@ -13,18 +13,6 @@ current_dir = os.path.dirname(os.path.abspath(__file__))
 # Vytvoření cesty k adresáři s fonty relativně k umístění skriptu
 fonts_directory = os.path.join(current_dir, 'Fonts')
 
-# Příklad použití fontu s relativní cestou
-font_path = os.path.join(fonts_directory, 'Poppins-Bold.ttf')
-
-font_title = ImageFont.truetype(font_path, 24 * 10) st.markdown("""
-    <style>
-    .stApp {
-        background-color: #2a2a2c;
-    }
-    </style>
-    """, unsafe_allow_html=True)
-
-
 
 @st.cache_data(ttl=60*60)
 def load_data():
