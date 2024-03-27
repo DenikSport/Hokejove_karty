@@ -7,8 +7,16 @@ import PIL
 import numpy as np
 import io
 
-fonts_directory = '/mount/src/hokejove_karty/Fonts'
-st.markdown("""
+
+
+current_dir = os.path.dirname(os.path.abspath(__file__))
+# Vytvoření cesty k adresáři s fonty relativně k umístění skriptu
+fonts_directory = os.path.join(current_dir, 'Fonts')
+
+# Příklad použití fontu s relativní cestou
+font_path = os.path.join(fonts_directory, 'Poppins-Bold.ttf')
+
+font_title = ImageFont.truetype(font_path, 24 * 10) st.markdown("""
     <style>
     .stApp {
         background-color: #2a2a2c;
@@ -198,12 +206,13 @@ width, height = original_width * scale_factor, original_height * scale_factor
 image = Image.new('RGB', (width, height), color='#2a2a2c')
 draw = ImageDraw.Draw(image)
 
-font_title = ImageFont.truetype('/mount/src/hokejove_karty/Fonts/Poppins-Bold.ttf', 24 * scale_factor)
-font_category = ImageFont.truetype('/mount/src/hokejove_karty/Fonts/Poppins-Bold.ttf', 28 * scale_factor)
-font_statistic = ImageFont.truetype('/mount/src/hokejove_karty/Fonts/Poppins-Regular.ttf', 20 * scale_factor)
-font_statistic_bold = ImageFont.truetype('/mount/src/hokejove_karty/Fonts/Poppins-Bold.ttf', 16 * scale_factor)
-font_pie_value_bold = ImageFont.truetype('/mount/src/hokejove_karty/Fonts/Poppins-Bold.ttf', 22 * scale_factor)
-font_value_bold = ImageFont.truetype('/mount/src/hokejove_karty/Fonts/Poppins-Bold.ttf', 22 * scale_factor)
+# Příklad použití fontu s relativní cestou pro všechny fonty
+font_title = ImageFont.truetype(os.path.join(fonts_directory, 'Poppins-Bold.ttf'), 24 * scale_factor)
+font_category = ImageFont.truetype(os.path.join(fonts_directory, 'Poppins-Bold.ttf'), 28 * scale_factor)
+font_statistic = ImageFont.truetype(os.path.join(fonts_directory, 'Poppins-Regular.ttf'), 20 * scale_factor)
+font_statistic_bold = ImageFont.truetype(os.path.join(fonts_directory, 'Poppins-Bold.ttf'), 16 * scale_factor)
+font_pie_value_bold = ImageFont.truetype(os.path.join(fonts_directory, 'Poppins-Bold.ttf'), 22 * scale_factor)
+font_value_bold = ImageFont.truetype(os.path.join(fonts_directory, 'Po
 
 def get_color(value):
     if pd.isna(value) or value == '-':
