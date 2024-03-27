@@ -206,13 +206,12 @@ width, height = original_width * scale_factor, original_height * scale_factor
 image = Image.new('RGB', (width, height), color='#2a2a2c')
 draw = ImageDraw.Draw(image)
 
-# Příklad použití fontu s relativní cestou pro všechny fonty
 font_title = ImageFont.truetype(os.path.join(fonts_directory, 'Poppins-Bold.ttf'), 24 * scale_factor)
 font_category = ImageFont.truetype(os.path.join(fonts_directory, 'Poppins-Bold.ttf'), 28 * scale_factor)
 font_statistic = ImageFont.truetype(os.path.join(fonts_directory, 'Poppins-Regular.ttf'), 20 * scale_factor)
 font_statistic_bold = ImageFont.truetype(os.path.join(fonts_directory, 'Poppins-Bold.ttf'), 16 * scale_factor)
 font_pie_value_bold = ImageFont.truetype(os.path.join(fonts_directory, 'Poppins-Bold.ttf'), 22 * scale_factor)
-font_value_bold = ImageFont.truetype(os.path.join(fonts_directory, 'Po
+font_value_bold = ImageFont.truetype(os.path.join(fonts_directory, 'Poppins-Bold.ttf'), 22 * scale_factor)
 
 def get_color(value):
     if pd.isna(value) or value == '-':
