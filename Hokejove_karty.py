@@ -377,6 +377,7 @@ y = 10 * scale_factor
 # Vložení loga do obrázku
 image.paste(logo_image2, (x, y), logo_image2)
 
+st.image(image)
 # Připravte obrázek pro stažení
 buffered = io.BytesIO()
 image.save(buffered, format="PNG")
@@ -394,4 +395,3 @@ with col2:
         mime="image/png"
     )
 
-st.image(image)
