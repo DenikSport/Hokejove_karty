@@ -12,9 +12,20 @@ st.markdown("""
     </style>
     """, unsafe_allow_html=True)
 
-@st.cache_data(ttl=60*60)
+st.markdown("""
+    <style>
+    .stApp {
+        background-color: #2a2a2c;
+    }
+    </style>
+    """, unsafe_allow_html=True)
+
+@st.cache(ttl=60*60)
 def load_data():
-    data = pd.read_csv('https://raw.githubusercontent.com/DenikSport/Hokejove_karty/main/List.csv', sep=";", dtype={'Jmeno': 'str', 'Tym': 'str', 'image_path': 'str'})
+    data_path = 'https://raw.githubusercontent.com/DenikSport/Hokejove_karty/main/List.csv'
+    data = pd.read_csv(data_path, sep=";", dtype={'Jmeno': 'str', 'Tym': 'str', 'image_path': 'str'})
+    # Oprava cesty k obrázkům
+    data['image_path'] = data['image_path'].str.replace('/mount/src/hokejove_karty/', '', regex=False)
     return data
 
 data = load_data()
@@ -37,7 +48,6 @@ player_data = data[data['Jmeno'] == selected_player].iloc[0]
 # Zobrazení informací o hráči a jeho obrázku
 
 # Načtení a zobrazení obrázku hráče
-image_path = player_data['image_path']
-
+image_path = os.path.join('Karty', os.path.basename(player_data['image_path']))
 image = Image.open(image_path)
 st.image(image)
